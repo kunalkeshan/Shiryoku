@@ -109,5 +109,14 @@
 		"tags": [
 			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
 		]
+	},
+	{
+		"name": "Udemy",
+		"description": "Udemy is an online learning and teaching marketplace with over 204000 courses and 54 million students.",
+		"url": "https://www.udemy.com/",
+		"icon": "https://www.udemy.com/staticx/udemy/images/v8/favicon-32x32.png",
+		"tags": [
+			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
+		]
 	}
 ]
