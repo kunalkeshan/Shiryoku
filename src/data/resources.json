@@ -17,7 +17,7 @@
 		"url": "https://www.coursera.org/",
 		"icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-v2-192x192.png",
 		"tags": [
-			"career", "programming", "coding", "learning", "courses", "all", "certification"
+			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
 		]
 	},
 	{
@@ -99,6 +99,15 @@
 		"tags": [
 			"library", "web development", "tools", "typing", "programming", "coding", "backend", "node",
 			"frontend", "documentation"
+		]
+	},
+	{
+		"name": "edX",
+		"description": "edX is an American massive open online course provider created by Harvard and MIT.",
+		"url": "https://www.edx.org/",
+		"icon": "https://www.edx.org/favicon.ico",
+		"tags": [
+			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
 		]
 	}
 ]
