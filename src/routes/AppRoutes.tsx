@@ -60,7 +60,7 @@ const AppRoutes = () => {
 				<Route path='*' element={<Navigate to={'/not-found'} />} />
 			</Route>
 			<Route
-				path='not-found'
+				path='/not-found'
 				element={<LazyComponent Component={NotFound} />}
 			/>
 			<Route path='*' element={<Navigate to={'/not-found'} />} />

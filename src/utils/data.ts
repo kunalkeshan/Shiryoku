@@ -14,8 +14,14 @@ const readNotifications: string[] = localStorage.getItem('readNotifications')
 	: [];
 
 interface ResourcesUtility {
-	getResources: (page: number, limit: number) => Promise<Resource[]>;
+	getResources: (
+		page?: number,
+		limit?: number,
+		tags?: Tags,
+		search?: string
+	) => Promise<Resource[]>;
 	getSingleResource: (name: string) => Promise<Resource> | any;
+	getTotalPages: () => Promise<number>;
 }
 
 interface TagUtility {
@@ -40,13 +46,34 @@ class Data {
 		 * @description Get all resources in paginated manner
 		 * @param {number} page The current page
 		 * @param {number} limit The amount of items to display per page
+		 * @param {string[]} tags search for tags
+		 * @param {string} search search for resource by name, description or url
 		 * @returns {Resource[]} Array of resources
 		 */
 		resourceUtility.getResources = async (
-			page: number = 1,
-			limit: number = 20
+			page = 1,
+			limit = 20,
+			tags = [],
+			search?: string
 		) => {
-			return allResources.slice((page - 1) * limit, page * limit);
+			let resources: Resource[] = allResources;
+			console.log(search, tags, page, limit);
+			if (search) {
+				resources = resources.filter((resource) => {
+					const searchRegExp = new RegExp(search, 'ig');
+					return (
+						searchRegExp.test(resource.name) ||
+						searchRegExp.test(resource.description) ||
+						searchRegExp.test(resource.url)
+					);
+				});
+			}
+			if (tags?.length > 0) {
+				resources = resources.filter((resource) => {
+					return resource.tags.find((tag) => tags.includes(tag));
+				});
+			}
+			return resources.slice((page - 1) * limit, page * limit);
 		};
 
 		/**
@@ -59,6 +86,10 @@ class Data {
 				const url = new URL(resource.url).hostname.split('.').shift();
 				return url === name;
 			});
+		};
+
+		resourceUtility.getTotalPages = async () => {
+			return Math.ceil(allResources.length / 20);
 		};
 
 		return resourceUtility;

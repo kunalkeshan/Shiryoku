@@ -21,7 +21,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
-import CategoryIcon from '@mui/icons-material/Category';
 import AppsIcon from '@mui/icons-material/Apps';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import BugReportIcon from '@mui/icons-material/BugReport';
@@ -107,7 +106,7 @@ const Home = () => {
 					>
 						<MenuIcon />
 					</IconButton>
-					<Typography variant='h6' noWrap component='div'>
+					<Typography variant='h5' noWrap component='div'>
 						Resources{' '}
 						<Typography variant='caption' component='span'>
 							by Kunal Keshan
