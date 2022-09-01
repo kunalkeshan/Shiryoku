@@ -39,5 +39,14 @@
 	"jsx",
 	"tools",
 	"productivity",
-	"typing"
+	"typing",
+	"gadgets",
+	"databases",
+	"mongodb",
+	"sql",
+	"redis",
+	"tailwindcss",
+	"bootstrap",
+	"mui",
+	"library"
 ]

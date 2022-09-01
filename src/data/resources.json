@@ -85,10 +85,20 @@
 	{
 		"name": "10 Fast Fingers (Typing Tests)",
 		"description": "Test & Improve your Typing Speed with our free Typing Games",
-		"url": "https://10fastfingers.com//",
+		"url": "https://10fastfingers.com/",
 		"icon": "https://pbs.twimg.com/profile_images/517343049085485056/6ll-wjg5_400x400.png",
 		"tags": [
 			"practice", "productivity", "tools", "typing", "programming", "coding"
+		]
+	},
+	{
+		"name": "Node JS",
+		"description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.",
+		"url": "https://nodejs.org/",
+		"icon": "https://nodejs.org/static/images/favicons/favicon-32x32.png",
+		"tags": [
+			"library", "web development", "tools", "typing", "programming", "coding", "backend", "node",
+			"frontend", "documentation"
 		]
 	}
 ]
