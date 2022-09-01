@@ -27,3 +27,20 @@ interface Notification {
 	linkText?: string;
 	read?: boolean;
 }
+
+interface ContributorProfile {
+	username: string;
+	avatar: string;
+	profile: string;
+	contributions: number;
+}
+
+interface GitHubIssue {
+	url: string,
+	state: string,
+	title: string,
+	body: string,
+	labels: object[],
+	createdAt: string,
+	updatedAt: string,
+}
