@@ -110,8 +110,8 @@ class Data {
 			notificationId: string
 		) => {
 			try {
-				const readNotification = allNotifications.find(
-					(notification) => notification.id === notificationId
+				const readNotification: any = allNotifications.find(
+					(notification: any) => notification.id === notificationId
 				);
 				if (!readNotification)
 					throw new Error(
@@ -133,3 +133,5 @@ class Data {
 		return notificationUtility;
 	}
 }
+
+export default Data;
