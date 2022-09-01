@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/151.2c5f0840.chunk.js","mappings":"qIAMA,UAJqB,WACpB,OAAO,yCACP,C","sources":["pages/Home/ResourcePage.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst ResourcePage = () => {\r\n\treturn <div>ResourcePage</div>;\r\n};\r\n\r\nexport default ResourcePage;\r\n"],"names":[],"sourceRoot":""}
