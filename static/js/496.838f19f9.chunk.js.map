@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/496.838f19f9.chunk.js","mappings":"qIAMA,UAJkB,WACjB,OAAO,sCACP,C","sources":["pages/Home/Resources.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst Resources = () => {\r\n\treturn <div>Resources</div>;\r\n};\r\n\r\nexport default Resources;\r\n"],"names":[],"sourceRoot":""}

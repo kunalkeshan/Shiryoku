@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/66.8c4b918f.chunk.js","mappings":"mIAMA,UAJgB,WACf,OAAO,oCACP,C","sources":["pages/Home/Support.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst Support = () => {\r\n\treturn <div>Support</div>;\r\n};\r\n\r\nexport default Support;\r\n"],"names":[],"sourceRoot":""}

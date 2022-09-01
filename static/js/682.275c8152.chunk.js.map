@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/682.275c8152.chunk.js","mappings":"qIAMA,UAJe,WACd,OAAO,mCACP,C","sources":["pages/Home/Issues.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst Issues = () => {\r\n\treturn <div>Issues</div>;\r\n};\r\n\r\nexport default Issues;\r\n"],"names":[],"sourceRoot":""}

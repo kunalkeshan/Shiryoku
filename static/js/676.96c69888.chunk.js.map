@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/676.96c69888.chunk.js","mappings":"qIAMA,UAJmB,WAClB,OAAO,uCACP,C","sources":["pages/Home/Contribute.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst Contribute = () => {\r\n\treturn <div>Contribute</div>;\r\n};\r\n\r\nexport default Contribute;\r\n"],"names":[],"sourceRoot":""}
