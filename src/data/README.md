@@ -1,5 +1,12 @@
 # App Data
 
+**Table of Contents**:
+
+- [Templates](#templates)
+  - [Resources](#resources)
+  - [Notifications](#notifications)
+  - [Tags](#tags)
+
 ## Templates
 
 ### Resources
