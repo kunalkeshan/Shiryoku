@@ -1,0 +1,94 @@
+[
+	{
+		"name": "30 Seconds Of Interviews",
+		"description": "A curated collection of common interview questions to help you prepare for your next interview.",
+		"url": "https://30secondsofinterviews.org/",
+		"github": "https://github.com/30-seconds/30-seconds-of-interviews",
+		"icon": "https://30secondsofinterviews.org/30s-favicon.107cc86d.ico",
+		"tags": [
+			"web development", "html", "css", "javascript", "react", "node", "security", "career", 
+			"interview", "node", "programming", "coding", "frontend", "backend", "github", "learning",
+			"github", "free"
+		]
+	},
+	{
+		"name": "Coursera",
+		"description": "Coursera is the global online learning platform that offers anyone, anywhere access to online courses and degrees from world-class universities and companies.",
+		"url": "https://www.coursera.org/",
+		"icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-v2-192x192.png",
+		"tags": [
+			"career", "programming", "coding", "learning", "courses", "all", "certification"
+		]
+	},
+	{
+		"name": "freeCodeCamp",
+		"description": "freeCodeCamp is a community of millions of people around the world who are learning to code together. You can learn to code with free online courses, programming projects, and interview preparation for developer jobs.",
+		"url": "https://www.freecodecamp.org/",
+		"github": "https://github.com/freeCodeCamp",
+		"icon": "https://www.freecodecamp.org/icons/icon-512x512.png?v=6cba562cbd10e31af925a976f3db73f7",
+		"tags": [
+			"career", "programming", "web development", "javascript", "frontend", "backend", "coding", "learning",
+			"courses", "github", "all", "free", "certification"
+		]
+	},
+	{
+		"name": "The Odin Project",
+		"description": "The Odin Project provides a free open source coding curriculum that can be taken entirely online.",
+		"url": "https://www.theodinproject.com/",
+		"github": "https://github.com/TheOdinProject",
+		"icon": "https://www.theodinproject.com/favicon-32x32.png",
+		"tags": [
+			"career", "programming", "web development", "javascript", "frontend", "backend", "coding", "learning",
+			"courses", "all", "free", "github", "certification"
+		]
+	},
+	{
+		"name": "CSSBattle",
+		"description": "CSSBattle is an online CSS Code Golfing game. Here, players from all around the world try to visually replicate \"Targets\" in smallest possible CSS code and battle it out to get to the top of the leaderboard.",
+		"url": "https://cssbattle.dev/",
+		"icon": "https://cssbattle.dev/images/logo-square.png",
+		"tags": [
+			"programming", "web development", "javascript", "frontend", "coding", "css", "html", "learning", 
+			"free", "practice"
+		]
+	},
+	{
+		"name": "B. Tech ECE Notes",
+		"description": "Collection of all notes of SRMIST B.Tech Electronics and Communications Dept. for the academic year: 2020-24.",
+		"url": "https://notes.kunalkeshan.dev",
+		"github": "https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24",
+		"icon": "https://notes.kunalkeshan.dev/logo192.png",
+		"tags": [
+			"open source", "ece", "github", "free", "notes", "srmist", "college", "study"
+		]
+	},
+	{
+		"name": "NPTEL (National Programme on Technology Enhanced Learning)",
+		"description": "NPTEL is a joint venture of the IITs and IISc, funded by the Ministry of Education (MoE) Government of India, and was launched in 2003.",
+		"url": "https://nptel.ac.in/",
+		"icon": "https://www.mooclab.club/showcase/nptel.174/cover-image",
+		"tags": [
+			"free", "notes", "college", "study", "notes", "courses", "certification"
+		]
+	},
+	{
+		"name": "React JS",
+		"description": "A JavaScript library for building user interfaces.",
+		"url": "https://reactjs.org/",
+		"github": "https://github.com/facebook/react",
+		"icon": "https://reactjs.org/logo-180x180.png",
+		"tags": [
+			"javascript", "documentation", "programming", "coding", "github", "open source", "typescript", "framework", 
+			"web development", "jsx"
+		]
+	},
+	{
+		"name": "10 Fast Fingers (Typing Tests)",
+		"description": "Test & Improve your Typing Speed with our free Typing Games",
+		"url": "https://10fastfingers.com//",
+		"icon": "https://pbs.twimg.com/profile_images/517343049085485056/6ll-wjg5_400x400.png",
+		"tags": [
+			"practice", "productivity", "tools", "typing", "programming", "coding"
+		]
+	}
+]
