@@ -15,7 +15,7 @@ export const fetchProjectContributorsList: IFetchProjectContributors =
 			let contributors: ContributorProfile[] = sessionStorage.getItem(
 				'contributors'
 			)
-				? JSON.parse(sessionStorage.getItem('contributors') || '')
+				? JSON.parse(sessionStorage.getItem('contributors') || '{}')
 				: null;
 			if (!contributors) {
 				const response = await axios.get(
@@ -43,7 +43,7 @@ export const fetchProjectContributorsList: IFetchProjectContributors =
 export const fetchProjectIssuesList: IFetchProjectIssuesList = async () => {
 	try {
 		let issues: GitHubIssue[] = sessionStorage.getItem('issues')
-			? JSON.parse(sessionStorage.getItem('issues') || '')
+			? JSON.parse(sessionStorage.getItem('issues') || '{}')
 			: null;
 		if (!issues) {
 			const response = await axios.get(config.GITHUB_ISSUES_URL);

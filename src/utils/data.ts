@@ -10,7 +10,7 @@ import allNotifications from '../data/notifications.json';
 // Get Read Notifications from Local Storage, parse it if it's there
 // If not there, then return an empty array.
 const readNotifications: string[] = localStorage.getItem('readNotifications')
-	? JSON.parse(localStorage.getItem('readNotifications') || '')
+	? JSON.parse(localStorage.getItem('readNotifications') || '{}')
 	: [];
 
 interface ResourcesUtility {
@@ -67,6 +67,10 @@ class Data {
 	static get Tags() {
 		const tagUtility = {} as TagUtility;
 
+		/**
+		 * @description Get all tags
+		 * @returns {Tags} Tags
+		 */
 		tagUtility.getTags = async () => {
 			return allTags;
 		};
