@@ -1,17 +1,25 @@
 // Dependencies
 import React from 'react';
 import { HashRouter } from 'react-router-dom';
-import './App.css';
 import AppRoutes from './routes/AppRoutes';
+
+import { Box, styled } from '@mui/material';
 
 function App() {
 	return (
-		<div className='App'>
+		<Main>
 			<HashRouter>
 				<AppRoutes />
 			</HashRouter>
-		</div>
+		</Main>
 	);
 }
+
+const Main = styled(Box)({
+	fontFamily: "'Ubuntu Mono', monospace",
+	'*': {
+		fontFamily: 'inherit !important',
+	},
+});
 
 export default App;

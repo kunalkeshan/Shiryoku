@@ -56,9 +56,9 @@ const Tags = () => {
 	}, [selectedTags, dispatch]);
 
 	const chitActiveStyle = {
-		backgroundColor: '#0288d1',
-		':hover': {
-			backgroundColor: '#0288d1',
+		backgroundColor: '#0288d180',
+		'&:hover': {
+			backgroundColor: '#0288d1 !important',
 		},
 	};
 
@@ -89,6 +89,10 @@ const Tags = () => {
 							sx={{
 								cursor: 'pointer',
 								transition: 'all 200ms',
+								'&:hover': {},
+								'@media(min-width: 800px)': {
+									margin: '0.1em',
+								},
 								...(selectedTags.includes(tag)
 									? chitActiveStyle
 									: {}),
