@@ -4,11 +4,11 @@
 
 import React from 'react';
 
-import { Skeleton, Box, styled, Container } from '@mui/material';
+import { Skeleton, Box, styled } from '@mui/material';
 
 const DefaultSkeleton = () => {
 	return (
-		<Container>
+		<Box>
 			<Skeleton
 				variant='rounded'
 				width='clamp(200px, 100%, 600px)'
@@ -35,7 +35,7 @@ const DefaultSkeleton = () => {
 					</SkeletonContainer>
 				))}
 			</Main>
-		</Container>
+		</Box>
 	);
 };
 
