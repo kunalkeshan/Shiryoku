@@ -8,7 +8,7 @@ interface Resource {
 	github?: string;
 	icon?: string;
 	tags: string[];
-}
+};
 
 /**
  * Tag Type
@@ -26,14 +26,14 @@ interface Notification {
 	link?: string;
 	linkText?: string;
 	read?: boolean;
-}
+};
 
 interface ContributorProfile {
 	username: string;
 	avatar: string;
 	profile: string;
 	contributions: number;
-}
+};
 
 interface GitHubIssue {
 	url: string,
@@ -43,4 +43,4 @@ interface GitHubIssue {
 	labels: object[],
 	createdAt: string,
 	updatedAt: string,
-}
+};

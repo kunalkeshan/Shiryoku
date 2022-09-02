@@ -1,7 +1,61 @@
-import React from 'react';
+/**
+ * Search Field
+ */
+
+// Dependencies
+import React, { useState, useEffect } from 'react';
+import Data from '../../../utils/data';
+
+import { Box, TextField, Link } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
+
+import { updateCurrentResources } from '../../../store/features/app';
+import { useAppDispatch } from '../../../store';
 
 const Search = () => {
-	return <div>Search</div>;
+	const dispatch = useAppDispatch();
+	const [search, setSearch] = useState('');
+
+	useEffect(() => {
+		const handleResourcesUpdate = async (value?: string) => {
+			const data = await Data.Resources.getResources(
+				undefined,
+				undefined,
+				undefined,
+				value
+			);
+			dispatch(updateCurrentResources(data));
+		};
+		if (search) handleResourcesUpdate(search);
+		if (!search) handleResourcesUpdate();
+	}, [search, dispatch]);
+
+	return (
+		<Box mb={2}>
+			<TextField
+				type='text'
+				variant='outlined'
+				fullWidth
+				label='Search'
+				placeholder='Search for awesome resources...'
+				value={search}
+				onChange={(e) => setSearch(e.target.value)}
+				InputProps={{
+					endAdornment: <SearchIcon />,
+				}}
+			/>
+			{search && (
+				<Link
+					mt={0}
+					fontSize={8}
+					sx={{ cursor: 'pointer' }}
+					onClick={() => setSearch('')}
+				>
+					Clear search
+				</Link>
+			)}
+		</Box>
+	);
 };
 
 export default Search;

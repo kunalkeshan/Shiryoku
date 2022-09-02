@@ -10,7 +10,6 @@ import DefaultSkeleton from '../components/reusable/DefaultSkeleton';
 
 const Home = lazy(() => import('../pages/Home/Home'));
 const Resources = lazy(() => import('../pages/Home/Resources'));
-const ResourcePage = lazy(() => import('../pages/Home/ResourcePage'));
 const Contact = lazy(() => import('../pages/Home/Contact'));
 const Contribute = lazy(() => import('../pages/Home/Contribute'));
 const Issues = lazy(() => import('../pages/Home/Issues'));
@@ -36,10 +35,6 @@ const AppRoutes = () => {
 				<Route
 					index
 					element={<LazyComponent Component={Resources} />}
-				/>
-				<Route
-					path='resource/:resourceName'
-					element={<LazyComponent Component={ResourcePage} />}
 				/>
 				<Route
 					path='contribute'

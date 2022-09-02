@@ -57,9 +57,9 @@ class Data {
 			search?: string
 		) => {
 			let resources: Resource[] = allResources;
-			console.log(search, tags, page, limit);
 			if (search) {
 				resources = resources.filter((resource) => {
+					search = search!.replace(/([^a-zA-z0-9]+)/g, '');
 					const searchRegExp = new RegExp(search, 'ig');
 					return (
 						searchRegExp.test(resource.name) ||
