@@ -12,15 +12,6 @@
 		]
 	},
 	{
-		"name": "Coursera",
-		"description": "Coursera is the global online learning platform that offers anyone, anywhere access to online courses and degrees from world-class universities and companies.",
-		"url": "https://www.coursera.org/",
-		"icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-v2-192x192.png",
-		"tags": [
-			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
-		]
-	},
-	{
 		"name": "freeCodeCamp",
 		"description": "freeCodeCamp is a community of millions of people around the world who are learning to code together. You can learn to code with free online courses, programming projects, and interview preparation for developer jobs.",
 		"url": "https://www.freecodecamp.org/",
@@ -63,12 +54,23 @@
 		]
 	},
 	{
-		"name": "NPTEL (National Programme on Technology Enhanced Learning)",
-		"description": "NPTEL is a joint venture of the IITs and IISc, funded by the Ministry of Education (MoE) Government of India, and was launched in 2003.",
-		"url": "https://nptel.ac.in/",
-		"icon": "https://www.mooclab.club/showcase/nptel.174/cover-image",
+		"name": "CSS Grid Garden",
+		"description": "A game for learning CSS grid layout",
+		"url": "https://cssgridgarden.com/",
+		"github": "https://github.com/thomaspark/gridgarden/",
+		"icon": "https://raw.githubusercontent.com/thomaspark/gridgarden/master/favicon.ico",
 		"tags": [
-			"free", "notes", "college", "study", "notes", "courses", "certification"
+			"open source", "css", "github", "frontend", "web development", "learning", "study", "free",
+			"practice"
+		]
+	},
+	{
+		"name": "10 Fast Fingers (Typing Tests)",
+		"description": "Test & Improve your Typing Speed with our free Typing Games",
+		"url": "https://10fastfingers.com/",
+		"icon": "https://pbs.twimg.com/profile_images/517343049085485056/6ll-wjg5_400x400.png",
+		"tags": [
+			"practice", "productivity", "tools", "typing", "programming", "coding", "free"
 		]
 	},
 	{
@@ -83,12 +85,12 @@
 		]
 	},
 	{
-		"name": "10 Fast Fingers (Typing Tests)",
-		"description": "Test & Improve your Typing Speed with our free Typing Games",
-		"url": "https://10fastfingers.com/",
-		"icon": "https://pbs.twimg.com/profile_images/517343049085485056/6ll-wjg5_400x400.png",
+		"name": "Coursera",
+		"description": "Coursera is the global online learning platform that offers anyone, anywhere access to online courses and degrees from world-class universities and companies.",
+		"url": "https://www.coursera.org/",
+		"icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-v2-192x192.png",
 		"tags": [
-			"practice", "productivity", "tools", "typing", "programming", "coding"
+			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
 		]
 	},
 	{
@@ -98,7 +100,16 @@
 		"icon": "https://nodejs.org/static/images/favicons/favicon-32x32.png",
 		"tags": [
 			"library", "web development", "tools", "typing", "programming", "coding", "backend", "node",
-			"frontend", "documentation"
+			"frontend", "documentation", "open source"
+		]
+	},
+	{
+		"name": "NPTEL (National Programme on Technology Enhanced Learning)",
+		"description": "NPTEL is a joint venture of the IITs and IISc, funded by the Ministry of Education (MoE) Government of India, and was launched in 2003.",
+		"url": "https://nptel.ac.in/",
+		"icon": "https://www.mooclab.club/showcase/nptel.174/cover-image",
+		"tags": [
+			"free", "notes", "college", "study", "notes", "courses", "certification"
 		]
 	},
 	{
