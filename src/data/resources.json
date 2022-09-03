@@ -65,6 +65,17 @@
 		]
 	},
 	{
+		"name": "Learn Git Branching",
+		"description": "An interactive Git visualization tool to educate and challenge!",
+		"url": "https://learngitbranching.js.org/",
+		"github": "https://github.com/pcottle/learnGitBranching",
+		"icon": "https://learngitbranching.js.org/assets/favicon.ico",
+		"tags": [
+			"open source", "css", "github", "frontend", "web development", "learning", "study", "free",
+			"practice", "git"
+		]
+	},
+	{
 		"name": "10 Fast Fingers (Typing Tests)",
 		"description": "Test & Improve your Typing Speed with our free Typing Games",
 		"url": "https://10fastfingers.com/",
