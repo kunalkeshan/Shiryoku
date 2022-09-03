@@ -6,18 +6,20 @@
 import CodelanceDevsLogo from '../assets/codelance-devs-logo.png';
 
 const APP_PARTNERS: NavLinks[] = [
-    // {
-    //     name: 'Codelance Devs',
-    //     url: 'https://www.linkedin.com/company/codelance-devs/',
-    //     logo: CodelanceDevsLogo,
-    // }
+	{
+		name: 'Codelance Devs',
+		url: 'https://www.linkedin.com/company/codelance-devs/',
+		logo: CodelanceDevsLogo,
+	},
 ];
 
 const config = {
 	WEBSITE_URL: `${window.location.protocol}//${window.location.host}`,
-	GITHUB_URL: 'https://github.com/kunalkeshan/Resources',
-	GITHUB_CONTRIBUTIONS_URL: 'https://api.github.com/repos/kunalkeshan/Resources/contributors?',
-	GITHUB_ISSUES_URL: 'https://api.github.com/repos/kunalkeshan/Resources/issues?',
+	GITHUB_URL: 'https://github.com/kunalkeshan/Shiryoku',
+	GITHUB_CONTRIBUTIONS_URL:
+		'https://api.github.com/repos/kunalkeshan/Shiryoku/contributors?',
+	GITHUB_ISSUES_URL:
+		'https://api.github.com/repos/kunalkeshan/Shiryoku/issues?',
 	APP_PARTNERS,
 	CONTACT: {
 		email: 'kunalkeshan12@gmail.com',

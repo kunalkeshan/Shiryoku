@@ -14,6 +14,7 @@ import {
 	Typography,
 	Divider,
 	Link,
+	Tooltip,
 	IconButton,
 } from '@mui/material';
 import MuiDrawer from '@mui/material/Drawer';
@@ -126,7 +127,23 @@ const Home = () => {
 				</Toolbar>
 			</AppBar>
 			<Drawer variant='permanent' open={open}>
-				<DrawerHeader>
+				<DrawerHeader
+					sx={{ display: 'flex', justifyContent: 'space-between' }}
+				>
+					<Typography
+						variant='h4'
+						textAlign='center'
+						width='100%'
+						sx={{ userSelect: 'none' }}
+					>
+						<Tooltip
+							title='Shiryoku (Japanese for Resources)'
+							placement='bottom'
+							followCursor
+						>
+							<div>資</div>
+						</Tooltip>
+					</Typography>
 					<IconButton onClick={handleDrawerClose}>
 						{theme.direction === 'rtl' ? (
 							<ChevronRightIcon />
