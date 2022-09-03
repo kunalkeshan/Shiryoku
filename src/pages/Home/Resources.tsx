@@ -57,6 +57,10 @@ const CtaBox = styled(Box)({
 	'@media(max-width: 800px)': {
 		width: '100%',
 	},
+	'@media(min-width:800px)': {
+		position: 'sticky',
+		top: '100px',
+	},
 });
 
 export default Resources;

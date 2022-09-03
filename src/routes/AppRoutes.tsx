@@ -7,6 +7,7 @@ import React, { lazy, Suspense, PropsWithChildren, FC } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import DefaultSkeleton from '../components/reusable/DefaultSkeleton';
+import About from '../pages/Home/About';
 
 const Home = lazy(() => import('../pages/Home/Home'));
 const Resources = lazy(() => import('../pages/Home/Resources'));
@@ -51,6 +52,10 @@ const AppRoutes = () => {
 				<Route
 					path='support'
 					element={<LazyComponent Component={Support} />}
+				/>
+				<Route
+					path='about'
+					element={<LazyComponent Component={About} />}
 				/>
 				<Route path='*' element={<Navigate to={'/not-found'} />} />
 			</Route>

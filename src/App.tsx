@@ -4,6 +4,7 @@ import { HashRouter } from 'react-router-dom';
 import AppRoutes from './routes/AppRoutes';
 
 import { Box, styled } from '@mui/material';
+import SnackbarComponent from './components/reusable/Snackbar';
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<HashRouter>
 				<AppRoutes />
 			</HashRouter>
+			<SnackbarComponent />
 		</Main>
 	);
 }

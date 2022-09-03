@@ -22,8 +22,16 @@ const Footer = () => {
 			nav: '/',
 		},
 		{
+			name: 'About',
+			nav: '/about',
+		},
+		{
 			name: 'Contribute',
 			nav: '/contribute',
+		},
+		{
+			name: 'Issues',
+			nav: '/issues',
 		},
 		{
 			name: 'Contact',
@@ -35,11 +43,7 @@ const Footer = () => {
 		},
 		{
 			name: 'Repo',
-			link: 'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24',
-		},
-		{
-			name: 'Drive',
-			link: 'https://drive.google.com/drive/u/7/folders/17bng9aIkZ3FaULebbgEGpdCsB225dr_K',
+			link: 'https://github.com/kunalkeshan/Shiryoku',
 		},
 	];
 
@@ -57,13 +61,13 @@ const Footer = () => {
 				All Rights Reserved.{' '}
 				<Link
 					component='a'
-					href='https://github.com/kunalkeshan/Resources/blob/main/LICENSE'
+					href='https://github.com/kunalkeshan/Shiryoku/blob/main/LICENSE'
 					target='_blank'
 					sx={{
 						cursor: 'pointer',
 					}}
 				>
-					Resources
+					Shiryoku (Resources)
 				</Link>{' '}
 				&copy; {new Date().getFullYear()} . Made with &#129505; by{' '}
 				{

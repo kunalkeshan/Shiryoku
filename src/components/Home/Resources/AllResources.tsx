@@ -7,7 +7,14 @@ import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Data from '../../../utils/data';
 
-import { Box, styled, Stack, Pagination, Grid } from '@mui/material';
+import {
+	Box,
+	styled,
+	Stack,
+	Pagination,
+	Grid,
+	Typography,
+} from '@mui/material';
 import ResourceCard from './ResourceCard';
 
 import { updateCurrentResources } from '../../../store/features/app';
@@ -51,11 +58,22 @@ const AllResources = () => {
 	};
 	return (
 		<Main>
-			<ResourceContainer container spacing={1}>
-				{currentResources?.length > 0 &&
+			<ResourceContainer
+				container
+				spacing={1}
+				gridTemplateColumns={{ xs: 2 }}
+			>
+				{currentResources?.length > 0 ? (
 					currentResources.map((resource, index) => (
 						<ResourceCard key={index} {...resource} />
-					))}
+					))
+				) : (
+					<Box>
+						<Typography variant='h5' textAlign={'center'}>
+							No Resources Found for Selected Tags or Search. 😢
+						</Typography>
+					</Box>
+				)}
 			</ResourceContainer>
 			<Stack spacing={2} mt={2}>
 				<Pagination

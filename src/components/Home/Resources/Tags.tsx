@@ -117,7 +117,7 @@ const ChipContainer = styled(Stack)({
 	flexDirection: 'row',
 	gap: 2,
 	marginTop: 4,
-	maxHeight: '280px',
+	maxHeight: '200px',
 	overflow: 'auto',
 	padding: 1,
 	'&::-webkit-scrollbar': {

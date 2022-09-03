@@ -28,6 +28,7 @@ import BugReportIcon from '@mui/icons-material/BugReport';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import InfoIcon from '@mui/icons-material/Info';
 
 import NavigationItem from '../../components/Home/NavigationItem';
 import Footer from '../../components/layouts/Footer';
@@ -67,6 +68,11 @@ const Home = () => {
 			name: 'Support',
 			nav: '/support',
 			icon: <VolunteerActivismIcon />,
+		},
+		{
+			name: 'About',
+			nav: '/about',
+			icon: <InfoIcon />,
 		},
 	];
 
@@ -109,7 +115,7 @@ const Home = () => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant='h5' noWrap component='div'>
-						Resources{' '}
+						Shiryoku (Resources){' '}
 						<Typography variant='caption' component='span'>
 							by{' '}
 							<Link href={config.CONTACT.twitter} color='#fff'>
