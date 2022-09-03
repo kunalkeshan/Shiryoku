@@ -149,5 +149,14 @@
 		"tags": [
 			"career", "programming", "coding", "learning", "courses", "all", "certification", "college"
 		]
+	},
+	{
+		"name": "Varsity by Zerodha",
+		"description": "Varsity by Zerodha - Markets, Trading, and Investing Simplified.",
+		"url": "https://zerodha.com/varsity/",
+		"icon": "https://zerodha.com/varsity/wp-content/themes/varsity/images/favicon.png",
+		"tags": [
+			"learning", "free", "finance"
+		]
 	}
 ]
