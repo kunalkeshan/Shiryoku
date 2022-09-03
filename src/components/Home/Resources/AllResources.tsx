@@ -5,6 +5,7 @@
 // Dependencies
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import Data from '../../../utils/data';
 
 import {
@@ -70,7 +71,9 @@ const AllResources = () => {
 				) : (
 					<Box>
 						<Typography variant='h5' textAlign={'center'}>
-							No Resources Found for Selected Tags or Search. 😢
+							😢 No Resources Found for Selected Tags or Search.
+							Know some Resources?{' '}
+							<Link to='/contribute'>Contribute now!</Link>
 						</Typography>
 					</Box>
 				)}
