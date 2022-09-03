@@ -15,11 +15,13 @@ import {
 	IconButton,
 	Typography,
 	Stack,
+	Badge,
 	Chip,
 } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 import { useAppDispatch } from '../../../store';
 import { showSnackbar } from '../../../store/features/app';
@@ -73,11 +75,29 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 						title='Click to Copy URL'
 						sx={{ cursor: 'pointer !important' }}
 					>
-						<Avatar
-							src={props?.icon ?? props?.name}
-							sx={{ mr: 2, cursor: 'pointer' }}
-							onClick={handleCopyToClipboard}
-						/>
+						<Badge
+							badgeContent={
+								<ContentCopyIcon
+									sx={{
+										// fontSize: '1rem',
+										backgroundColor: '#1976D280',
+										borderRadius: '50%',
+										padding: '0.2em',
+									}}
+								/>
+							}
+							overlap='circular'
+							anchorOrigin={{
+								vertical: 'top',
+								horizontal: 'left',
+							}}
+						>
+							<Avatar
+								src={props?.icon ?? props?.name}
+								sx={{ mr: 2, cursor: 'pointer' }}
+								onClick={handleCopyToClipboard}
+							/>
+						</Badge>
 					</Tooltip>
 					<div>
 						<Typography
@@ -168,6 +188,7 @@ const ResourceContainer = styled(Grid)({});
 
 const ResourceBox = styled(Paper)({
 	padding: '1em',
+	height: '100%',
 });
 
 const LinksBox = styled(Box)({
