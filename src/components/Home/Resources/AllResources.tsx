@@ -7,7 +7,8 @@ import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Data from '../../../utils/data';
 
-import { Box, List, styled, Stack, Pagination } from '@mui/material';
+import { Box, styled, Stack, Pagination, Grid } from '@mui/material';
+import ResourceCard from './ResourceCard';
 
 import { updateCurrentResources } from '../../../store/features/app';
 import { useAppDispatch } from '../../../store';
@@ -50,15 +51,13 @@ const AllResources = () => {
 	};
 	return (
 		<Main>
-			<ResourceContainer>
-				<>
-					{currentResources?.length > 0 &&
-						currentResources.map((resource) => (
-							<div>{resource.name}</div>
-						))}
-				</>
+			<ResourceContainer container spacing={1}>
+				{currentResources?.length > 0 &&
+					currentResources.map((resource, index) => (
+						<ResourceCard key={index} {...resource} />
+					))}
 			</ResourceContainer>
-			<Stack spacing={2}>
+			<Stack spacing={2} mt={2}>
 				<Pagination
 					count={page.total}
 					page={page.page}
@@ -77,6 +76,8 @@ const Main = styled(Box)({
 	},
 });
 
-const ResourceContainer = styled(List)({});
+const ResourceContainer = styled(Grid)({
+	gap: 4,
+});
 
 export default AllResources;

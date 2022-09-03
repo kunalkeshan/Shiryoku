@@ -44,3 +44,10 @@ interface GitHubIssue {
 	createdAt: string,
 	updatedAt: string,
 };
+
+interface NavLinks {
+	name: string;
+	nav?: string;
+	link?: string;
+	icon?: any;
+}

@@ -13,6 +13,7 @@ import {
 	CssBaseline,
 	Typography,
 	Divider,
+	Link,
 	IconButton,
 } from '@mui/material';
 import MuiDrawer from '@mui/material/Drawer';
@@ -29,6 +30,7 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 import NavigationItem from '../../components/Home/NavigationItem';
+import Footer from '../../components/layouts/Footer';
 
 import config from '../../config';
 
@@ -40,7 +42,7 @@ const Home = () => {
 	const [open, setOpen] = useState(false);
 	const [currentPage, setCurrentPage] = useState('');
 
-	const MAIN_NAV_ITEMS = [
+	const MAIN_NAV_ITEMS: NavLinks[] = [
 		{
 			name: 'Resources',
 			nav: '/',
@@ -68,7 +70,7 @@ const Home = () => {
 		},
 	];
 
-	const ADDITIONAL_NAV_ITEMS = [
+	const ADDITIONAL_NAV_ITEMS: NavLinks[] = [
 		{
 			name: 'Repo',
 			link: config.GITHUB_URL,
@@ -109,7 +111,10 @@ const Home = () => {
 					<Typography variant='h5' noWrap component='div'>
 						Resources{' '}
 						<Typography variant='caption' component='span'>
-							by Kunal Keshan
+							by{' '}
+							<Link href={config.CONTACT.twitter} color='#fff'>
+								Kunal Keshan
+							</Link>
 						</Typography>
 					</Typography>
 				</Toolbar>
@@ -150,6 +155,7 @@ const Home = () => {
 			<Box component='main' sx={{ flexGrow: 1, p: 3 }}>
 				<DrawerHeader />
 				<Outlet />
+				<Footer />
 			</Box>
 		</Box>
 	);

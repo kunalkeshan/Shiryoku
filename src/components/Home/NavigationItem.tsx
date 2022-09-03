@@ -17,7 +17,7 @@ interface NavigationItemProps extends PropsWithChildren {
 	name: string;
 	nav?: string;
 	link?: string;
-	icon: any;
+	icon?: any;
 	currentPage: string;
 	open: boolean;
 }

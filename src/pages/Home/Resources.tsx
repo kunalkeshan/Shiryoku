@@ -5,19 +5,13 @@
 // Dependencies
 import React from 'react';
 
-import {
-	Typography,
-	styled,
-	Box,
-	Divider,
-} from '@mui/material';
+import { Typography, styled, Box, Divider } from '@mui/material';
 
 import Tags from '../../components/Home/Resources/Tags';
 import Search from '../../components/Home/Resources/Search';
 import AllResources from '../../components/Home/Resources/AllResources';
 
 const Resources = () => {
-
 	return (
 		<Main>
 			<Typography variant='h6' noWrap>
@@ -58,7 +52,7 @@ const CtaBox = styled(Box)({
 	width: '35%',
 	borderRadius: '8px',
 	background: '#e3f2fd',
-	padding: '0.5em',
+	padding: '1em',
 	height: 'fit-content',
 	'@media(max-width: 800px)': {
 		width: '100%',
