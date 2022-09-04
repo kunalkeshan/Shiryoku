@@ -4,6 +4,7 @@
 
 // Dependencies
 import React, { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import Data from '../../../utils/data';
 
 import { Box, TextField, Link } from '@mui/material';
@@ -11,9 +12,11 @@ import SearchIcon from '@mui/icons-material/Search';
 
 import { updateCurrentResources } from '../../../store/features/app';
 import { useAppDispatch } from '../../../store';
+import { RootState } from '../../../store';
 
 const Search = () => {
 	const dispatch = useAppDispatch();
+	const { selectedTags } = useSelector((state: RootState) => state.app);
 	const [search, setSearch] = useState('');
 
 	useEffect(() => {
@@ -21,14 +24,14 @@ const Search = () => {
 			const data = await Data.Resources.getResources(
 				undefined,
 				undefined,
-				undefined,
+				selectedTags,
 				value
 			);
 			dispatch(updateCurrentResources(data));
 		};
 		if (search) handleResourcesUpdate(search);
 		if (!search) handleResourcesUpdate();
-	}, [search, dispatch]);
+	}, [search, dispatch, selectedTags]);
 
 	return (
 		<Box mb={2}>
