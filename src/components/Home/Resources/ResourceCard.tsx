@@ -96,6 +96,7 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 							<Avatar
 								src={props?.icon ?? props?.name}
 								sx={{ mr: 2, cursor: 'pointer' }}
+								imgProps={{ loading: 'lazy' }}
 							/>
 						</Badge>
 					</Tooltip>
