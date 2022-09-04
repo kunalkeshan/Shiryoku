@@ -131,15 +131,6 @@
 		]
 	},
 	{
-		"name": "Dribbble",
-		"description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives.",
-		"url": "https://dribbble.com/",
-		"icon": "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png",
-		"tags": [
-			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "practice"
-		]
-	},
-	{
 		"name": "React JS Documentation",
 		"description": "A JavaScript library for building user interfaces.",
 		"url": "https://reactjs.org/",
