@@ -6,27 +6,8 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-- [30 Seconds Of Interviews](#30-seconds-of-interviews)
-- [freeCodeCamp](#freecodecamp)
-- [The Odin Project](#the-odin-project)
-- [CSSBattle](#cssbattle)
-- [B. Tech ECE Notes](#b-tech-ece-notes)
-- [CSS Grid Garden](#css-grid-garden)
-- [Learn Git Branching](#learn-git-branching)
-- [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests)
-- [Stack Overflow](#stack-overflow)
-- [Checklist Design](#checklist-design)
-- [remove.bg](#remove-bg)
-- [Canva](#canva)
-- [Dribbble](#dribbble)
-- [Behance](#behance)
-- [React JS Documentation](#react-js-documentation)
-- [Coursera](#coursera)
-- [Node JS](#node-js)
-- [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning)
-- [edX](#edx)
-- [Udemy](#udemy)
-- [Varsity by Zerodha](#varsity-by-zerodha)
+	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), 
+
 ## Collection
 
 ### 30 Seconds Of Interviews
@@ -41,6 +22,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### freeCodeCamp
 
 | <img src="https://www.freecodecamp.org/icons/icon-512x512.png?v=6cba562cbd10e31af925a976f3db73f7" alt="freeCodeCamp logo" width="80px" height="auto" /> | freeCodeCamp is a community of millions of people around the world who are learning to code together. You can learn to code with free online courses, programming projects, and interview preparation for developer jobs. | `career`, `programming`, `web development`, `javascript`, `frontend`, `backend`, `coding`, `learning`, `courses`, `github`, `all`, `free`, `certification` |
@@ -51,6 +33,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit GitHub: [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
 
 ---
+
 
 
 ### The Odin Project
@@ -65,6 +48,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### CSSBattle
 
 | <img src="https://cssbattle.dev/images/logo-square.png" alt="CSSBattle logo" width="80px" height="auto" /> | CSSBattle is an online CSS Code Golfing game. Here, players from all around the world try to visually replicate "Targets" in smallest possible CSS code and battle it out to get to the top of the leaderboard. | `programming`, `web development`, `javascript`, `frontend`, `coding`, `css`, `html`, `learning`, `free`, `practice` |
@@ -75,6 +59,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### B. Tech ECE Notes
@@ -89,6 +74,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### CSS Grid Garden
 
 | <img src="https://raw.githubusercontent.com/thomaspark/gridgarden/master/favicon.ico" alt="CSS Grid Garden logo" width="80px" height="auto" /> | A game for learning CSS grid layout | `open source`, `css`, `github`, `frontend`, `web development`, `learning`, `study`, `free`, `practice` |
@@ -99,6 +85,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit GitHub: [https://github.com/thomaspark/gridgarden/](https://github.com/thomaspark/gridgarden/)
 
 ---
+
 
 
 ### Learn Git Branching
@@ -113,6 +100,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### 10 Fast Fingers (Typing Tests)
 
 | <img src="https://pbs.twimg.com/profile_images/517343049085485056/6ll-wjg5_400x400.png" alt="10 Fast Fingers (Typing Tests) logo" width="80px" height="auto" /> | Test & Improve your Typing Speed with our free Typing Games | `practice`, `productivity`, `tools`, `typing`, `programming`, `coding`, `free` |
@@ -123,6 +111,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### Stack Overflow
@@ -137,6 +126,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### Checklist Design
 
 | <img src="https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5f33ce6795b617814aa43eb1_checklist-favicon.png" alt="Checklist Design logo" width="80px" height="auto" /> | A collection of the best design practices. | `practice`, `productivity`, `tools`, `graphic design`, `ui/ux`, `frontend`, `free`, `html` |
@@ -147,6 +137,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### remove.bg
@@ -161,6 +152,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### Canva
 
 | <img src="https://static.canva.com/static/images/android-192x192-2.png" alt="Canva logo" width="80px" height="auto" /> | Canva is an Australian graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content. | `productivity`, `tools`, `graphic design`, `ui/ux`, `free` |
@@ -171,6 +163,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### Dribbble
@@ -185,6 +178,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### Behance
 
 | <img src="https://a5.behance.net/3dcd67bd8b6dfcc3a5f57ce37aa58c5865e5e428/img/site/apple-touch-icon.png" alt="Behance logo" width="80px" height="auto" /> | Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work. | `productivity`, `tools`, `graphic design`, `ui/ux`, `frontend`, `free`, `practice` |
@@ -195,6 +189,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### React JS Documentation
@@ -209,6 +204,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### Coursera
 
 | <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/android-chrome-v2-192x192.png" alt="Coursera logo" width="80px" height="auto" /> | Coursera is the global online learning platform that offers anyone, anywhere access to online courses and degrees from world-class universities and companies. | `career`, `programming`, `coding`, `learning`, `courses`, `all`, `certification`, `college` |
@@ -219,6 +215,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### Node JS
@@ -233,6 +230,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### NPTEL (National Programme on Technology Enhanced Learning)
 
 | <img src="https://www.mooclab.club/showcase/nptel.174/cover-image" alt="NPTEL (National Programme on Technology Enhanced Learning) logo" width="80px" height="auto" /> | NPTEL is a joint venture of the IITs and IISc, funded by the Ministry of Education (MoE) Government of India, and was launched in 2003. | `free`, `notes`, `college`, `study`, `notes`, `courses`, `certification` |
@@ -243,6 +241,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### edX
@@ -257,6 +256,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 ---
 
 
+
 ### Udemy
 
 | <img src="https://www.udemy.com/staticx/udemy/images/v8/favicon-32x32.png" alt="Udemy logo" width="80px" height="auto" /> | Udemy is an online learning and teaching marketplace with over 204000 courses and 54 million students. | `career`, `programming`, `coding`, `learning`, `courses`, `all`, `certification`, `college` |
@@ -267,6 +267,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 ---
+
 
 
 ### Varsity by Zerodha
