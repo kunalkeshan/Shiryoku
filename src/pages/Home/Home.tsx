@@ -33,6 +33,7 @@ import InfoIcon from '@mui/icons-material/Info';
 
 import NavigationItem from '../../components/Home/NavigationItem';
 import Footer from '../../components/layouts/Footer';
+import Notifications from '../../components/notifications/Notifications';
 
 import config from '../../config';
 
@@ -115,15 +116,29 @@ const Home = () => {
 					>
 						<MenuIcon />
 					</IconButton>
-					<Typography variant='h5' noWrap component='div'>
-						Shiryoku (Resources){' '}
-						<Typography variant='caption' component='span'>
-							by{' '}
-							<Link href={config.CONTACT.twitter} color='#fff'>
-								Kunal Keshan
-							</Link>
+					<Box
+						sx={{
+							display: 'flex',
+							alignItems: 'centre',
+							justifyContent: 'space-between',
+							width: '100%',
+							overflow: 'auto',
+						}}
+					>
+						<Typography variant='h5' noWrap component='div'>
+							Shiryoku (Resources){' '}
+							<Typography variant='caption' component='span'>
+								by{' '}
+								<Link
+									href={config.CONTACT.twitter}
+									color='#fff'
+								>
+									Kunal Keshan
+								</Link>
+							</Typography>
 						</Typography>
-					</Typography>
+						<Notifications />
+					</Box>
 				</Toolbar>
 			</AppBar>
 			<Drawer variant='permanent' open={open}>
