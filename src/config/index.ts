@@ -29,6 +29,7 @@ const config = {
 		github: 'https://github.com/kunalkeshan',
 		youtube: 'https://www.youtube.com/channel/UCwVRztzBdqgB_Y9hkMX3lZA',
 	},
+	FORMSPREEE_CONTACT_FORM_ID: 'xbjbdlvj',
 };
 
 export default config;

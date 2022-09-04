@@ -6,6 +6,7 @@
 	"dependencies": {
 		"@emotion/react": "^11.10.4",
 		"@emotion/styled": "^11.10.4",
+		"@formspree/react": "^2.3.3",
 		"@lottiefiles/react-lottie-player": "^3.4.7",
 		"@mui/icons-material": "^5.10.3",
 		"@mui/material": "^5.10.3",
