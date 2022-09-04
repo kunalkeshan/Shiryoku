@@ -85,12 +85,58 @@
 		]
 	},
 	{
+		"name": "Stack Overflow",
+		"description": "Stack Overflow is a question and answer website for professional and enthusiast programmers.",
+		"url": "https://stackoverflow.com/",
+		"icon": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+		"tags": [
+			"practice", "productivity", "tools", "web development", "all", "programming", "coding", "free",
+			"frontend", "backend", "react", "javascript", "html", "css", "git", "github"
+		]
+	},
+	{
 		"name": "Checklist Design",
 		"description": "A collection of the best design practices.",
 		"url": "https://www.checklist.design/",
 		"icon": "https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5f33ce6795b617814aa43eb1_checklist-favicon.png",
 		"tags": [
 			"practice", "productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "html"
+		]
+	},
+	{
+		"name": "remove.bg",
+		"description": "Remove Image Background. 100% Automatically and Free",
+		"url": "https://www.remove.bg/",
+		"icon": "https://www.remove.bg/apple-touch-icon.png?v=YAXaAv7pao",
+		"tags": [
+			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free"
+		]
+	},
+	{
+		"name": "Dribbble",
+		"description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives.",
+		"url": "https://dribbble.com/",
+		"icon": "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png",
+		"tags": [
+			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "practice"
+		]
+	},
+	{
+		"name": "Behance",
+		"description": "Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
+		"url": "https://www.behance.net/",
+		"icon": "https://a5.behance.net/3dcd67bd8b6dfcc3a5f57ce37aa58c5865e5e428/img/site/apple-touch-icon.png",
+		"tags": [
+			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "practice"
+		]
+	},
+	{
+		"name": "Dribbble",
+		"description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives.",
+		"url": "https://dribbble.com/",
+		"icon": "https://cdn.dribbble.com/assets/dribbble-ball-192-23ecbdf987832231e87c642bb25de821af1ba6734a626c8c259a20a0ca51a247.png",
+		"tags": [
+			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "practice"
 		]
 	},
 	{
