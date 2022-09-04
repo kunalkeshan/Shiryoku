@@ -47,7 +47,7 @@ const AllResources = () => {
 		};
 		if (currentResources.length === 0) handleResourcesUpdate();
 		else if (page.page >= 1) handleResourcesUpdate();
-	}, [page.page, dispatch, currentResources.length]);
+	}, [page.page, dispatch]);
 
 	const handlePageChange = (
 		event: React.ChangeEvent<unknown>,
