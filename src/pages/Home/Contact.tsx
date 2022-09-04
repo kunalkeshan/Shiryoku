@@ -197,7 +197,6 @@ const Content = styled(Container)({
 	display: 'flex',
 	alignItems: 'center',
 	justifyContent: 'space-around',
-	// marginTop: '1em',
 });
 
 const Animation = styled(Box)({
