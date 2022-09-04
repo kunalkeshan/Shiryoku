@@ -80,7 +80,7 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 								<ContentCopyIcon
 									sx={{
 										// fontSize: '1rem',
-										backgroundColor: '#1976D280',
+										backgroundColor: '#1976D290',
 										borderRadius: '50%',
 										padding: '0.2em',
 									}}
@@ -91,11 +91,11 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 								vertical: 'top',
 								horizontal: 'left',
 							}}
+							onClick={handleCopyToClipboard}
 						>
 							<Avatar
 								src={props?.icon ?? props?.name}
 								sx={{ mr: 2, cursor: 'pointer' }}
-								onClick={handleCopyToClipboard}
 							/>
 						</Badge>
 					</Tooltip>
