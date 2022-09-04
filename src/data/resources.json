@@ -113,6 +113,15 @@
 		]
 	},
 	{
+		"name": "Canva",
+		"description": "Canva is an Australian graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content.",
+		"url": "https://www.canva.com/",
+		"icon": "https://static.canva.com/static/images/android-192x192-2.png",
+		"tags": [
+			"productivity", "tools", "graphic design", "ui/ux", "free"
+		]
+	},
+	{
 		"name": "Dribbble",
 		"description": "Dribbble is a self-promotion and social networking platform for digital designers and creatives.",
 		"url": "https://dribbble.com/",
