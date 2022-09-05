@@ -36,7 +36,8 @@
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
 		"deploy": "node lib && gh-pages -d build",
-		"resources:json2md": "node lib && git add RESOURCES.md && git commit -m \"RESOURCES.md updated with latest data\" && git push"
+		"resources:json2md": "node lib",
+		"resources:commit": "git add . && git commit -m \"RESOURCES.md updated with latest data\" && git push"
 	},
 	"eslintConfig": {
 		"extends": [
