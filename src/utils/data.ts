@@ -61,10 +61,12 @@ class Data {
 				resources = resources.filter((resource) => {
 					search = search!.replace(/([^a-zA-z0-9]+)/g, '');
 					const searchRegExp = new RegExp(search, 'ig');
+					const tags = resource.tags.join(' ');
 					return (
 						searchRegExp.test(resource.name) ||
 						searchRegExp.test(resource.description) ||
-						searchRegExp.test(resource.url)
+						searchRegExp.test(resource.url) ||
+						tags.match(searchRegExp)
 					);
 				});
 			}
