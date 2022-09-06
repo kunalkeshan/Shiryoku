@@ -95,6 +95,16 @@
 		]
 	},
 	{
+		"name": "Geeks For Geeks",
+		"description": "A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.",
+		"url": "https://www.geeksforgeeks.org",
+		"icon": "https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png",
+		"tags": [
+			"practice", "productivity", "tools", "web development", "all", "programming", "coding", "free",
+			"frontend", "backend", "react", "javascript", "html", "css", "git", "github", "dsa", "competitive coding"
+		]
+	},
+	{
 		"name": "Checklist Design",
 		"description": "A collection of the best design practices.",
 		"url": "https://www.checklist.design/",
