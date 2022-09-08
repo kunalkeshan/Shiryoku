@@ -3,8 +3,9 @@
  */
 
 // Dependencies
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { fetchProjectContributorsList } from '../../utils/axios';
 import config from '../../config';
 
 import {
@@ -23,7 +24,8 @@ import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import WebIcon from '@mui/icons-material/Web';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
-import ContributeCard from '../../components/Home/ContributeCard';
+import ContributeCard from '../../components/Home/Contribute/ContributeCard';
+import ContributorCard from '../../components/Home/Contribute/ContributorCard';
 
 interface ContributionData {
 	name: string;
@@ -34,6 +36,8 @@ interface ContributionData {
 }
 
 const Contribute = () => {
+	const [contributors, setContributors] = useState<ContributorProfile[]>([]);
+
 	const contributionExamples: string[] = [
 		'Typo in some Documentation or README.md file.',
 		'Adding new and updated resources to this project.',
@@ -65,6 +69,14 @@ const Contribute = () => {
 			icon: <WebIcon />,
 		},
 	];
+
+	useEffect(() => {
+		const handleFetchContributors = async () => {
+			const data = await fetchProjectContributorsList();
+			setContributors(data);
+		};
+		if (contributors.length === 0) handleFetchContributors();
+	}, [contributors]);
 
 	return (
 		<Main>
@@ -112,6 +124,19 @@ const Contribute = () => {
 					))}
 				</CardContainer>
 				<Divider />
+				<Typography variant='body1' fontSize='1.25rem' mt={2}>
+					Meet our Contributors!
+				</Typography>
+				<Typography variant='caption'>
+					Without whom this project would not be possible!
+				</Typography>
+				<Contributors>
+					{contributors.length > 0
+						? contributors.map((person, index) => (
+								<ContributorCard {...person} key={index} />
+						  ))
+						: null}
+				</Contributors>
 			</Content>
 		</Main>
 	);
@@ -142,6 +167,15 @@ const YouTubeButton = styled(Button)({
 	'.yt-icon': {
 		marginLeft: '4px',
 	},
+});
+
+const Contributors = styled(Box)({
+	padding: '1em',
+	display: 'flex',
+	flexWrap: 'wrap',
+	alignItems: 'center',
+	justifyContent: 'center',
+	gap: '1em',
 });
 
 export default Contribute;
