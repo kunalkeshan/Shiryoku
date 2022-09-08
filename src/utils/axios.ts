@@ -36,6 +36,7 @@ export const fetchProjectContributorsList: IFetchProjectContributors =
 			}
 			return contributors;
 		} catch (error) {
+			sessionStorage.removeItem('contributors');
 			return [];
 		}
 	};
@@ -62,7 +63,7 @@ export const fetchProjectIssuesList: IFetchProjectIssuesList = async () => {
 		}
 		return issues;
 	} catch (error) {
-		console.log(error);
+		sessionStorage.removeItem('issues');
 		return [];
 	}
 };

@@ -17,12 +17,12 @@ import {
 	ListItem,
 	ListItemText,
 	ListItemIcon,
-	Button,
+	// Button,
 } from '@mui/material';
 import HdrStrongIcon from '@mui/icons-material/HdrStrong';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import WebIcon from '@mui/icons-material/Web';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+// import YouTubeIcon from '@mui/icons-material/YouTube';
 
 import ContributeCard from '../../components/Home/Contribute/ContributeCard';
 import ContributorCard from '../../components/Home/Contribute/ContributorCard';
@@ -49,23 +49,19 @@ const Contribute = () => {
 
 	const contributionData: ContributionData[] = [
 		{
-			name: 'Contribute to Notes!',
+			name: 'Contribute to Resources!',
 			description:
-				'For changes related to the notes and study material, visit this link to make those switches.',
-			repoUrl:
-				'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/main',
-			contributeUrl:
-				'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/blob/main/CONTRIBUTING.md',
+				'For changes related to the resources, visit this link to make those switches.',
+			repoUrl: `${config.GITHUB_URL}/tree/main`,
+			contributeUrl: `${config.GITHUB_URL}/blob/main/CONTRIBUTING.md`,
 			icon: <LibraryBooksIcon />,
 		},
 		{
 			name: 'Contribute to this Website!',
 			description:
 				'For changes related to this website, visit the following link to develop and integrate what you think can improve this website.',
-			repoUrl:
-				'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/tree/client',
-			contributeUrl:
-				'https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24/blob/client/CONTRIBUTING.md',
+			repoUrl: `${config.GITHUB_URL}`,
+			contributeUrl: `${config.GITHUB_URL}/blob/main/CONTRIBUTING.md`,
 			icon: <WebIcon />,
 		},
 	];
@@ -157,17 +153,17 @@ const CardContainer = styled(Box)({
 	margin: '1em 0',
 });
 
-const YouTubeButton = styled(Button)({
-	backgroundColor: '#FF0000',
-	width: 'fit-content',
-	alignSelf: 'flex-start',
-	'&:hover': {
-		backgroundColor: '#FF0000',
-	},
-	'.yt-icon': {
-		marginLeft: '4px',
-	},
-});
+// const YouTubeButton = styled(Button)({
+// 	backgroundColor: '#FF0000',
+// 	width: 'fit-content',
+// 	alignSelf: 'flex-start',
+// 	'&:hover': {
+// 		backgroundColor: '#FF0000',
+// 	},
+// 	'.yt-icon': {
+// 		marginLeft: '4px',
+// 	},
+// });
 
 const Contributors = styled(Box)({
 	padding: '1em',

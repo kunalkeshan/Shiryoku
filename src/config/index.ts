@@ -17,9 +17,9 @@ const config = {
 	WEBSITE_URL: `${window.location.protocol}//${window.location.host}`,
 	GITHUB_URL: 'https://github.com/kunalkeshan/Shiryoku',
 	GITHUB_CONTRIBUTIONS_URL:
-		'https://api.github.com/repos/kunalkeshan/Shiryoku/contributors?',
+		'https://api.github.com/repos/kunalkeshan/Shiryoku/contributors',
 	GITHUB_ISSUES_URL:
-		'https://api.github.com/repos/kunalkeshan/Shiryoku/issues?',
+		'https://api.github.com/repos/kunalkeshan/Shiryoku/issues?state=open',
 	APP_PARTNERS,
 	CONTACT: {
 		email: 'kunalkeshan12@gmail.com',
