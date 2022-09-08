@@ -170,7 +170,7 @@ const Contributors = styled(Box)({
 	display: 'flex',
 	flexWrap: 'wrap',
 	alignItems: 'center',
-	justifyContent: 'center',
+	// justifyContent: 'center',
 	gap: '1em',
 });
 
