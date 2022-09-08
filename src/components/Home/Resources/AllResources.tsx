@@ -47,6 +47,7 @@ const AllResources = () => {
 		};
 		if (currentResources.length === 0) handleResourcesUpdate();
 		else if (page.page >= 1) handleResourcesUpdate();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [page.page, dispatch]);
 
 	const handlePageChange = (

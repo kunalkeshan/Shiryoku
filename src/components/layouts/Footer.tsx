@@ -5,13 +5,13 @@
 // Dependencies
 import React from 'react';
 import { useNavigate } from 'react-router';
-import config from '../../config';
+// import config from '../../config';
 
 // MUI
 import { Box, styled, Typography, Link } from '@mui/material';
 
 // Components
-import ProjectPartner from '../reusable/ProjectPartner';
+// import ProjectPartner from '../reusable/ProjectPartner';
 
 const Footer = () => {
 	const navigate = useNavigate();
