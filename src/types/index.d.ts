@@ -40,9 +40,15 @@ interface GitHubIssue {
 	state: string;
 	title: string;
 	body: string;
-	labels: object[];
+	labels: GitHubIssueLabel[];
 	createdAt: string;
 	updatedAt: string;
+}
+
+interface GitHubIssueLabel {
+	description: string;
+	color: string;
+	name: string;
 }
 
 interface NavLinks {

@@ -3,12 +3,30 @@
  */
 
 // Dependencies
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { fetchProjectIssuesList } from '../../utils/axios';
 
-import { Typography, styled, Box, Divider, Container } from '@mui/material';
+import {
+	Typography,
+	Box,
+	styled,
+	Divider,
+	Grid,
+	Container,
+} from '@mui/material';
 
+import IssueCard from '../../components/Home/IssueCard';
 
 const Issues = () => {
+	const [issues, setIssues] = useState<GitHubIssue[]>([]);
+
+	useEffect(() => {
+		const handleFetchIssues = async () => {
+			const data = await fetchProjectIssuesList();
+			setIssues(data);
+		};
+		handleFetchIssues();
+	}, []);
 	return (
 		<Main>
 			<Typography variant='h6' noWrap>
@@ -19,7 +37,20 @@ const Issues = () => {
 			</Typography>
 			<Divider />
 			<Content>
-				<Animation></Animation>
+				{issues.length > 0 ? (
+					<CardsContainer
+						container
+						spacing={2}
+						gap={2}
+						justifyContent='center'
+					>
+						{issues.map((issue, index) => (
+							<IssueCard {...issue} key={index} />
+						))}
+					</CardsContainer>
+				) : (
+					<Typography>No issues available right now! 🥳🙌</Typography>
+				)}
 			</Content>
 		</Main>
 	);
@@ -33,9 +64,9 @@ const Content = styled(Container)({
 	justifyContent: 'space-around',
 });
 
-const Animation = styled(Box)({
-	width: 'max(50%, 200px)',
-	display: 'flex',
+const CardsContainer = styled(Grid)({
+	marginTop: '1em',
+	width: '100%',
 });
 
 export default Issues;
