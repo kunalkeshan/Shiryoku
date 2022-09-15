@@ -28,6 +28,14 @@ interface Notification {
 	read?: boolean;
 }
 
+interface IRoadmap {
+	name: string;
+	description: string;
+	icon: string;
+	cover: string;
+	id: string;
+}
+
 interface ContributorProfile {
 	username: string;
 	avatar: string;

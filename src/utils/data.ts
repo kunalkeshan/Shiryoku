@@ -6,6 +6,7 @@
 import allTags from '../data/tags.json';
 import allResources from '../data/resources.json';
 import allNotifications from '../data/notifications.json';
+import allRoadMaps from '../data/roadmaps.json';
 
 // Get Read Notifications from Local Storage, parse it if it's there
 // If not there, then return an empty array.
@@ -33,6 +34,11 @@ interface NotificationUtility {
 	updateReadNotifications: (
 		notificationId: string
 	) => Promise<string | Error | undefined>;
+}
+
+interface RoadmapsUtility {
+	getRoadmaps: () => Promise<IRoadmap[]>;
+	getSingleRoadmap: (id: string) => Promise<IRoadmap | undefined>;
 }
 
 /**
@@ -168,6 +174,20 @@ class Data {
 		};
 
 		return notificationUtility;
+	}
+
+	static get Roadmaps() {
+		const roadmapsUtility = {} as RoadmapsUtility;
+
+		roadmapsUtility.getRoadmaps = async () => {
+			return allRoadMaps;
+		};
+
+		roadmapsUtility.getSingleRoadmap = async (id: string) => {
+			return allRoadMaps.find((roadmap) => roadmap.id === id);
+		};
+
+		return roadmapsUtility;
 	}
 }
 
