@@ -10,6 +10,7 @@ interface Resource {
 	tags: string[];
 	roadmap?: {
 		ids: string[];
+		subTopics: string[];
 	};
 }
 

@@ -28,8 +28,6 @@ const Roadmaps = () => {
 		if (roadMaps.length === 0) handleFetchRoadmaps();
 	}, [roadMaps.length]);
 
-	console.log(roadMaps);
-
 	return (
 		<Main>
 			<Typography variant='h6' noWrap>

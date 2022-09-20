@@ -33,7 +33,7 @@ const RoadmapCard: FC<RoadmapCardProps> = ({
 	const roadMapPath = `/roadmaps/${id}-${name
 		.toLowerCase()
 		.replace(/\W+/gi, '-')}`;
-	const roadMapUrl = `${config.WEBSITE_URL}/#/${roadMapPath}`;
+	const roadMapUrl = `${config.WEBSITE_URL}/#${roadMapPath}`;
 
 	const handleCopyToClipboard = async () => {
 		try {
