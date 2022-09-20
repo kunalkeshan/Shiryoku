@@ -18,16 +18,22 @@ A mini guide to how the app data is stored in the resources application.
 - `url`: Destination link to the resource.
 - `icon`: Resource logo image link.
 - `tags`: List of unique and relevant tags for the resource concerned.
+- `roadmap.ids`: List of IDs the resource belongs to.
+- `roadmap.subTopics`: List of IDs the resources is a sub-topic to.
 
 ```json
 [
-	{
-		"name": "",
-		"description": "",
-		"url": "",
-		"icon": "",
-		"tags": []
-	}
+ {
+  "name": "",
+  "description": "",
+  "url": "",
+  "icon": "",
+  "tags": [""],
+  "roadmap": {
+   "ids": [""],
+   "subTopics": [""],
+  }
+ }
 ]
 ```
 
@@ -44,14 +50,14 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
-	{
-		"id": "",
-		"title": "",
-		"message": "",
-		"dateAdded": "",
-		"link": "",
-		"linkText": ""
-	}
+ {
+  "id": "",
+  "title": "",
+  "message": "",
+  "dateAdded": "",
+  "link": "",
+  "linkText": ""
+ }
 ]
 ```
 
@@ -59,7 +65,7 @@ A mini guide to how the app data is stored in the resources application.
 
 ### Tags
 
-- `tags`: Collection of Uniqe tags. 
+- `tags`: Collection of Uniqe tags.
 
 ```json
 [
@@ -69,3 +75,31 @@ A mini guide to how the app data is stored in the resources application.
 ```
 
 > File: [tags.json](./tags.json)
+
+### Roadmaps
+
+- `id`: Unique ID used to identify the roadmap. eg: 001
+- `name`: Name of the Roadmap.
+- `description`: Description of the Roadmap.
+- `icon`: Icon for the Roadmap.
+- `cover`: Cover image for the Roadmap.
+- `topics[n].id`: Id of the topic of a roadmap. eg: 001-1
+- `topics[n].name`: Name of the topic.
+
+```json
+[
+ {
+  "id": "",
+  "name": "",
+  "description": "",
+  "icon": "",
+  "cover": "",
+  "topics": [
+   {
+    "id": "",
+    "name": ""
+   }
+  ]
+ }
+]
+```
