@@ -53,7 +53,7 @@ This project is open source, you can add any resources (given that it does not e
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](/CONTRIBUTING.md).
 <!-- 
-If you're not sure how to contribute using GitHub, fill out this form with the notes you have and I'll help you out to add them to this project.
+If you're not sure how to contribute using GitHub, fill out this form with the resources you have and I'll help you out to add them to this project.
 
 📃 Link to Form: <link here>
  -->
