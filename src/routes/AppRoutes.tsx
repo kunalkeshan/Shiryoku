@@ -15,6 +15,8 @@ const Contact = lazy(() => import('../pages/Home/Contact'));
 const Contribute = lazy(() => import('../pages/Home/Contribute'));
 const Issues = lazy(() => import('../pages/Home/Issues'));
 const Support = lazy(() => import('../pages/Home/Support'));
+const Roadmaps = lazy(() => import('../pages/Home/Roadmaps/Roadmaps'));
+const Roadmap = lazy(() => import('../pages/Home/Roadmaps/Roadmap'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 interface LazyCompProps extends PropsWithChildren {
@@ -56,6 +58,14 @@ const AppRoutes = () => {
 				<Route
 					path='about'
 					element={<LazyComponent Component={About} />}
+				/>
+				<Route
+					path='roadmaps'
+					element={<LazyComponent Component={Roadmaps} />}
+				/>
+				<Route
+					path='roadmaps/:currentRoadmap'
+					element={<LazyComponent Component={Roadmap} />}
 				/>
 				<Route path='*' element={<Navigate to={'/not-found'} />} />
 			</Route>

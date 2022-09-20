@@ -30,6 +30,7 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InfoIcon from '@mui/icons-material/Info';
+import MapIcon from '@mui/icons-material/Map';
 
 import NavigationItem from '../../components/Home/NavigationItem';
 import Footer from '../../components/layouts/Footer';
@@ -50,6 +51,11 @@ const Home = () => {
 			name: 'Resources',
 			nav: '/',
 			icon: <AppsIcon />,
+		},
+		{
+			name: 'Roadmaps',
+			nav: '/roadmaps',
+			icon: <MapIcon />,
 		},
 		{
 			name: 'Contribute',
