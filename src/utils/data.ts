@@ -39,6 +39,7 @@ interface NotificationUtility {
 interface RoadmapsUtility {
 	getRoadmaps: () => Promise<IRoadmap[]>;
 	getSingleRoadmap: (id: string) => Promise<IRoadmap | undefined>;
+	getResourcesOfRoadmap: (id: string) => Promise<Resource[]> | any;
 }
 
 /**
@@ -185,6 +186,12 @@ class Data {
 
 		roadmapsUtility.getSingleRoadmap = async (id: string) => {
 			return allRoadMaps.find((roadmap) => roadmap.id === id);
+		};
+
+		roadmapsUtility.getResourcesOfRoadmap = async (id: string) => {
+			return allResources.filter((resource) =>
+				resource.roadmap ? resource.roadmap.ids.includes(id) : false
+			);
 		};
 
 		return roadmapsUtility;

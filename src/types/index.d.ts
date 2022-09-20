@@ -8,6 +8,9 @@ interface Resource {
 	github?: string;
 	icon?: string;
 	tags: string[];
+	roadmap?: {
+		ids: string[];
+	};
 }
 
 /**
@@ -34,6 +37,7 @@ interface IRoadmap {
 	icon: string;
 	cover: string;
 	id: string;
+	topics: { id: string; name: string }[];
 }
 
 interface ContributorProfile {
