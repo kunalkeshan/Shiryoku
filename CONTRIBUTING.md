@@ -25,10 +25,7 @@ When contributing to Shiryoku, it's good to know our best practices, tips, and t
 
 If you're not sure how to contribute using GitHub, fill out this form with the resources you have and I'll help you out to add them to this project.
 
-<!--
-
-📃 Link to Form: <link here>
- -->
+📃 Link to Form: [https://forms.gle/M1tUaoBtVFrG996r8](https://forms.gle/M1tUaoBtVFrG996r8)
 
 ## How to Contribute
 
