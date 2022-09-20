@@ -19,7 +19,6 @@ import TagsGif from '../../assets/howToUse/tags.gif';
 import SearchGif from '../../assets/howToUse/search.gif';
 import ShareGif from '../../assets/howToUse/share.gif';
 import RoadmapsGif from '../../assets/howToUse/roadmaps.gif';
-import { info } from 'console';
 
 const data = [
 	{
