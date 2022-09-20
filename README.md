@@ -1,5 +1,9 @@
 # Shiryoku
 
+<p align="center">
+  <img src="public/thumbnail.jpg" alt="Shiryoku Thumbnail" width="60%" height="auto" />
+</p>
+
 Incredible resources (with links) to help up-skill yourselves on various fields. Resources like programming, designing, engineering and much more and completely Open Source. Made with ♥ by Kunal Keshan.
 
 **Table of Contents**:
