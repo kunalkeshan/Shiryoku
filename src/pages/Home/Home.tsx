@@ -116,7 +116,7 @@ const Home = () => {
 						onClick={handleDrawerOpen}
 						edge='start'
 						sx={{
-							marginRight: 5,
+							marginRight: 1,
 							...(open && { display: 'none' }),
 						}}
 					>

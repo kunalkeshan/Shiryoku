@@ -38,8 +38,8 @@ const IssueCard: FC<IssueCardProps> = ({
 	return (
 		<Grid item xs={12} md={4} m={2}>
 			<Card>
-				<Typography variant='h6'>
-					<GitHubIcon /> {title} -{' '}
+				<Typography variant='h6' lineHeight={1}>
+					<GitHubIcon /> {title} <br />
 					<Chip
 						label={state}
 						variant='outlined'
@@ -68,12 +68,18 @@ const IssueCard: FC<IssueCardProps> = ({
 									cursor: 'pointer',
 									backgroundColor: `#${label.color}`,
 									margin: '0.5em 0.25em',
+									color: '#FFFFFF',
 								}}
 							/>
 						</Tooltip>
 					))}
 				<Divider />
-				<Stack direction='row' spacing={2} mt={1}>
+				<Stack
+					direction='column'
+					spacing={2}
+					mt={1}
+					fontSize={'0.75rem'}
+				>
 					<p>
 						<b>Created At</b>:{' '}
 						{DateFns.format(new Date(createdAt), 'PPP')}
