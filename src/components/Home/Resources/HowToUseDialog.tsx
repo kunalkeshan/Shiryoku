@@ -56,7 +56,7 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 	const [skipped, setSkipped] = useState(new Set<number>());
 
 	const isStepOptional = (step: number) => {
-		return step === 1;
+		return step === 10;
 	};
 
 	const isStepSkipped = (step: number) => {
