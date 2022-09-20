@@ -3,11 +3,33 @@
  */
 
 // Dependencies
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Data from '../../../utils/data';
 
-import { Typography, styled, Box, Divider, Grid, Paper } from '@mui/material';
+import {
+	Typography,
+	styled,
+	Box,
+	Divider,
+	Grid,
+	Container,
+} from '@mui/material';
+
+import RoadmapCard from '../../../components/Home/Roadmap/RoadmapCard';
 
 const Roadmaps = () => {
+	const [roadMaps, setRoadMaps] = useState<IRoadmap[]>([]);
+
+	useEffect(() => {
+		const handleFetchRoadmaps = async () => {
+			const data = await Data.Roadmaps.getRoadmaps();
+			setRoadMaps(data);
+		};
+		if (roadMaps.length === 0) handleFetchRoadmaps();
+	}, [roadMaps.length]);
+
+	console.log(roadMaps);
+
 	return (
 		<Main>
 			<Typography variant='h6' noWrap>
@@ -17,10 +39,23 @@ const Roadmaps = () => {
 				</Typography>
 			</Typography>
 			<Divider />
+			<Container>
+				<RoadMapContainer container>
+					{roadMaps.length > 0 &&
+						roadMaps.map((data, index) => (
+							<RoadmapCard key={index} {...data} />
+						))}
+				</RoadMapContainer>
+			</Container>
 		</Main>
 	);
 };
 
 const Main = styled(Box)({});
+
+const RoadMapContainer = styled(Grid)({
+	marginTop: '1em',
+	gap: '1em',
+});
 
 export default Roadmaps;
