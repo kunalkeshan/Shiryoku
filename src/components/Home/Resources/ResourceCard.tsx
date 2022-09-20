@@ -15,7 +15,6 @@ import {
 	IconButton,
 	Typography,
 	Stack,
-	Badge,
 	Chip,
 } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
@@ -71,42 +70,33 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 					width='100%'
 					flexWrap='wrap'
 				>
-					<Tooltip
-						title='Click to Copy URL'
-						sx={{ cursor: 'pointer !important' }}
-					>
-						<Badge
-							badgeContent={
-								<ContentCopyIcon
-									sx={{
-										// fontSize: '1rem',
-										backgroundColor: '#1976D290',
-										borderRadius: '50%',
-										padding: '0.2em',
-									}}
-								/>
-							}
-							overlap='circular'
-							anchorOrigin={{
-								vertical: 'top',
-								horizontal: 'left',
-							}}
-							onClick={handleCopyToClipboard}
-						>
-							<Avatar
-								src={props?.icon ?? props?.name}
-								sx={{ mr: 2, cursor: 'pointer' }}
-								imgProps={{ loading: 'lazy' }}
-							/>
-						</Badge>
-					</Tooltip>
+					<Avatar
+						src={props?.icon ?? props?.name}
+						sx={{ mr: 2, cursor: 'pointer' }}
+						imgProps={{ loading: 'lazy' }}
+					/>
 					<div>
 						<Typography
 							variant='body1'
 							fontWeight={600}
 							maxWidth='200px'
+							sx={{
+								display: 'flex',
+								alignItems: 'center',
+								gap: '0.2em',
+							}}
 						>
 							{props.name}
+							<Tooltip title='Copy resource url to clipboard'>
+								<ContentCopyIcon
+									onClick={handleCopyToClipboard}
+									sx={{
+										fontSize: '1em',
+										cursor: 'pointer',
+										borderRadius: '50%',
+									}}
+								/>
+							</Tooltip>
 						</Typography>
 						<div
 							style={{
