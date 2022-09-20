@@ -43,6 +43,7 @@ const Search = () => {
 				placeholder='Search for awesome resources...'
 				value={search}
 				onChange={(e) => setSearch(e.target.value)}
+				autoComplete='off'
 				InputProps={{
 					endAdornment: <SearchIcon />,
 				}}

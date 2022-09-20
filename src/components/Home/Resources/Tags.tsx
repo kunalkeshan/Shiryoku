@@ -7,8 +7,9 @@ import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Data from '../../../utils/data';
 
-import { Box, Typography, Chip, styled, Stack } from '@mui/material';
+import { Box, Typography, Chip, styled, Stack, Button } from '@mui/material';
 import CategoryIcon from '@mui/icons-material/Category';
+import InfoIcon from '@mui/icons-material/Info';
 
 import {
 	updateSelectedTags,
@@ -17,11 +18,13 @@ import {
 } from '../../../store/features/app';
 import { useAppDispatch } from '../../../store';
 import { RootState } from '../../../store';
+import HowToUseDialog from './HowToUseDialog';
 
 const Tags = () => {
 	const dispatch = useAppDispatch();
 	const { selectedTags } = useSelector((state: RootState) => state.app);
 	const [tags, setTags] = useState<Tags>([]);
+	const [open, setOpen] = useState<boolean>(false);
 
 	const handleSelectTag = (tag: string) => {
 		dispatch(updateSelectedTags(tag));
@@ -108,6 +111,15 @@ const Tags = () => {
 						/>
 					))}
 			</ChipContainer>
+			<Button
+				startIcon={<InfoIcon />}
+				variant='text'
+				sx={{ mt: 2 }}
+				onClick={() => setOpen(true)}
+			>
+				How to use?
+			</Button>
+			<HowToUseDialog open={open} setOpen={setOpen} />
 		</Box>
 	);
 };
