@@ -54,7 +54,12 @@ const NavigationItem: FC<NavigationItemProps> = (props) => {
 	};
 
 	return (
-		<ListItem key={props.name} disablePadding sx={{ display: 'block' }}>
+		<ListItem
+			key={props.name}
+			disablePadding
+			sx={{ display: 'block' }}
+			title={props.name}
+		>
 			<Button
 				sx={buttonStyling}
 				onClick={() =>
