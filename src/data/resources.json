@@ -127,6 +127,24 @@
 		]
 	},
 	{
+		"name": "Dev.to",
+		"description": "DEV is a community of software developers getting together to help one another out. The software industry relies on collaboration and networked learning. We provide a place for that to happen.",
+		"url": "https://dev.to/",
+		"icon": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+		"tags": [
+			"productivity", "blogging", "free", "web development", "community"
+		]
+	},
+	{
+		"name": "Hashnode",
+		"description": "The hassle-free blogging platform for engineers, thought-leaders, and the dev community! Blog on a custom domain, own your content and share your ideas with the world.",
+		"url": "https://hashnode.com/",
+		"icon": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611242155728/W3_BYVVVh.png",
+		"tags": [
+			"productivity", "blogging", "free", "web development", "community"
+		]
+	},
+	{
 		"name": "Canva",
 		"description": "Canva is an Australian graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content.",
 		"url": "https://www.canva.com/",
@@ -151,6 +169,25 @@
 		"icon": "https://a5.behance.net/3dcd67bd8b6dfcc3a5f57ce37aa58c5865e5e428/img/site/apple-touch-icon.png",
 		"tags": [
 			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "practice"
+		]
+	},
+	{
+		"name": "Meta Tags Generator",
+		"description": "With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!",
+		"url": "https://metatags.io/",
+		"icon": "https://metatags.io/assets/favicon-71ffc45e665afe1eb5447e86787278b28f56dfb39a6d53c8603d8477bdee7b6f.png",
+		"tags": [
+			"productivity", "tools", "frontend", "free", "web development", "html"
+		]
+	},
+	{
+		"name": "Microsoft Developer Network (MDN)",
+		"description": "MDN Web Docs is an open-source, collaborative project documenting Web platform technologies, including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning resources for beginning developers and students",
+		"url": "https://developer.mozilla.org/",
+		"github": "https://github.com/mdn/",
+		"icon": "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+		"tags": [
+			"javascript", "documentation", "programming", "coding", "github", "open source", "web development", "backend"
 		]
 	},
 	{
