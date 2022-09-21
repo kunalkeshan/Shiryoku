@@ -23,6 +23,7 @@ interface ResourcesUtility {
 	) => Promise<Resource[]>;
 	getSingleResource: (name: string) => Promise<Resource> | any;
 	getTotalPages: () => Promise<number>;
+	getTotalResources: () => Promise<number>;
 }
 
 interface TagUtility {
@@ -40,6 +41,7 @@ interface RoadmapsUtility {
 	getRoadmaps: () => Promise<IRoadmap[]>;
 	getSingleRoadmap: (id: string) => Promise<IRoadmap | undefined>;
 	getResourcesOfRoadmap: (id: string) => Promise<Resource[]> | any;
+	getTotalRoadmaps: () => Promise<number>;
 }
 
 /**
@@ -99,6 +101,10 @@ class Data {
 
 		resourceUtility.getTotalPages = async () => {
 			return Math.ceil(allResources.length / 20);
+		};
+
+		resourceUtility.getTotalResources = async () => {
+			return allResources.length;
 		};
 
 		return resourceUtility;
@@ -192,6 +198,10 @@ class Data {
 			return allResources.filter((resource) =>
 				resource.roadmap ? resource.roadmap.ids.includes(id) : false
 			);
+		};
+
+		roadmapsUtility.getTotalRoadmaps = async () => {
+			return allRoadMaps.length;
 		};
 
 		return roadmapsUtility;

@@ -22,6 +22,7 @@ import TagsGif from '../../../assets/howToUse/tags.gif';
 import SearchGif from '../../../assets/howToUse/search.gif';
 import ShareGif from '../../../assets/howToUse/share.gif';
 import RoadmapsGif from '../../../assets/howToUse/roadmaps.gif';
+import Counter from './Counter';
 
 interface DialogProps extends PropsWithChildren {
 	open: boolean;
@@ -153,6 +154,7 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 									and improve this project
 								</p>
 							</Typography>
+							<Counter />
 						</Box>
 						<Box
 							sx={{
