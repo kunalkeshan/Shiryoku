@@ -20,7 +20,11 @@
 		"tags": [
 			"career", "programming", "web development", "javascript", "frontend", "backend", "coding", "learning",
 			"courses", "github", "all", "free", "certification"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-0"]
+		}
 	},
 	{
 		"name": "The Odin Project",
@@ -31,7 +35,11 @@
 		"tags": [
 			"career", "programming", "web development", "javascript", "frontend", "backend", "coding", "learning",
 			"courses", "all", "free", "github", "certification"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-0"]
+		}
 	},
 	{
 		"name": "CSSBattle",
@@ -66,7 +74,11 @@
 		"tags": [
 			"open source", "css", "github", "frontend", "web development", "learning", "study", "free",
 			"practice"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-2"]
+		}
 	},
 	{
 		"name": "Learn Git Branching",
@@ -86,7 +98,11 @@
 		"icon": "https://pbs.twimg.com/profile_images/517343049085485056/6ll-wjg5_400x400.png",
 		"tags": [
 			"practice", "productivity", "tools", "typing", "programming", "coding", "free"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-4"]
+		}
 	},
 	{
 		"name": "Stack Overflow",
@@ -96,7 +112,11 @@
 		"tags": [
 			"practice", "productivity", "tools", "web development", "all", "programming", "coding", "free",
 			"frontend", "backend", "react", "javascript", "html", "css", "git", "github"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-4"]
+		}
 	},
 	{
 		"name": "Geeks For Geeks",
@@ -115,7 +135,11 @@
 		"icon": "https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5f33ce6795b617814aa43eb1_checklist-favicon.png",
 		"tags": [
 			"practice", "productivity", "tools", "graphic design", "ui/ux", "frontend", "free", "html"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-4"]
+		}
 	},
 	{
 		"name": "remove.bg",
@@ -124,7 +148,11 @@
 		"icon": "https://www.remove.bg/apple-touch-icon.png?v=YAXaAv7pao",
 		"tags": [
 			"productivity", "tools", "graphic design", "ui/ux", "frontend", "free"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-4"]
+		}
 	},
 	{
 		"name": "Dev.to",
@@ -188,7 +216,65 @@
 		"icon": "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
 		"tags": [
 			"javascript", "documentation", "programming", "coding", "github", "open source", "web development", "backend"
-		]
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-0"]
+		}
+	},
+	{
+		"name": "CSS-Tricks",
+		"description": "Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.",
+		"url": "https://css-tricks.com/",
+		"icon": "https://css-tricks.com/apple-touch-icon.png",
+		"tags": [
+			"web development", "css", "html", "web development", "blogging", "community", "javascript"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-2"]
+		}
+	},
+	{
+		"name": "CSS {In Real Life}",
+		"description": "Tips, tricks and tutorials on the web’s most beautiful language.",
+		"url": "https://css-irl.info/",
+		"icon": "https://css-irl.info/favicon/apple-touch-icon.png",
+		"tags": [
+			"web development", "css", "html", "web development", "blogging", "community", "javascript"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-2"]
+		}
+	},
+	{
+		"name": "HTMLHell",
+		"description": "A collection of bad practices in HTML, copied from real websites.",
+		"url": "https://www.htmhell.dev/",
+		"icon": "https://www.htmhell.dev/apple-touch-icon.png",
+		"tags": [
+			"web development", "css", "html", "web development", "blogging", "community"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-1"]
+		}
+	},
+	{
+		"name": "JavaScript Tips",
+		"description": "JS Tips is a collection of useful daily JavaScript tips that will allow you to improve your code writing.",
+		"url": "https://www.jstips.co/",
+		"github": "https://github.com/loverajoel/jstips",
+		"icon": "https://www.jstips.co/favicon.ico",
+		"tags": [
+			"javascript", "documentation", "programming", "coding", "github", "open source", "framework", 
+			"web development", "jsx", "react", "angular"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-3"]
+		}
 	},
 	{
 		"name": "React JS Documentation",
@@ -255,5 +341,57 @@
 		"tags": [
 			"learning", "free", "finance"
 		]
+	},
+	{
+		"name": "Introduction to Web Development by Web Dev Simplified",
+		"description": "If you are just starting you web development journey this is the only course you will need to get up and running with all of the technology that you will need to start creating web pages today.",
+		"url": "https://www.youtube.com/playlist?list=PLZlA0Gpn_vH-cEDOofOujFIknfZZpIk3a",
+		"icon": "https://yt3.ggpht.com/ytc/AMLnZu-PjRc81p0qP-ZPWxv8aY4k-4gFRzGEYs3HWbIQ=s48-c-k-c0x00ffffff-no-rj",
+		"tags": [
+			"learning", "free", "web development", "youtube", "html", "css", "javascript"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-0"]
+		}
+	},
+	{
+		"name": "HTML Crash Course For Absolute Beginners by Traversy Media",
+		"description": "In this crash course I will cram as much about HTML that I can. This is meant for absolute beginners. If you are interested in learning HTML but know nothing, then you are in the right place. We will be creating a cheat sheet with all of the common HTML5 tags, attributes, semantic markup, etc. We will not be focusing on CSS in this video. The CSS crash course will be released shortly after",
+		"url": "https://youtu.be/UB1O30fR-EE",
+		"icon": "https://yt3.ggpht.com/ytc/AMLnZu-fB-c8gczS81r-VBWgzndcSZgd1zGA2QcYfACHMg=s48-c-k-c0x00ffffff-no-rj",
+		"tags": [
+			"learning", "free", "web development", "youtube", "html"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-1"]
+		}
+	},
+	{
+		"name": "CSS Crash Course For Absolute Beginners by Traversy Media",
+		"description": "In this video I will cram as much as possible about CSS. We will be looking at styles, selectors, declarations, etc. We will build a CSS cheat sheet that you can keep as a resource and we will also create a basic website layout. We are using CSS3 but mostly the basics. I will be creating an advanced CSS course with animations,  etc. I do have a Flexbox in 20 minutes video as well if you want to learn flexbox.",
+		"url": "https://youtu.be/yfoY53QXEnI",
+		"icon": "https://yt3.ggpht.com/ytc/AMLnZu-fB-c8gczS81r-VBWgzndcSZgd1zGA2QcYfACHMg=s48-c-k-c0x00ffffff-no-rj",
+		"tags": [
+			"learning", "free", "web development", "youtube", "css"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-2"]
+		}
+	},
+	{
+		"name": "JavaScript Crash Course For Absolute Beginners by Traversy Media",
+		"description": " In this crash course we will go over the fundamentals of JavaScript including more modern syntax like classes, arrow functions, etc. This is the starting point on my channel for learning JS.",
+		"url": "https://youtu.be/hdI2bqOjy3c",
+		"icon": "https://yt3.ggpht.com/ytc/AMLnZu-fB-c8gczS81r-VBWgzndcSZgd1zGA2QcYfACHMg=s48-c-k-c0x00ffffff-no-rj",
+		"tags": [
+			"learning", "free", "web development", "youtube", "css"
+		],
+		"roadmap": {
+			"ids": ["001"],
+			"subTopics": ["001-3"]
+		}
 	}
 ]
