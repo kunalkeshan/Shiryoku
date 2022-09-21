@@ -125,7 +125,7 @@ const Roadmap = () => {
 							<Typography variant='h6'>{topic.name}</Typography>
 						</AccordionSummary>
 						<AccordionDetails>
-							<Grid container>
+							<Grid container gap={2}>
 								{resources.length > 0 &&
 									// eslint-disable-next-line array-callback-return
 									resources.map((resource, index) => {
