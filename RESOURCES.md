@@ -6,7 +6,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), 
+	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), 
 
 ## Collection
 
@@ -166,6 +166,32 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 
+### Dev.to
+
+| <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png" alt="Dev.to logo" width="80px" height="auto" /> | DEV is a community of software developers getting together to help one another out. The software industry relies on collaboration and networked learning. We provide a place for that to happen. | `productivity`, `blogging`, `free`, `web development`, `community` |
+| --- | --- | --- |
+
+> Visit Website: [https://dev.to/](https://dev.to/)
+
+
+
+---
+
+
+
+### Hashnode
+
+| <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611242155728/W3_BYVVVh.png" alt="Hashnode logo" width="80px" height="auto" /> | The hassle-free blogging platform for engineers, thought-leaders, and the dev community! Blog on a custom domain, own your content and share your ideas with the world. | `productivity`, `blogging`, `free`, `web development`, `community` |
+| --- | --- | --- |
+
+> Visit Website: [https://hashnode.com/](https://hashnode.com/)
+
+
+
+---
+
+
+
 ### Canva
 
 | <img src="https://static.canva.com/static/images/android-192x192-2.png" alt="Canva logo" width="80px" height="auto" /> | Canva is an Australian graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content. | `productivity`, `tools`, `graphic design`, `ui/ux`, `free` |
@@ -200,6 +226,32 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://www.behance.net/](https://www.behance.net/)
 
 
+
+---
+
+
+
+### Meta Tags Generator
+
+| <img src="https://metatags.io/assets/favicon-71ffc45e665afe1eb5447e86787278b28f56dfb39a6d53c8603d8477bdee7b6f.png" alt="Meta Tags Generator logo" width="80px" height="auto" /> | With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more! | `productivity`, `tools`, `frontend`, `free`, `web development`, `html` |
+| --- | --- | --- |
+
+> Visit Website: [https://metatags.io/](https://metatags.io/)
+
+
+
+---
+
+
+
+### Microsoft Developer Network (MDN)
+
+| <img src="https://developer.mozilla.org/apple-touch-icon.6803c6f0.png" alt="Microsoft Developer Network (MDN) logo" width="80px" height="auto" /> | MDN Web Docs is an open-source, collaborative project documenting Web platform technologies, including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning resources for beginning developers and students | `javascript`, `documentation`, `programming`, `coding`, `github`, `open source`, `web development`, `backend` |
+| --- | --- | --- |
+
+> Visit Website: [https://developer.mozilla.org/](https://developer.mozilla.org/)
+
+> Visit GitHub: [https://github.com/mdn/](https://github.com/mdn/)
 
 ---
 
