@@ -87,6 +87,26 @@
 		"github": "https://github.com/pcottle/learnGitBranching",
 		"icon": "https://learngitbranching.js.org/assets/favicon.ico",
 		"tags": [
+			"frontend", "web development", "learning", "study", "free", "react", "javascript", "jsx",
+			"practice"
+		]
+	},
+	{
+		"name": "Regexr",
+		"description":"RegExr is an online tool to learn, build and test Regular Expressions.",
+		"url":"https://regexr.com/",
+		"github":"https://github.com/gskinner/regexr/",
+		"icon":"https://regexr.com/assets/icons/apple-touch-icon.png?1",
+		"tags": [
+			"javascript", "web development", "tools", "practice", "productivity", "programming", "open source", "github"
+		]
+	},
+	{
+		"name": "Patterns",
+		"description": "Patterns.dev is a free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React.",
+		"url": "https://www.patterns.dev/",
+		"icon": "https://www.patterns.dev/img/favicon/favicon-192x192.png?hash=b4b7ad3f7c",
+		"tags": [
 			"open source", "css", "github", "frontend", "web development", "learning", "study", "free",
 			"practice", "git"
 		]
@@ -126,6 +146,15 @@
 		"tags": [
 			"practice", "productivity", "tools", "web development", "all", "programming", "coding", "free",
 			"frontend", "backend", "react", "javascript", "html", "css", "git", "github", "dsa", "competitive coding"
+		]
+	},
+	{
+		"name": "Crontab Guru",
+		"description":"The quick and simple editor for cron schedule expressions by Cronitor",
+		"url":"https://crontab.guru/",
+		"icon":"https://cdn.cronitor.io/static/img/favicon.4a228b95944f.png",
+		"tags": [
+			"tools", "productivity", "programming", "backend"
 		]
 	},
 	{
