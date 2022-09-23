@@ -1,0 +1,51 @@
+{
+	"Resources Content Template": {
+		"prefix": "resource",
+		"body": [
+			"{",
+			"\t\"name\": \"\",",
+			"\t\"description\":\"\",",
+			"\t\"url\":\"\",",
+			"\t\"github\":\"\",",
+			"\t\"icon\":\"\",",
+			"\t\"tags\": [\"\"],",
+			"\t\"roadmap\":{",
+			"\t\t\"ids\": [\"\"],",
+			"\t\t\"subTopics\": [\"\"]",
+			"\t}",
+			"},"
+		],
+		"description": "Empty resource template"
+	},
+	"Notification Content Template": {
+		"prefix": "notification",
+		"body": [
+			"{",
+			"\t\"id\": \"\",",
+			"\t\"title\":\"\",",
+			"\t\"message\":\"\",",
+			"\t\"dateAdded\":\"\",",
+			"\t\"link\":\"\",",
+			"\t\"linkText\": [\"\"]",
+			"},"
+		],
+		"description": "Empty Notification template"
+	},
+	"Roadmap Content Temaplate": {
+		"prefix": "roadmap",
+		"body": [
+			"{",
+			"\t\"id\": \"\",",
+			"\t\"name\":\"\",",
+			"\t\"description\":\"\",",
+			"\t\"icon\":\"\",",
+			"\t\"cover\":\"\",",
+			"\t\"topics\":[{",
+			"\t\t\"id\": [\"\"],",
+			"\t\t\"name\": [\"\"]",
+			"\t}]",
+			"},"
+		],
+		"description": "Empty Roadmap template"
+	}
+}
