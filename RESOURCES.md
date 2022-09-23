@@ -6,7 +6,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), 
+	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), 
 
 ## Collection
 
@@ -90,12 +90,38 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 ### Learn Git Branching
 
-| <img src="https://learngitbranching.js.org/assets/favicon.ico" alt="Learn Git Branching logo" width="80px" height="auto" /> | An interactive Git visualization tool to educate and challenge! | `open source`, `css`, `github`, `frontend`, `web development`, `learning`, `study`, `free`, `practice`, `git` |
+| <img src="https://learngitbranching.js.org/assets/favicon.ico" alt="Learn Git Branching logo" width="80px" height="auto" /> | An interactive Git visualization tool to educate and challenge! | `frontend`, `web development`, `learning`, `study`, `free`, `react`, `javascript`, `jsx`, `practice` |
 | --- | --- | --- |
 
 > Visit Website: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
 > Visit GitHub: [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
+
+---
+
+
+
+### Regexr
+
+| <img src="https://regexr.com/assets/icons/apple-touch-icon.png?1" alt="Regexr logo" width="80px" height="auto" /> | RegExr is an online tool to learn, build and test Regular Expressions. | `javascript`, `web development`, `tools`, `practice`, `productivity`, `programming`, `open source`, `github` |
+| --- | --- | --- |
+
+> Visit Website: [https://regexr.com/](https://regexr.com/)
+
+> Visit GitHub: [https://github.com/gskinner/regexr/](https://github.com/gskinner/regexr/)
+
+---
+
+
+
+### Patterns
+
+| <img src="https://www.patterns.dev/img/favicon/favicon-192x192.png?hash=b4b7ad3f7c" alt="Patterns logo" width="80px" height="auto" /> | Patterns.dev is a free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React. | `open source`, `css`, `github`, `frontend`, `web development`, `learning`, `study`, `free`, `practice`, `git` |
+| --- | --- | --- |
+
+> Visit Website: [https://www.patterns.dev/](https://www.patterns.dev/)
+
+
 
 ---
 
@@ -133,6 +159,19 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 | --- | --- | --- |
 
 > Visit Website: [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org)
+
+
+
+---
+
+
+
+### Crontab Guru
+
+| <img src="https://cdn.cronitor.io/static/img/favicon.4a228b95944f.png" alt="Crontab Guru logo" width="80px" height="auto" /> | The quick and simple editor for cron schedule expressions by Cronitor | `tools`, `productivity`, `programming`, `backend` |
+| --- | --- | --- |
+
+> Visit Website: [https://crontab.guru/](https://crontab.guru/)
 
 
 
