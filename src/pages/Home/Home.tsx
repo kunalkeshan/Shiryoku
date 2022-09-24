@@ -128,7 +128,7 @@ const Home = () => {
 							alignItems: 'centre',
 							justifyContent: 'space-between',
 							width: '100%',
-							overflow: 'auto',
+							overflow: 'visible',
 						}}
 					>
 						<Typography variant='h5' noWrap component='div'>
