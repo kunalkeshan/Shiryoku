@@ -26,7 +26,7 @@
 			"\t\"message\":\"\",",
 			"\t\"dateAdded\":\"\",",
 			"\t\"link\":\"\",",
-			"\t\"linkText\": [\"\"]",
+			"\t\"linkText\": \"\"",
 			"},"
 		],
 		"description": "Empty Notification template"
