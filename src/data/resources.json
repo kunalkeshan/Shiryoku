@@ -202,6 +202,19 @@
 		]
 	},
 	{
+		"name": "Internshala",
+		"description":"Internshala is India's no.1 internship and training platform with 40000+ paid internships in Engineering, MBA, media, law, arts, and other streams.",
+		"url":"https://internshala.com/",
+		"icon":"https://internshala.com//favicon.ico?v=5",
+		"tags": [
+			"career", "interview", "internship", "programming", "engineering", "web development"
+		],
+		"roadmap":{
+			"ids": [""],
+			"subTopics": [""]
+		}
+	},
+	{
 		"name": "Canva",
 		"description": "Canva is an Australian graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content.",
 		"url": "https://www.canva.com/",
