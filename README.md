@@ -61,7 +61,7 @@ If you're not sure how to contribute using GitHub, fill out this form with the r
 
 📃 Link to Form: [https://forms.gle/M1tUaoBtVFrG996r8](https://forms.gle/M1tUaoBtVFrG996r8)
 
-Project Contributors:
+### Project Contributors:
 
 <a href="https://github.com/kunalkeshan/Shiryoku/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kunalkeshan/Shiryoku" />
