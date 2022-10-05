@@ -435,5 +435,14 @@
 			"ids": ["001"],
 			"subTopics": ["001-3"]
 		}
+	},
+	{
+		"name": "Web.dev",
+		"description": "Google believes in an open, accessible, private, and secure web. We want to help developers take advantage of the latest modern technologies to build amazing user experiences for everyone.",
+		"url": "https://web.dev/",
+		"icon": "https://web.dev/images/favicon-32x32.png",
+		"tags": [
+			"learning", "free", "web development", "youtube", "css"
+		]
 	}
 ]
