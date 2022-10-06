@@ -462,9 +462,8 @@
 		"icon":"https://raw.githubusercontent.com/RandomAPI/Randomuser.me-Node/master/public/img/favicon.png",
 		"tags": ["open source","github","free"]
 		
-	}
-	
-		
+	},
+	{	
 		"name": "Z-Library",
 		"description":"Part of Z-Library project. The world's largest ebook library",
 		"url":"https://b-ok.asia/",
