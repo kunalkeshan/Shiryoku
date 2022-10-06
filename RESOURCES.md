@@ -6,7 +6,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), 
+	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Z-Library](#z-library), 
 
 ## Collection
 
@@ -510,6 +510,45 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 | --- | --- | --- |
 
 > Visit Website: [https://web.dev/](https://web.dev/)
+
+
+
+---
+
+
+
+### Public APIs
+
+| <img src="https://github.com/fluidicon.png" alt="Public APIs logo" width="80px" height="auto" /> | A collective list of free APIs | `open source`, `github`, `free`, `learning`, `web development` |
+| --- | --- | --- |
+
+> Visit Website: [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
+
+> Visit GitHub: [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
+
+---
+
+
+
+### Random user
+
+| <img src="https://raw.githubusercontent.com/RandomAPI/Randomuser.me-Node/master/public/img/favicon.png" alt="Random user logo" width="80px" height="auto" /> | A free, open-source API for generating random user data. Like Lorem Ipsum, but for people. | `open source`, `github`, `free` |
+| --- | --- | --- |
+
+> Visit Website: [https://randomuser.me/](https://randomuser.me/)
+
+> Visit GitHub: [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
+
+---
+
+
+
+### Z-Library
+
+| <img src="https://b-ok.asia/favicon-32x32.svg?v=2" alt="Z-Library logo" width="80px" height="auto" /> | Part of Z-Library project. The world's largest ebook library | `ebooks`, `library`, `books` |
+| --- | --- | --- |
+
+> Visit Website: [https://b-ok.asia/](https://b-ok.asia/)
 
 
 
