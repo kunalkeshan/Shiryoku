@@ -463,4 +463,13 @@
 		"tags": ["open source","github","free"]
 		
 	}
+	
+		
+		"name": "Z-Library",
+		"description":"Part of Z-Library project. The world's largest ebook library",
+		"url":"https://b-ok.asia/",
+		"icon":"https://b-ok.asia/favicon-32x32.svg?v=2",
+		"tags": ["ebooks","library","books"]
+		
+	}
 ]
