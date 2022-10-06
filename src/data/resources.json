@@ -444,5 +444,14 @@
 		"tags": [
 			"learning", "free", "web development", "youtube", "css"
 		]
+	},
+	{
+		"name": "Random user",
+		"description":"A free, open-source API for generating random user data. Like Lorem Ipsum, but for people.",
+		"url":"https://randomuser.me/",
+		"github":"https://github.com/RandomAPI/Randomuser.me-Node",
+		"icon":"https://raw.githubusercontent.com/RandomAPI/Randomuser.me-Node/master/public/img/favicon.png",
+		"tags": ["open source","github","free"]
+		
 	}
 ]
