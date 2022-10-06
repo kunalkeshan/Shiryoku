@@ -446,6 +446,15 @@
 		]
 	},
 	{
+		"name": "Public APIs",
+		"description":"A collective list of free APIs",
+		"url":"https://github.com/public-apis/public-apis",
+		"github":"https://github.com/public-apis/public-apis",
+		"icon":"https://github.com/fluidicon.png",
+		"tags": ["open source", "github", "free", "learning", "web development"]
+	},
+	{
+		
 		"name": "Random user",
 		"description":"A free, open-source API for generating random user data. Like Lorem Ipsum, but for people.",
 		"url":"https://randomuser.me/",
