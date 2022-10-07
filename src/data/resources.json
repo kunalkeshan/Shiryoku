@@ -477,5 +477,12 @@
 		"url":"https://www.codechef.com/",
 		"icon":"https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/zruiknbedz8yqafxbazb",
 		"tags": ["free","coding","programming","dsa","practice"]
+	},
+	{
+		"name": "Hackerrank",
+		"description":"HackerRank is a technology hiring platform that is the standard for assessing developer skills for over 2,800+ companies around the world. ",
+		"url":"https://www.hackerrank.com/",
+		"icon":"https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png",
+		"tags": ["coding","dsa","programming","practice"]
 	}
 ]
