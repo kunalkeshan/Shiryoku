@@ -484,5 +484,12 @@
 		"url":"https://www.hackerrank.com/",
 		"icon":"https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png",
 		"tags": ["coding","dsa","programming","practice"]
+	},
+	{
+		"name": "Leetcode",
+		"description":"LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.",
+		"url":"https://leetcode.com/",
+		"icon":"https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
+		"tags": ["techincal","interview","coding","dsa"]
 	}
 ]
