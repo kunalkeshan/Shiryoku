@@ -470,5 +470,12 @@
 		"icon":"https://b-ok.asia/favicon-32x32.svg?v=2",
 		"tags": ["ebooks","library","books"]
 		
+	},
+	{
+		"name": "Codechef",
+		"description":"Practice more than 3000 problems across varying difficulty ratings and Popular topics. Curated for everyone, including novice and seasoned programmers.",
+		"url":"https://www.codechef.com/",
+		"icon":"https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/zruiknbedz8yqafxbazb",
+		"tags": ["free","coding","programming","dsa","practice"]
 	}
 ]
