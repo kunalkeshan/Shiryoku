@@ -8,16 +8,18 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 **Table of Contents**:
 
-- [Motivation](#motivation)
-- [Features](#features)
+- [Motivation](#-motivation)
+- [Features](#-features)
   - [Collection of Resources](#collection-of-resources)
   - [Sort and Search What you need](#sort-and-search-what-you-need)
   - [Curated Roadmaps](#curated-roadmaps)
   - [Open Source!](#open-source)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](#-contributing)
+- [License](#-license)
+  - [Forking this Repo?](#-forking-this-repo)
+- [Mentions](#-mentions)
 
-## Motivation
+## 💫 Motivation
 
 Shiryoku (Resources) is an initiative to reduce the resistance between students and the resources that they require to up-skill themselves.
 I made this Project during my third year the philosophy, that;
@@ -26,7 +28,7 @@ I made this Project during my third year the philosophy, that;
 
 With Shiryoku, you can expect the top resources to be available to you based on your needs and also comes with a roadmap for a structured approach to the resources for easier understanding of how to utilize it to its fullest!
 
-## Features
+## 🖼️ Features
 
 ### Collection of Resources
 
@@ -53,7 +55,7 @@ This project is open source, you can add any resources (given that it does not e
 | ![Shiryoku (Resources) Open source](/assets/features/open-source-1.jpg) | ![Shiryoku (Resources) Open source](/assets/features/open-source-2.jpg) | ![Shiryoku (Resources) Open source](/assets/features/open-source-3.jpg) |
 | --- | --- | --- |
 
-## Contributing
+## 📥 Contributing
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](/CONTRIBUTING.md).
 
@@ -61,16 +63,31 @@ If you're not sure how to contribute using GitHub, fill out this form with the r
 
 📃 Link to Form: [https://forms.gle/M1tUaoBtVFrG996r8](https://forms.gle/M1tUaoBtVFrG996r8)
 
-### Project Contributors:
+### 🦸 Project Contributors:
 
 <a href="https://github.com/kunalkeshan/Shiryoku/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kunalkeshan/Shiryoku" />
 </a>
 
-## License
+## 📃 License
 
 This project is licensed under the [MIT License](/LICENSE).
 
+
+### 🗡️ Forking this Repo?
+
+Many people have contacted us asking if they can use this code for their own websites. The answer to that question is usually "yes", with attribution. There are some cases, such as using this code for a business or something that is greater than a personal project, that we may be less comfortable saying yes to. If in doubt, please don't hesitate to ask us.
+
+We value keeping this project open source, but as you all know, plagiarism is bad. We actively spend a non-negligible amount of effort developing, designing, and trying to perfect this iteration of our project, and we are proud of it! All we ask is to not claim this effort as your own.
+
+So, feel free to fork this repo. If you do, please just give us proper credit by linking back to this repo, [https://github.com/kunalkeshan/Shiryoku](https://github.com/kunalkeshan/Shiryoku). Refer to this handy [quora](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) post if you're not sure what to do. Thanks!
+
+## 🫂 Mentions
+
+Part of this README and CONTRIBUTING was inspired from [https://github.com/monkeytypegame/monkeytype](https://github.com/monkeytypegame/monkeytype) and [https://github.com/SneakySensei/react-lean-modal](https://github.com/SneakySensei/react-lean-modal).
+
 ---
 
+<p align="center">
 If you found this project helpful, make sure to drop a 🌟! It helps it become more visible to others.
+</p>

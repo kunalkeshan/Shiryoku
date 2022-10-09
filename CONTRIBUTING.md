@@ -2,24 +2,24 @@
 
 **Table of Contents**:
 
--   [Getting Started](#getting-started)
--   [How to Contribute?](#how-to-contribute)
--   [Standards and Guidelines](#standards-and-guidelines)
+-   [Getting Started](#-getting-started)
+-   [How to Contribute?](#-how-to-contribute)
+-   [Standards and Guidelines](#-standards-and-guidelines)
     -   [Updating Resources](#updating-resources)
     -   [Updating Tags](#updating-tags)
     -   [Updating Roadmaps](#updating-roadmaps)
 -   [Forking the Project](#forking-the-project)
--   [Basic Contributing Guidelines](#basic-contributing-guidelines)
+-   [Basic Contributing Guidelines](#-basic-contributing-guidelines)
     -   [Making Changes](#making-changes)
--   [Advanced Contributing Guidelines](#advanced-contributing-guidelines)
+-   [Advanced Contributing Guidelines](#-advanced-contributing-guidelines)
     -   [Cloning and Installing Dependencies](#cloning-and-installing-dependencies)
     -   [Implementing a Feature](#implementing-a-feature)
     -   [Testing](#testing)
--   [Creating a Pull Request](#creating-a-pull-request)
--   [Merging a Pull Request](#merging-a-pull-request)
--   [Questions](#questions)
+-   [Creating a Pull Request](#-creating-a-pull-request)
+-   [Merging a Pull Request](#-merging-a-pull-request)
+-   [Questions](#-questions)
 
-## Getting Started
+## 🚀 Getting Started
 
 When contributing to Shiryoku, it's good to know our best practices, tips, and tricks. Shiryoku is built using **React-TypeScript**. Uses **Material UI** components and fetches the resources from the sources file located in the `/src/data/*.json` files. You don't have to know how to work with React, or TypeScript to contribute, you can simply contribute to the project using GitHub.
 
@@ -27,7 +27,7 @@ If you're not sure how to contribute using GitHub, fill out this form with the r
 
 📃 Link to Form: [https://forms.gle/M1tUaoBtVFrG996r8](https://forms.gle/M1tUaoBtVFrG996r8)
 
-## How to Contribute
+## ❓ How to Contribute
 
 There's two separate guidelines for how to contribute to the Shiryoku. If you're simply looking to make some files changes to any one of the following files...
 
@@ -40,7 +40,7 @@ Refer to the [Basic Contributing Guidelines](#basic-contributing-guidelines). Th
 
 If you're looking for making changes to the website and resources to this project, please refer to the [Advanced Contributing Guidelines](#advanced-contributing-guidelines).
 
-## Standards and Guidelines
+## 📐 Standards and Guidelines
 
 ### Updating Resources
 
@@ -60,7 +60,7 @@ Adding new roadmaps or updating the already existing ones involves making change
 -   If you've added something new, make sure that it follows the respective template.
 -   If there's some issue with the resources/tags/roadmaps, open up an issue about it with the proper title and relevant instructions in the body.
 
-## Forking the Project
+## 🗡️ Forking the Project
 
 First you will have to obtain your own copy of the Shiryoku repository, also known as "forking". [Click here](https://github.com/kunalkeshan/Shiryoku/fork) to open the fork wizard or go to the top right of your screen and then click the fork button.
 
@@ -68,7 +68,7 @@ First you will have to obtain your own copy of the Shiryoku repository, also kno
 
 This will create a clone of the repository under your own account. Navigate to your profile now and click on the new repository called `Shiryoku` under your profile.
 
-## Basic Contributing Guidelines
+## 🐰 Basic Contributing Guidelines
 
 You must have a browser that can access GitHub, and possess a GitHub account. Once you have those two things, you're ready to move on to making your contribution(s)!
 
@@ -108,7 +108,7 @@ Click `Commit changes` once you are ready to proceed.
 
 ![Committing Changes using GitHub Web UI](/assets/contributing/commiting.jpg)
 
-## Advanced Contributing Guidelines
+## 🤖 Advanced Contributing Guidelines
 
 **[Fork the Repository](#forking-the-project) if you've not done it already.**
 
@@ -162,7 +162,7 @@ Test out your changes in the browser, and test will all possible test cases.
 
 While opening a PR, make sure that you've added some Images along with it, to make it easier to review.
 
-## Creating a Pull Request
+## 👾 Creating a Pull Request
 
 You can repeat the steps above for as many changes as needed. Once you are done making all your code changes and you have committed them to your branch, you are ready to make a pull request (PR). Go back to the main page of your forked repository. Ensure that your current branch (which is likely still master at this point) is up to date. You can do so by clicking the following button:
 
@@ -178,12 +178,12 @@ Be sure to add a good description to the PR and that the source and destination 
 
 Once done, click on Create pull request to officially publish your PR.
 
-## Merging a Pull Request
+## 🐙 Merging a Pull Request
 
 All you have to do now is wait for approval or comments and go from there!
 
 Once your PR is approved, all that is left to do is merge it!
 
-## Questions
+## ❓ Questions
 
 For any Queries on what type of material to add, contact [Kunal Keshan](mailto:kunalkeshan12@gmail.com).
