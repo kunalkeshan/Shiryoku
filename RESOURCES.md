@@ -6,7 +6,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Z-Library](#z-library), 
+	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), 
 
 ## Collection
 
@@ -543,12 +543,64 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 
+### Zero to Mastery
+
+| <img src="https://avatars.githubusercontent.com/u/35373879?s=200&v=4" alt="Zero to Mastery logo" width="80px" height="auto" /> | Lets Git started in the world of opensource, starting in the Zero to mastery's opensource playground. | `open source`, `web development`, `practice`, `programming`, `coding` |
+| --- | --- | --- |
+
+> Visit Website: [https://github.com/zero-to-mastery](https://github.com/zero-to-mastery)
+
+> Visit GitHub: [https://github.com/zero-to-mastery](https://github.com/zero-to-mastery)
+
+---
+
+
+
 ### Z-Library
 
 | <img src="https://b-ok.asia/favicon-32x32.svg?v=2" alt="Z-Library logo" width="80px" height="auto" /> | Part of Z-Library project. The world's largest ebook library | `ebooks`, `library`, `books` |
 | --- | --- | --- |
 
 > Visit Website: [https://b-ok.asia/](https://b-ok.asia/)
+
+
+
+---
+
+
+
+### Codechef
+
+| <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/zruiknbedz8yqafxbazb" alt="Codechef logo" width="80px" height="auto" /> | Practice more than 3000 problems across varying difficulty ratings and Popular topics. Curated for everyone, including novice and seasoned programmers. | `free`, `coding`, `programming`, `dsa`, `practice` |
+| --- | --- | --- |
+
+> Visit Website: [https://www.codechef.com/](https://www.codechef.com/)
+
+
+
+---
+
+
+
+### Hackerrank
+
+| <img src="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png" alt="Hackerrank logo" width="80px" height="auto" /> | HackerRank is a technology hiring platform that is the standard for assessing developer skills for over 2,800+ companies around the world.  | `coding`, `dsa`, `programming`, `practice` |
+| --- | --- | --- |
+
+> Visit Website: [https://www.hackerrank.com/](https://www.hackerrank.com/)
+
+
+
+---
+
+
+
+### Leetcode
+
+| <img src="https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png" alt="Leetcode logo" width="80px" height="auto" /> | LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. | `techincal`, `interview`, `coding`, `dsa` |
+| --- | --- | --- |
+
+> Visit Website: [https://leetcode.com/](https://leetcode.com/)
 
 
 
