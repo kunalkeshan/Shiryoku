@@ -463,6 +463,14 @@
 		"tags": ["open source","github","free"]
 		
 	},
+	{
+		"name": "Zero to Mastery",
+		"description":"Lets Git started in the world of opensource, starting in the Zero to mastery's opensource playground.",
+		"url":"https://github.com/zero-to-mastery",
+		"github":"https://github.com/zero-to-mastery",
+		"icon":"https://avatars.githubusercontent.com/u/35373879?s=200&v=4",
+		"tags": ["open source", "web development", "practice", "programming", "coding"]
+	},
 	{	
 		"name": "Z-Library",
 		"description":"Part of Z-Library project. The world's largest ebook library",
