@@ -50,6 +50,7 @@ const NavigationItem: FC<NavigationItemProps> = (props) => {
 			window.open(link, '_blank');
 		} else {
 			navigate(nav || '');
+			window.scrollTo(0, 0);
 		}
 	};
 

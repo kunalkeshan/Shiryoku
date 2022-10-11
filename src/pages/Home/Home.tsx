@@ -125,13 +125,18 @@ const Home = () => {
 					<Box
 						sx={{
 							display: 'flex',
-							alignItems: 'centre',
+							alignItems: 'center',
 							justifyContent: 'space-between',
 							width: '100%',
 							overflow: 'visible',
 						}}
 					>
-						<Typography variant='h5' noWrap component='div'>
+						<Typography variant='h5' noWrap component='div' sx={{
+							'@media (max-width: 500px)': {
+								display: 'flex',
+								flexDirection: 'column',
+							}
+						}}>
 							Shiryoku (Resources){' '}
 							<Typography variant='caption' component='span'>
 								by{' '}
