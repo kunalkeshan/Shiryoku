@@ -17,7 +17,7 @@ import {
 	Stack,
 	Chip,
 	Menu,
-	MenuItem
+	MenuItem,
 } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -27,6 +27,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 import { useAppDispatch } from '../../../store';
 import { showSnackbar } from '../../../store/features/app';
+import config from '../../../config';
 
 interface ResourceCardProps extends PropsWithChildren, Resource {}
 
@@ -72,13 +73,15 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 	};
 
 	const handleRedirectToIssues = () => {
-		window.open('https://github.com/kunalkeshan/Shiryoku/issues')
+		window.open(
+			`${config.GITHUB_URL}/issues/new?title=Report:+${props.name}&body=Describe+the+issue+with+\`${props.name}\`+and+how+we+can+resolve+it&labels=resources`
+		);
 		handleClose();
-	}
+	};
 	const handleRedirectToTags = () => {
-		window.open('https://github.com/kunalkeshan/Shiryoku/blob/main/src/data/tags.json')
+		window.open(`${config.GITHUB_URL}/blob/main/src/data/tags.json`);
 		handleClose();
-	}
+	};
 
 	return (
 		<ResourceContainer item xs={12} lg={5}>
@@ -179,21 +182,25 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 							placement='bottom'
 						>
 							<>
-							<IconButton onClick={handleClick}>
-								<MoreVertIcon />
-							</IconButton>
-							<Menu
-								id="basic-menu"
-								anchorEl={anchorEl}
-								open={open}
-								onClose={handleClose}
-								MenuListProps={{
-								'aria-labelledby': 'basic-button',
-								}}
-							>
-								<MenuItem onClick={handleRedirectToIssues}>Report Resource</MenuItem>
-								<MenuItem onClick={handleRedirectToTags}>Edit Tags</MenuItem>
-							</Menu>
+								<IconButton onClick={handleClick}>
+									<MoreVertIcon />
+								</IconButton>
+								<Menu
+									id='basic-menu'
+									anchorEl={anchorEl}
+									open={open}
+									onClose={handleClose}
+									MenuListProps={{
+										'aria-labelledby': 'basic-button',
+									}}
+								>
+									<MenuItem onClick={handleRedirectToIssues}>
+										Report Resource
+									</MenuItem>
+									<MenuItem onClick={handleRedirectToTags}>
+										Edit Tags
+									</MenuItem>
+								</Menu>
 							</>
 						</Tooltip>
 					</LinksBox>
