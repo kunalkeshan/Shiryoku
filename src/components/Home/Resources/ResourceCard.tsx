@@ -74,7 +74,7 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 
 	const handleRedirectToIssues = () => {
 		window.open(
-			`${config.GITHUB_URL}/issues/new?title=Report:+${props.name}&body=Describe+the+issue+with+\`${props.name}\`+and+how+we+can+resolve+it&labels=resources`
+			`${config.GITHUB_URL}/issues/new?title=Report:+${props.name}&body=Describe+the+issue+with+\`${props.name}\`+and+how+we+can+resolve+it&labels=resources,report`
 		);
 		handleClose();
 	};
