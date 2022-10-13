@@ -4,9 +4,16 @@
 
 // Dependencies
 import React, { FC, PropsWithChildren, useEffect, useState } from 'react';
-import { format } from 'date-fns';
+import config from '../../config';
 
-import { Dialog, DialogTitle, styled, Typography } from '@mui/material';
+import {
+	Dialog,
+	DialogTitle,
+	styled,
+	Container,
+	Typography,
+	Link,
+} from '@mui/material';
 
 interface FeedbackModalProps extends PropsWithChildren {
 	open: boolean;
@@ -15,15 +22,13 @@ interface FeedbackModalProps extends PropsWithChildren {
 
 interface FeedbackFormStatus {
 	lastShown: number | null;
-	firstTime: boolean;
 }
 
 const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 	const TWO_WEEKS_MS = 1.21e9;
 	const THIRTY_MS = 1000 * 3;
-	const [formStatus, setFormStatus] = useState<FeedbackFormStatus>({
+	const [, setFormStatus] = useState<FeedbackFormStatus>({
 		lastShown: null,
-		firstTime: true,
 	});
 
 	const onClose = () => {
@@ -38,7 +43,6 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 					const newStatus = {
 						...prev,
 						lastShown: Date.now(),
-						firstTime: false,
 					};
 					localStorage.setItem(
 						'formStatus',
@@ -70,28 +74,38 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 			onClose={onClose}
 			sx={{
 				overflowX: 'hidden',
+				'.MuiPaper-root': {
+					width: 'fit-content',
+					maxWidth: 'none',
+				},
 			}}
 		>
-			<DialogTitle>Feedback Form</DialogTitle>
-			{formStatus.lastShown && !formStatus.firstTime && (
-				<Typography my='1em'>
-					You previously viewed this form at{' '}
-					{format(new Date(formStatus.lastShown!), 'PPP')}
+			<Container>
+				<DialogTitle>Feedback Form</DialogTitle>
+				<Typography mx={3} mb={2}>
+					Unable to view the form, use{' '}
+					<Link
+						href={config.GOOGLE_FORM_FEEDBACK_URL}
+						target='_blank'
+					>
+						{' '}
+						this link instead
+					</Link>
+					.
 				</Typography>
-			)}
-			<FormIframe
-				src='https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Shiryoku+(Resources)&embedded=true'
-				frameBorder='0'
-				title='Shiryoku Feedback Form'
-			>
-				Loading…
-			</FormIframe>
+				<FormIframe
+					src={`${config.GOOGLE_FORM_FEEDBACK_URL}&embedded=true`}
+					frameBorder='0'
+					title='Shiryoku Feedback Form'
+				>
+					Loading…
+				</FormIframe>
+			</Container>
 		</Dialog>
 	);
 };
 
 const FormIframe = styled('iframe')({
-	margin: '0 1em',
 	width: '640px',
 	height: '520px',
 	overflowX: 'hidden',

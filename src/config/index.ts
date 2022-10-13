@@ -30,6 +30,8 @@ const config = {
 		youtube: 'https://www.youtube.com/channel/UCwVRztzBdqgB_Y9hkMX3lZA',
 	},
 	FORMSPREEE_CONTACT_FORM_ID: 'xbjbdlvj',
+	GOOGLE_FORM_FEEDBACK_URL:
+		'https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?usp=pp_url&entry.34189569=Shiryoku+(Resources)',
 };
 
 export default config;
