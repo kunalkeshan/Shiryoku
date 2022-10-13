@@ -3,7 +3,7 @@
  */
 
 // Dependencies
-import React, { FC, PropsWithChildren } from 'react';
+import React, { FC, PropsWithChildren, useState } from 'react';
 
 import {
 	Tooltip,
@@ -16,20 +16,31 @@ import {
 	Typography,
 	Stack,
 	Chip,
+	Menu,
+	MenuItem,
 } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 import { useAppDispatch } from '../../../store';
 import { showSnackbar } from '../../../store/features/app';
+import config from '../../../config';
 
 interface ResourceCardProps extends PropsWithChildren, Resource {}
 
 const ResourceCard: FC<ResourceCardProps> = (props) => {
 	const dispatch = useAppDispatch();
-
+	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+	const open = Boolean(anchorEl);
+	const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+		setAnchorEl(event.currentTarget);
+	};
+	const handleClose = () => {
+		setAnchorEl(null);
+	};
 	const handleCopyToClipboard = async () => {
 		try {
 			await navigator.clipboard.writeText(props.url);
@@ -59,6 +70,17 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 
 			await navigator.share(shareData);
 		} catch (error) {}
+	};
+
+	const handleRedirectToIssues = () => {
+		window.open(
+			`${config.GITHUB_URL}/issues/new?title=Report:+${props.name}&body=Describe+the+issue+with+\`${props.name}\`+and+how+we+can+resolve+it&labels=resources,report`
+		);
+		handleClose();
+	};
+	const handleRedirectToTags = () => {
+		window.open(`${config.GITHUB_URL}/blob/main/src/data/tags.json`);
+		handleClose();
 	};
 
 	return (
@@ -152,6 +174,34 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 							<IconButton onClick={handleShareResource}>
 								<ShareIcon />
 							</IconButton>
+						</Tooltip>
+						<Tooltip
+							title='More Options'
+							arrow
+							followCursor={true}
+							placement='bottom'
+						>
+							<>
+								<IconButton onClick={handleClick}>
+									<MoreVertIcon />
+								</IconButton>
+								<Menu
+									id='basic-menu'
+									anchorEl={anchorEl}
+									open={open}
+									onClose={handleClose}
+									MenuListProps={{
+										'aria-labelledby': 'basic-button',
+									}}
+								>
+									<MenuItem onClick={handleRedirectToIssues}>
+										Report Resource
+									</MenuItem>
+									<MenuItem onClick={handleRedirectToTags}>
+										Edit Tags
+									</MenuItem>
+								</Menu>
+							</>
 						</Tooltip>
 					</LinksBox>
 				</Box>
