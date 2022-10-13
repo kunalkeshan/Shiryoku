@@ -31,6 +31,7 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InfoIcon from '@mui/icons-material/Info';
 import MapIcon from '@mui/icons-material/Map';
+import FeedbackIcon from '@mui/icons-material/Feedback';
 
 import NavigationItem from '../../components/Home/NavigationItem';
 import Footer from '../../components/layouts/Footer';
@@ -90,6 +91,11 @@ const Home = () => {
 			link: config.GITHUB_URL,
 			icon: <GitHubIcon />,
 		},
+		{
+			name: 'Feedback',
+			link: config.GOOGLE_FORM_FEEDBACK_URL,
+			icon: <FeedbackIcon />,
+		},
 	];
 
 	const handleDrawerOpen = () => {
@@ -131,12 +137,17 @@ const Home = () => {
 							overflow: 'visible',
 						}}
 					>
-						<Typography variant='h5' noWrap component='div' sx={{
-							'@media (max-width: 500px)': {
-								display: 'flex',
-								flexDirection: 'column',
-							}
-						}}>
+						<Typography
+							variant='h5'
+							noWrap
+							component='div'
+							sx={{
+								'@media (max-width: 500px)': {
+									display: 'flex',
+									flexDirection: 'column',
+								},
+							}}
+						>
 							Shiryoku (Resources){' '}
 							<Typography variant='caption' component='span'>
 								by{' '}
