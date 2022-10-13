@@ -13,6 +13,8 @@ import {
 	Container,
 	Typography,
 	Link,
+	DialogActions,
+	Button,
 } from '@mui/material';
 
 interface FeedbackModalProps extends PropsWithChildren {
@@ -26,7 +28,7 @@ interface FeedbackFormStatus {
 
 const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 	const TWO_WEEKS_MS = 1.21e9;
-	const THIRTY_MS = 1000 * 3;
+	const THIRTY_MS = 1000 * 30;
 	const [, setFormStatus] = useState<FeedbackFormStatus>({
 		lastShown: null,
 	});
@@ -100,6 +102,11 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 				>
 					Loading…
 				</FormIframe>
+				<DialogActions>
+					<CloseButton variant='text' color='error'>
+						Close
+					</CloseButton>
+				</DialogActions>
 			</Container>
 		</Dialog>
 	);
@@ -116,5 +123,7 @@ const FormIframe = styled('iframe')({
 		width: '280px',
 	},
 });
+
+const CloseButton = styled(Button)({});
 
 export default FeedbackModal;
