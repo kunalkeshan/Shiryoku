@@ -500,4 +500,11 @@
 		"icon":"https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
 		"tags": ["techincal","interview","coding","dsa"]
 	}
+	{
+		"name": "Pluralsight",
+		"description":"Pluralsight is an online learning and teaching marketplace with over 25k courses and 20 million students",
+		"url":"https://pluralsight.com/",
+		"icon":"https://pluralsight.imgix.net/author/lg/1708f64b-8969-4de8-ae00-9c7b732c5fb9.jpg",
+		"tags": ["techincal","interview","coding","dsa"]
+	}
 ]
