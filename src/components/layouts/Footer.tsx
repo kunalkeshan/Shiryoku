@@ -5,7 +5,7 @@
 // Dependencies
 import React from 'react';
 import { useNavigate } from 'react-router';
-// import config from '../../config';
+import config from '../../config';
 
 // MUI
 import { Box, styled, Typography, Link } from '@mui/material';
@@ -44,6 +44,10 @@ const Footer = () => {
 		{
 			name: 'Repo',
 			link: 'https://github.com/kunalkeshan/Shiryoku',
+		},
+		{
+			name: 'Give Feedback',
+			link: config.GOOGLE_FORM_FEEDBACK_URL,
 		},
 	];
 
