@@ -3,7 +3,7 @@
  */
 
 // Dependencies
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, FC, PropsWithChildren, ReactNode } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
 import {
@@ -40,7 +40,11 @@ import config from '../../config';
 
 const drawerWidth = 240;
 
-const Home = () => {
+interface HomeProps extends PropsWithChildren {
+	children?: ReactNode;
+}
+
+const Home: FC<HomeProps> = ({ children }) => {
 	const location = useLocation();
 	const theme = useTheme();
 	const [open, setOpen] = useState(false);
@@ -203,7 +207,7 @@ const Home = () => {
 			</Drawer>
 			<Box component='main' sx={{ flexGrow: 1, p: 3 }}>
 				<DrawerHeader />
-				<Outlet />
+				{children ? children : <Outlet />}
 				<Footer />
 			</Box>
 		</Box>

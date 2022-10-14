@@ -3,7 +3,7 @@
  */
 
 // Dependencies
-import React, { lazy, Suspense, PropsWithChildren, FC } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import DefaultSkeleton from '../components/reusable/DefaultSkeleton';
@@ -19,62 +19,52 @@ const Roadmaps = lazy(() => import('../pages/Home/Roadmaps/Roadmaps'));
 const Roadmap = lazy(() => import('../pages/Home/Roadmaps/Roadmap'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
-interface LazyCompProps extends PropsWithChildren {
-	Component: FC;
-}
-
 const AppRoutes = () => {
-	const LazyComponent: FC<LazyCompProps> = (props) => {
-		return (
-			<Suspense fallback={<DefaultSkeleton />}>
-				<props.Component />
-			</Suspense>
-		);
-	};
-
 	return (
-		<Routes>
-			<Route path='/' element={<Home />}>
+		<Suspense fallback={<Home><DefaultSkeleton /></Home>}>
+			<Routes>
+				<Route path='/' element={<Home />}>
+					<Route
+						index
+						element={<Resources />}
+					/>
+					<Route
+						path='contribute'
+						element={<Contribute />}
+					/>
+					<Route
+						path='issues'
+						element={<Issues />}
+					/>
+					<Route
+						path='contact'
+						element={<Contact />}
+					/>
+					<Route
+						path='support'
+						element={<Support />}
+					/>
+					<Route
+						path='about'
+						element={<About />}
+					/>
+					<Route
+						path='roadmaps'
+						element={<Roadmaps />}
+					/>
+					<Route
+						path='roadmaps/:currentRoadmap'
+						element={<Roadmap />}
+					/>
+					<Route path='*' element={<Navigate to={'/not-found'} />} />
+				</Route>
 				<Route
-					index
-					element={<LazyComponent Component={Resources} />}
-				/>
-				<Route
-					path='contribute'
-					element={<LazyComponent Component={Contribute} />}
-				/>
-				<Route
-					path='issues'
-					element={<LazyComponent Component={Issues} />}
-				/>
-				<Route
-					path='contact'
-					element={<LazyComponent Component={Contact} />}
-				/>
-				<Route
-					path='support'
-					element={<LazyComponent Component={Support} />}
-				/>
-				<Route
-					path='about'
-					element={<LazyComponent Component={About} />}
-				/>
-				<Route
-					path='roadmaps'
-					element={<LazyComponent Component={Roadmaps} />}
-				/>
-				<Route
-					path='roadmaps/:currentRoadmap'
-					element={<LazyComponent Component={Roadmap} />}
+					path='/not-found'
+					element={<NotFound />}
 				/>
 				<Route path='*' element={<Navigate to={'/not-found'} />} />
-			</Route>
-			<Route
-				path='/not-found'
-				element={<LazyComponent Component={NotFound} />}
-			/>
-			<Route path='*' element={<Navigate to={'/not-found'} />} />
-		</Routes>
+			</Routes>
+		</Suspense>
 	);
 };
 
