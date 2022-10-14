@@ -103,7 +103,7 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 					Loading…
 				</FormIframe>
 				<DialogActions>
-					<CloseButton variant='text' color='error'>
+					<CloseButton variant='text' color='error' onClick={onClose}>
 						Close
 					</CloseButton>
 				</DialogActions>
