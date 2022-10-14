@@ -68,7 +68,7 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 			} else handleShowForm();
 		};
 		handleFormStatus();
-	}, []);
+	}, [THIRTY_MS, setOpen]);
 
 	return (
 		<Dialog
