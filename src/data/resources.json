@@ -506,5 +506,12 @@
 		"url":"https://pluralsight.com/",
 		"icon":"https://pluralsight.imgix.net/author/lg/1708f64b-8969-4de8-ae00-9c7b732c5fb9.jpg",
 		"tags": ["techincal","interview","coding","dsa"]
+	},
+	{
+		"name": "Frontend Mentor",
+		"description":"Improve your front-end coding skills by building real projects Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 469,707 developers building projects, reviewing code, and helping each other get better.",
+		"url":"https://www.frontendmentor.io/",
+		"icon":"https://www.frontendmentor.io/static/images/logo-desktop.svg",
+		"tags": ["techincal","Web-development","front end","website-design"]
 	}
 ]
