@@ -12,5 +12,22 @@
 			{ "id": "001-3", "name": "JavaScript" },
 			{ "id": "001-4", "name": "Tools" }
 		]
+	},
+	{
+		"id": "002",
+		"name": "Backend Development Roadmap",
+		"description": "Resources and tools to learn to start your journey towards backend development.",
+		"icon": "https://raw.githubusercontent.com/kunalkeshan/Shiryoku/main/assets/roadmaps/001/icon.png",
+		"cover": "https://raw.githubusercontent.com/kunalkeshan/Shiryoku/main/assets/roadmaps/001/cover.png",
+		"topics": [
+			{ "id": "002-0", "name": "Introduction to Internet" },
+			{ "id": "002-1", "name": "Basic Frontend knowledge" },
+			{ "id": "002-2", "name": "Learn a server-side language" },
+			{ "id": "002-3", "name": "Basics of Git" },
+			{ "id": "002-4", "name": "Relational or NoSQL Database" },
+			{ "id": "002-5", "name": "Learn about APIs" },
+			{ "id": "002-6", "name": "Web security knowledge" },
+			{ "id": "002-7", "name": "Knowledge about Web server" }
+		]
 	}
 ]
