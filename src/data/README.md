@@ -8,6 +8,7 @@ A mini guide to how the app data is stored in the resources application.
   - [Resources](#resources)
   - [Notifications](#notifications)
   - [Tags](#tags)
+  - [Roadmaps](#roadmaps)
 
 ## Templates
 
@@ -17,7 +18,7 @@ A mini guide to how the app data is stored in the resources application.
 - `description`: Short information of what the resource is for.
 - `url`: Destination link to the resource.
 - `icon`: Resource logo image link.
-- `tags`: List of unique and relevant tags for the resource concerned.
+- `tags`: List of unique and relevant tags for the resource concerned. (required syntax: lowercase, separted by white space, eg: `web development`)
 - `roadmap.ids`: List of IDs the resource belongs to.
 - `roadmap.subTopics`: List of IDs the resources is a sub-topic to.
 
@@ -65,7 +66,7 @@ A mini guide to how the app data is stored in the resources application.
 
 ### Tags
 
-- `tags`: Collection of Uniqe tags.
+- `tags`: Collection of Uniqe tags. (required syntax: lowercase, separted by white space, eg: `web development`)
 
 ```json
 [
@@ -83,7 +84,7 @@ A mini guide to how the app data is stored in the resources application.
 - `description`: Description of the Roadmap.
 - `icon`: Icon for the Roadmap.
 - `cover`: Cover image for the Roadmap.
-- `topics[n].id`: Id of the topic of a roadmap. eg: 001-1
+- `topics[n].id`: Id of the topic of a roadmap. eg: 001-1 (&lt;id&gt;-&lt;topic order&gt;)
 - `topics[n].name`: Name of the topic.
 
 ```json
