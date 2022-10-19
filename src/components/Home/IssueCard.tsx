@@ -48,7 +48,15 @@ const IssueCard: FC<IssueCardProps> = ({
 					/>
 				</Typography>
 				<Divider />
-				<Typography p={2}>
+				<Typography
+					p={2}
+					sx={{
+						wordBreak: 'break-word',
+						img: {
+							width: '100%',
+						}
+					}}
+				>
 					<ReactMarkdown>{body}</ReactMarkdown>
 				</Typography>
 				<GitHubButton
