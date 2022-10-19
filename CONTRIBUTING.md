@@ -46,13 +46,78 @@ If you're looking for making changes to the website and resources to this projec
 
 Adding new resources or updating the already existing ones involves making changes to the `/src/data/resources.json` file. The template for the resources object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
 
+When adding a new resource make sure to follow the below template: 
+
+- `name`: Name of the Resource.
+- `description`: Short information of what the resource is for.
+- `url`: Destination link to the resource.
+- `icon`: Resource logo image link.
+- `tags`: List of unique and relevant tags for the resource concerned. (required syntax: lowercase, separted by white space, eg: `web development`)
+- `roadmap.ids`: List of IDs the resource belongs to. (Optional)
+- `roadmap.subTopics`: List of IDs the resources is a sub-topic to. (Optional)
+
+```json
+[
+ {
+  "name": "",
+  "description": "",
+  "url": "",
+  "icon": "",
+  "tags": [""],
+  "roadmap": {
+   "ids": [""],
+   "subTopics": [""],
+  }
+ }
+]
+```
+
 ### Updating Tags
 
 Adding new tags or updating the already existing ones involves making changes to the `/src/data/tags.json` file. The template for the tags object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
 
+When adding new tags make sure to follow the below template:
+
+- `tags`: Collection of Uniqe tags. (required syntax: lowercase, separted by white space, eg: `web development`)
+
+```json
+[
+    "...others",
+    "unique tag"
+]
+```
+
 ### Updating Roadmaps
 
 Adding new roadmaps or updating the already existing ones involves making changes to the `/src/data/roadmaps.json` file. The template for the roadmaps object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
+
+When adding a new roadmap make sure to follow the below template: 
+
+- `id`: Unique ID used to identify the roadmap. eg: 001
+- `name`: Name of the Roadmap.
+- `description`: Description of the Roadmap.
+- `icon`: Icon for the Roadmap.
+- `cover`: Cover image for the Roadmap.
+- `topics[n].id`: Id of the topic of a roadmap. eg: 001-1 ((&lt;id&gt;-&lt;topic order&gt;)
+- `topics[n].name`: Name of the topic.
+
+```json
+[
+ {
+  "id": "",
+  "name": "",
+  "description": "",
+  "icon": "",
+  "cover": "",
+  "topics": [
+   {
+    "id": "",
+    "name": ""
+   }
+  ]
+ }
+]
+```
 
 ### Common Guidelines
 
