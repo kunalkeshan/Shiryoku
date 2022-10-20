@@ -513,7 +513,7 @@
 		"url": "https://elastic.github.io/eui/#//",
 		"github": "https://github.com/elastic/eui",
 		"icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDMyIDMyIj4KICA8cGF0aCBmaWxsPSIjRkY5NTdEIiBkPSJNMTggMjVjLS41LTUuNS01LjUtMTAuNS0xMS0xMWw3LTdjLjUgNS41IDUuNSAxMC41IDExIDExbC03IDd6Ii8+CiAgPGNpcmNsZSBjeD0iNyIgY3k9IjciIHI9IjciIGZpbGw9IiNGMDRFOTgiLz4KICA8Y2lyY2xlIGN4PSIyNSIgY3k9IjI1IiByPSI3IiBmaWxsPSIjRkVDNTE0Ii8+CiAgPHBhdGggZmlsbD0iIzAwQkZCMyIgZD0iTTMxIDE0Yy03LjE4IDAtMTMtNS44Mi0xMy0xM2gxM3YxM3oiLz4KICA8cGF0aCBmaWxsPSIjMUJBOUY1IiBkPSJNMSAxOGM3LjE4IDAgMTMgNS44MiAxMyAxM0gxVjE4eiIvPgo8L3N2Zz4K",
-		"tags": ["UI/UX Design", "design", "design system", "design framework","github", "free"]
+		"tags": ["ui/ux", "design", "design system", "design framework","github", "free"]
 	},
 	{
 		"name": "Material Design",
@@ -521,7 +521,7 @@
 		"url": "https://material.io/",
 		"github": "https://github.com/material-components",
 		"icon": "https://avatars.githubusercontent.com/u/19478152?s=200&v=4",
-		"tags": ["UI/UX Design","design","design system","design framework","github","free"]
+		"tags": ["ui/ux","design","design system","design framework","github","free"]
 	},
 	{
 		"name": "Ant Design",
@@ -529,91 +529,91 @@
 		"url": "https://ant.design/",
 		"github": "https://github.com/ant-design/ant-design/",
 		"icon": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
-		"tags": ["UI/UX Design", "design", "design system", "design framework","github","free"]
+		"tags": ["ui/ux", "design", "design system", "design framework","github","free"]
 	},
 	{
 		"name": "UI Store Design",
 		"description": "Download free design resources for Figma,Sketch,Adobe XD,Webflow",
 		"url": "https://www.uistore.design/",
 		"icon": "https://www.evernote.design/assets/images/uistore.jpg",
-		"tags": ["UI/UX Design","design","figma","graphic design","free"]
+		"tags": ["ui/ux","design","graphic design","free"]
 	},
 	{
 		"name": "Paaatterns",
 		"description": "Free collection of beautiful patterns for all vector formats",
 		"url": "https://products.ls.graphics/paaatterns/preview.html",
 		"icon": "https://products.ls.graphics/paaatterns/images/Small-Logo.svg",
-		"tags": ["UI/UX Design","design","graphic design","free"]
+		"tags": ["ui/ux","design","graphic design","free"]
 	},
 	{
 		"name": "Mockups For Free",
 		"description": "Free design resources, PSD files for graphic and web designers",
 		"url": "https://mockupsforfree.com/",
 		"icon": "https://www.evernote.design/assets/images/mockupsforfree.jpg",
-		"tags": ["UI/UX Design","design","design mockup","graphic design","free"]
+		"tags": ["ui/ux","design","mockups","graphic design","free"]
 	},
 	{
 		"name": "Previewed",
 		"description": "Perfect mockups for your next app",
 		"url": "https://previewed.app/",
 		"icon": "https://www.evernote.design/assets/images/previewed.jpg",
-		"tags": ["UI/UX Design","design","design mockup","graphic design","free"]
+		"tags": ["ui/ux","design","mockups","graphic design","free"]
 	},
 	{
 		"name": "Material Icons",
 		"description": "Material icons are delightful, beautifully crafted symbols for common actions and items",
 		"url": "https://fonts.google.com/icons?selected=Material+Icons",
 		"icon": "https://www.evernote.design/assets/images/material-icons.jpg",
-		"tags": ["UI/UX Design","design","graphic design","icons","free"]
+		"tags": ["ui/ux","design","graphic design","icons","free"]
 	},
 	{
 		"name": "ICONSVG",
 		"description": "A tool to simplify the process of finding and generating common icons for your project.",
 		"url": "https://iconsvg.xyz/",
 		"icon": "https://www.evernote.design/assets/images/iconsvg.jpg",
-		"tags": ["UI/UX Design","design","graphic design","icons","free"]
+		"tags": ["ui/ux","design","graphic design","icons","free"]
 	},
 	{
 		"name": "Evericons",
 		"description": "Collection of 460+ well-crafted icons for your next project. It's free for personal and commercial usage.",
 		"url": "http://www.evericons.com/",
 		"icon": "https://www.evernote.design/assets/images/evericons.jpg",
-		"tags": ["UI/UX Design","design","graphic design","icons","free"]
+		"tags": ["ui/ux","design","graphic design","icons","free"]
 	},
 	{
 		"name": "Flaticon",
 		"description": "Thousands of free icons in the largest database of free vector icons.",
 		"url": "https://www.flaticon.com/",
 		"icon": "https://www.evernote.design/assets/images/evericons.jpg",
-		"tags": ["UI/UX Design","design","graphic design","icons","freemium"]
+		"tags": ["ui/ux","design","graphic design","icons","freemium"]
 	},
 	{
 		"name": "Icons8",
 		"description": "Designers, download the design stuff for free — icons, photos, UX illustrations, and music for your videos.",
 		"url": "https://icons8.com/",
 		"icon": "https://www.evernote.design/assets/images/icons8.jpg",
-		"tags": ["UI/UX Design","design","graphic design","icons","free"]
+		"tags": ["ui/ux","design","graphic design","icons","free"]
 	},
 	{
 		"name": "MESH",
 		"description": "Create beautiful gradients right in your browser",
 		"url": "https://meshgradient.com/",
 		"icon": "https://www.evernote.design/assets/images/meshgradient.jpg",
-		"tags": ["UI/UX Design","design","graphic design","color generator","gradient generator","free"]
+		"tags": ["ui/ux","design","graphic design","color generator","gradient generator","free"]
 	},
 	{
 		"name": "Gradienta",
 		"description": "Multicolor CSS gradients, JPG downloads, 100% free",
 		"url": "https://gradienta.io/",
 		"icon": "https://www.evernote.design/assets/images/gradienta.jpg",
-		"tags": ["UI/UX Design","design","graphic design","color generator","gradient generator","free"]
+		"tags": ["ui/ux","design","graphic design","color generator","gradient generator","free"]
 	},
 	{
 		"name": "Leonardo",
 		"description": "An open source contrast-based color generator",
 		"url": "https://leonardocolor.io/",
 		"icon": "https://www.evernote.design/assets/images/leonardocolor.jpg",
-		"tags": ["UI/UX Design","design","graphic design","color generator","gradient generator","free"]
+		"tags": ["ui/ux","design","graphic design","color generator","gradient generator","free"]
 	}
 	
 ]
