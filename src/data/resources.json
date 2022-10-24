@@ -500,11 +500,21 @@
 		"icon":"https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
 		"tags": ["techincal","interview","coding","dsa"]
 	},
+	
 	{
 		"name": "Pluralsight",
 		"description":"Pluralsight is an online learning and teaching marketplace with over 25k courses and 20 million students",
 		"url":"https://pluralsight.com/",
 		"icon":"https://pluralsight.imgix.net/author/lg/1708f64b-8969-4de8-ae00-9c7b732c5fb9.jpg",
 		"tags": ["techincal","interview","coding","dsa"]
+	},
+	{
+		"name": "NextUI",
+		"description": "Beautiful, Modern and fast react library which Make beautiful websites regardless of your design experience. It includes pre-built components which are highly customisable",
+		"url": "https://nextui.org/",
+		"icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Yee2W_yTCRQd2iSp_k1nbAHaDt%26pid%3DApi&f=1&ipt=1430e8698b8b837b9ecbab68f9f820bac1d57f0f12252cca55a2f8fdcae4c02c&ipo=images",
+		"tags":  [
+			"programming", "web development", "javascript", "frontend", "coding", "css", "free"
+		]
 	}
 ]

@@ -55,6 +55,14 @@ This project is open source, you can add any resources (given that it does not e
 | ![Shiryoku (Resources) Open source](/assets/features/open-source-1.jpg) | ![Shiryoku (Resources) Open source](/assets/features/open-source-2.jpg) | ![Shiryoku (Resources) Open source](/assets/features/open-source-3.jpg) |
 | --- | --- | --- |
 
+## Feedback
+
+This is a constantly evolving project that relies on the constant feedback of its users so that we can achieve what the users desire and maintain the project's quality. Please feel free to share your thoughts on this project by filling the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?entry.34189569=Shiryoku+(Resources)">Form.</a>
+
+
+
+
+
 ## 📥 Contributing
 
 Anybody is free to contribute to this repo. If you think that some material is relevant and can improve the quality of this repo, follow the contributing guidelines mentioned at [CONTRIBUTING.md](/CONTRIBUTING.md).
