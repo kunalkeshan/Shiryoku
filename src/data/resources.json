@@ -22,6 +22,14 @@
 		]
 	},
 	{
+			"name": "SAVEE",
+			"description":"SAVEE is a platform for you to get inspired save everything you love, right on your phone. Save images straight from Instagram and your browser.",
+			"url":"https://savee.it/",
+			"icon":"https://www.evernote.design/assets/images/savee.jpg",
+			"tags": [
+				"design","ui/ux","pinboard","moodboard"]
+	},
+	{
 		"name": "freeCodeCamp",
 		"description": "freeCodeCamp is a community of millions of people around the world who are learning to code together. You can learn to code with free online courses, programming projects, and interview preparation for developer jobs.",
 		"url": "https://www.freecodecamp.org/",
