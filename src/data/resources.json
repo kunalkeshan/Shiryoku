@@ -12,6 +12,16 @@
 		]
 	},
 	{
+		"name": "Cloudcraft",
+		"description":"A site where you can create smart URL diagrams and visualize your cloud architecture easily",
+		"url":"https://www.cloudcraft.co/",
+		"github":"https://github.com/cloudcraft",
+		"icon":"https://global-uploads.webflow.com/57013820ae28654573965bf2/57013a1ff31eee4673af9209_cloudcraft.svg",
+		"tags": [
+			"aws","cloud diagrams","cloud architecture","tools","programming","coding","web development"
+		]
+	},
+	{
 		"name": "freeCodeCamp",
 		"description": "freeCodeCamp is a community of millions of people around the world who are learning to code together. You can learn to code with free online courses, programming projects, and interview preparation for developer jobs.",
 		"url": "https://www.freecodecamp.org/",
