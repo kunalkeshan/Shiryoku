@@ -176,6 +176,14 @@
 		]
 	},
 	{
+		"name": "TOOOLS.design",
+		"description":"A growing archive of over a thousand design resources, weekly updated for the community. Discover highly useful design tools you never thought existed.",
+		"url":"https://www.toools.design/",
+		"icon":"https://cdn.buymeacoffee.com/uploads/profile_pictures/2022/05/8e8c6b213a3b2dfcb75fa78f1cd6728e.jpg@300w_0e.webp",
+		"tags": [
+			"design","ui/ux","productivity","graphic design","free"]
+	},
+	{
 		"name": "Checklist Design",
 		"description": "A collection of the best design practices.",
 		"url": "https://www.checklist.design/",
