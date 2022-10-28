@@ -84,6 +84,14 @@
 		]
 	},
 	{
+		"name": "Fontjoy",
+		"description":"Fontjoy helps designers choose the best font combinations. Mix and match different fonts for the perfect pairing",
+		"url":"https://fontjoy.com/",
+		"icon":"https://www.threebu.it/public/247/fontjoy-logo.jpg",
+		"tags": [
+			"fonts","font-pairing","design","free"]
+	},
+	{
 		"name": "CSS Grid Garden",
 		"description": "A game for learning CSS grid layout",
 		"url": "https://cssgridgarden.com/",
