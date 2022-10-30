@@ -57,7 +57,7 @@ This project is open source, you can add any resources (given that it does not e
 
 ## Feedback
 
-This is a project that is constantly evolving, and we rely on user comments to help us meet user needs and keep the project's quality high. 
+This is a constantly growing project that relies on user feedback to achieve what the users want while maintaining the project's quality. 
 
 Please feel free to share your thoughts on this project by filling the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?entry.34189569=Shiryoku+(Resources)">Form.</a>
 
