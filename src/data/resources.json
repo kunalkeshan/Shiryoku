@@ -218,6 +218,15 @@
 		}
 	},
 	{
+		"name": "figma",
+		"description":"With Figma, everyone works towards a shared goal. This has enabled product teams to ship new products faster and feel more confident in their decisions.",
+		"url":"https://www.figma.com/",
+		"github":"https://github.com/figma",
+		"icon":"https://miro.medium.com/max/1400/1*yaZ-u-EiZ6kanJP9zPFXVQ.jpeg",
+		"tags": [
+			"design","graphic design","ui/ux","free","productivity"]
+	},
+	{
 		"name": "Dev.to",
 		"description": "DEV is a community of software developers getting together to help one another out. The software industry relies on collaboration and networked learning. We provide a place for that to happen.",
 		"url": "https://dev.to/",
