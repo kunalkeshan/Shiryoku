@@ -60,6 +60,7 @@ const TAGS = [
   "moodboard",
   "font",
   "font-pairing",
+  "angular",
 ] as const;
 
 export default TAGS;

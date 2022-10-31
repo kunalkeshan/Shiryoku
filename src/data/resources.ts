@@ -48,7 +48,7 @@ const RESOURCES: Resource[] = [
       "SAVEE is a platform for you to get inspired save everything you love, right on your phone. Save images straight from Instagram and your browser.",
     url: "https://savee.it/",
     icon: "https://www.evernote.design/assets/images/savee.jpg",
-    tags: ["design", "ui/ux", "pinboard", "moodboard"],
+    tags: ["graphic design", "ui/ux", "pinboard", "moodboard"],
   },
   {
     name: "freeCodeCamp",
@@ -151,7 +151,7 @@ const RESOURCES: Resource[] = [
       "Fontjoy helps designers choose the best font combinations. Mix and match different fonts for the perfect pairing",
     url: "https://fontjoy.com/",
     icon: "https://www.threebu.it/public/247/fontjoy-logo.jpg",
-    tags: ["fonts", "font-pairing", "design", "free"],
+    tags: ["font-pairing", "graphic design", "free"],
   },
   {
     name: "CSS Grid Garden",
@@ -320,7 +320,7 @@ const RESOURCES: Resource[] = [
       "A growing archive of over a thousand design resources, weekly updated for the community. Discover highly useful design tools you never thought existed.",
     url: "https://www.toools.design/",
     icon: "https://cdn.buymeacoffee.com/uploads/profile_pictures/2022/05/8e8c6b213a3b2dfcb75fa78f1cd6728e.jpg@300w_0e.webp",
-    tags: ["design", "ui/ux", "productivity", "graphic design", "free"],
+    tags: ["graphic design", "ui/ux", "productivity", "graphic design", "free"],
   },
   {
     name: "Checklist Design",
@@ -367,7 +367,7 @@ const RESOURCES: Resource[] = [
     url: "https://www.figma.com/",
     github: "https://github.com/figma",
     icon: "https://miro.medium.com/max/1400/1*yaZ-u-EiZ6kanJP9zPFXVQ.jpeg",
-    tags: ["design", "graphic design", "ui/ux", "free", "productivity"],
+    tags: ["graphic design", "graphic design", "ui/ux", "free", "productivity"],
   },
   {
     name: "Dev.to",
@@ -781,7 +781,7 @@ const RESOURCES: Resource[] = [
     description: "Part of Z-Library project. The world's largest ebook library",
     url: "https://b-ok.asia/",
     icon: "https://b-ok.asia/favicon-32x32.svg?v=2",
-    tags: ["ebooks", "library", "books"],
+    tags: ["learning", "library"],
   },
   {
     name: "Codechef",
@@ -805,7 +805,7 @@ const RESOURCES: Resource[] = [
       "LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.",
     url: "https://leetcode.com/",
     icon: "https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
-    tags: ["techincal", "interview", "coding", "dsa"],
+    tags: ["interview", "coding", "dsa"],
   },
 
   {
@@ -814,7 +814,7 @@ const RESOURCES: Resource[] = [
       "Pluralsight is an online learning and teaching marketplace with over 25k courses and 20 million students",
     url: "https://pluralsight.com/",
     icon: "https://pluralsight.imgix.net/author/lg/1708f64b-8969-4de8-ae00-9c7b732c5fb9.jpg",
-    tags: ["techincal", "interview", "coding", "dsa"],
+    tags: ["interview", "coding", "dsa"],
   },
   {
     name: "NextUI",
