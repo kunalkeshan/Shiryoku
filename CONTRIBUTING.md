@@ -2,26 +2,29 @@
 
 **Table of Contents**:
 
--   [Getting Started](#-getting-started)
--   [How to Contribute?](#-how-to-contribute)
--   [Standards and Guidelines](#-standards-and-guidelines)
-    -   [Updating Resources](#updating-resources)
-    -   [Updating Tags](#updating-tags)
-    -   [Updating Roadmaps](#updating-roadmaps)
--   [Forking the Project](#forking-the-project)
--   [Basic Contributing Guidelines](#-basic-contributing-guidelines)
-    -   [Making Changes](#making-changes)
--   [Advanced Contributing Guidelines](#-advanced-contributing-guidelines)
-    -   [Cloning and Installing Dependencies](#cloning-and-installing-dependencies)
-    -   [Implementing a Feature](#implementing-a-feature)
-    -   [Testing](#testing)
--   [Creating a Pull Request](#-creating-a-pull-request)
--   [Merging a Pull Request](#-merging-a-pull-request)
--   [Questions](#-questions)
+- [Contributing Guide](#contributing-guide)
+  - [🚀 Getting Started](#-getting-started)
+  - [❓ How to Contribute](#-how-to-contribute)
+  - [📐 Standards and Guidelines](#-standards-and-guidelines)
+    - [Updating Resources](#updating-resources)
+    - [Updating Tags](#updating-tags)
+    - [Updating Roadmaps](#updating-roadmaps)
+    - [Common Guidelines](#common-guidelines)
+  - [🗡️ Forking the Project](#️-forking-the-project)
+  - [🐰 Basic Contributing Guidelines](#-basic-contributing-guidelines)
+    - [Contributing -](#contributing--)
+      - [Making Changes](#making-changes)
+  - [🤖 Advanced Contributing Guidelines](#-advanced-contributing-guidelines)
+    - [Cloning and Installing Dependencies](#cloning-and-installing-dependencies)
+    - [Implementing a Feature](#implementing-a-feature)
+    - [Testing](#testing)
+  - [👾 Creating a Pull Request](#-creating-a-pull-request)
+  - [🐙 Merging a Pull Request](#-merging-a-pull-request)
+  - [❓ Questions](#-questions)
 
 ## 🚀 Getting Started
 
-When contributing to Shiryoku, it's good to know our best practices, tips, and tricks. Shiryoku is built using **React-TypeScript**. Uses **Material UI** components and fetches the resources from the sources file located in the `/src/data/*.json` files. You don't have to know how to work with React, or TypeScript to contribute, you can simply contribute to the project using GitHub.
+When contributing to Shiryoku, it's good to know our best practices, tips, and tricks. Shiryoku is built using **React-TypeScript**. Uses **Material UI** components and fetches the resources from the sources file located in the `/src/data/*.ts` files. You don't have to know how to work with React, or TypeScript to contribute, you can simply contribute to the project using GitHub.
 
 If you're not sure how to contribute using GitHub, fill out this form with the resources you have and I'll help you out to add them to this project.
 
@@ -31,10 +34,10 @@ If you're not sure how to contribute using GitHub, fill out this form with the r
 
 There's two separate guidelines for how to contribute to the Shiryoku. If you're simply looking to make some files changes to any one of the following files...
 
--   `README.MD`
--   `src/data/README.md` or `*.json`
--   `CONTRIBUTING.MD`
--   Or any documentation related file.
+- `README.MD`
+- `src/data/README.md` or `src/data/*.ts`
+- `CONTRIBUTING.MD`
+- Or any documentation related file.
 
 Refer to the [Basic Contributing Guidelines](#basic-contributing-guidelines). This will go over how to easily make changes without having to push any files locally.
 
@@ -44,9 +47,9 @@ If you're looking for making changes to the website and resources to this projec
 
 ### Updating Resources
 
-Adding new resources or updating the already existing ones involves making changes to the `/src/data/resources.json` file. The template for the resources object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
+Adding new resources or updating the already existing ones involves making changes to the `/src/data/resources.ts` file. The template for the resources object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
 
-When adding a new resource make sure to follow the below template: 
+When adding a new resource make sure to follow the below template:
 
 - `name`: Name of the Resource.
 - `description`: Short information of what the resource is for.
@@ -58,40 +61,37 @@ When adding a new resource make sure to follow the below template:
 
 ```json
 [
- {
-  "name": "",
-  "description": "",
-  "url": "",
-  "icon": "",
-  "tags": [""],
-  "roadmap": {
-   "ids": [""],
-   "subTopics": [""],
+  {
+    "name": "",
+    "description": "",
+    "url": "",
+    "icon": "",
+    "tags": [""],
+    "roadmap": {
+      "ids": [""],
+      "subTopics": [""]
+    }
   }
- }
 ]
 ```
 
 ### Updating Tags
 
-Adding new tags or updating the already existing ones involves making changes to the `/src/data/tags.json` file. The template for the tags object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
+Adding new tags or updating the already existing ones involves making changes to the `/src/data/tags.ts` file. The template for the tags object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
 
 When adding new tags make sure to follow the below template:
 
 - `tags`: Collection of Uniqe tags. (required syntax: lowercase, separted by white space, eg: `web development`)
 
 ```json
-[
-    "...others",
-    "unique tag"
-]
+["...others", "unique tag"]
 ```
 
 ### Updating Roadmaps
 
-Adding new roadmaps or updating the already existing ones involves making changes to the `/src/data/roadmaps.json` file. The template for the roadmaps object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
+Adding new roadmaps or updating the already existing ones involves making changes to the `/src/data/roadmaps.ts` file. The template for the roadmaps object is as present in the [README.md](/src/data/README.md) file inside the same data folder.
 
-When adding a new roadmap make sure to follow the below template: 
+When adding a new roadmap make sure to follow the below template:
 
 - `id`: Unique ID used to identify the roadmap. eg: 001
 - `name`: Name of the Roadmap.
@@ -103,27 +103,27 @@ When adding a new roadmap make sure to follow the below template:
 
 ```json
 [
- {
-  "id": "",
-  "name": "",
-  "description": "",
-  "icon": "",
-  "cover": "",
-  "topics": [
-   {
+  {
     "id": "",
-    "name": ""
-   }
-  ]
- }
+    "name": "",
+    "description": "",
+    "icon": "",
+    "cover": "",
+    "topics": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ]
+  }
 ]
 ```
 
 ### Common Guidelines
 
--   When adding new resources/tags/roadmaps check if it already exists. Use the search command, `ctrl/cmd + F` to search for it if you're in GitHub, else search it directly in the website.
--   If you've added something new, make sure that it follows the respective template.
--   If there's some issue with the resources/tags/roadmaps, open up an issue about it with the proper title and relevant instructions in the body.
+- When adding new resources/tags/roadmaps check if it already exists. Use the search command, `ctrl/cmd + F` to search for it if you're in GitHub, else search it directly in the website.
+- If you've added something new, make sure that it follows the respective template.
+- If there's some issue with the resources/tags/roadmaps, open up an issue about it with the proper title and relevant instructions in the body.
 
 ## 🗡️ Forking the Project
 
