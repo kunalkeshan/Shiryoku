@@ -39,10 +39,7 @@ const AllResources = () => {
 
 	useEffect(() => {
 		const handleResourcesUpdate = async () => {
-			const data = await Data.Resources.getResources(
-				page.page,
-				undefined
-			);
+			const data = await Data.Resources.getResources(page.page, undefined);
 			dispatch(updateCurrentResources(data));
 		};
 		if (currentResources.length === 0) handleResourcesUpdate();
@@ -60,21 +57,16 @@ const AllResources = () => {
 	};
 	return (
 		<Main>
-			<ResourceContainer
-				container
-				spacing={1}
-				gridTemplateColumns={{ xs: 2 }}
-			>
+			<ResourceContainer container spacing={1} gridTemplateColumns={{ xs: 2 }}>
 				{currentResources?.length > 0 ? (
 					currentResources.map((resource, index) => (
 						<ResourceCard key={index} {...resource} />
 					))
 				) : (
 					<Box>
-						<Typography variant='h5' textAlign={'center'}>
-							😢 No Resources Found for Selected Tags or Search.
-							Know some Resources?{' '}
-							<Link to='/contribute'>Contribute now!</Link>
+						<Typography variant="h5" textAlign={'center'}>
+							😢 No Resources Found for Selected Tags or Search. Know some
+							Resources? <Link to="/contribute">Contribute now!</Link>
 						</Typography>
 					</Box>
 				)}

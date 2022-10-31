@@ -76,25 +76,25 @@ const Contribute = () => {
 
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Contribute{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					to the Resources.
 				</Typography>
 			</Typography>
 			<Divider />
 			<Content>
-				<Typography variant='body1' fontSize='1.2rem'>
-					This project is <b>Open Source</b>! That means that you're
-					free to contribute and make changes that you feel would
-					improve the quality of this project.
+				<Typography variant="body1" fontSize="1.2rem">
+					This project is <b>Open Source</b>! That means that you're free to
+					contribute and make changes that you feel would improve the quality of
+					this project.
 				</Typography>
-				<Typography variant='body1' fontSize='1rem'>
-					If you don't know how to work with GitHub, and have things
-					you want to contribute or make changes to,{' '}
-					<Link to='/contact'>contact me</Link> to get those changes.
+				<Typography variant="body1" fontSize="1rem">
+					If you don't know how to work with GitHub, and have things you want to
+					contribute or make changes to, <Link to="/contact">contact me</Link>{' '}
+					to get those changes.
 				</Typography>
-				<Typography variant='body1' fontSize='1.2rem' mt={1}>
+				<Typography variant="body1" fontSize="1.2rem" mt={1}>
 					Some examples of places where you can contribute:
 				</Typography>
 				<List>
@@ -107,12 +107,10 @@ const Contribute = () => {
 						</ListItem>
 					))}
 				</List>
-				<Link to='/issues'>
-					View more contributing requests here...
-				</Link>
-				<Typography variant='body1' fontSize='1.2rem'>
-					This project is hosted at GitHub, you can contribute in any
-					two ways mentioned below:
+				<Link to="/issues">View more contributing requests here...</Link>
+				<Typography variant="body1" fontSize="1.2rem">
+					This project is hosted at GitHub, you can contribute in any two ways
+					mentioned below:
 				</Typography>
 				<CardContainer>
 					{contributionData.map((data, index) => (
@@ -120,10 +118,10 @@ const Contribute = () => {
 					))}
 				</CardContainer>
 				<Divider />
-				<Typography variant='body1' fontSize='1.25rem' mt={2}>
+				<Typography variant="body1" fontSize="1.25rem" mt={2}>
 					Meet our Contributors!
 				</Typography>
-				<Typography variant='caption'>
+				<Typography variant="caption">
 					Without whom this project would not be possible!
 				</Typography>
 				<Contributors>

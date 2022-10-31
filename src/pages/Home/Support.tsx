@@ -15,9 +15,9 @@ import BecomeAPatreon from '../../components/Home/Support/BecomeAPatreon';
 const Support = () => {
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Support{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					to keep the project running.
 				</Typography>
 			</Typography>
@@ -33,18 +33,17 @@ const Support = () => {
 				</Animation>
 				<SupportContent width={{ xs: '100%', md: '35%' }}>
 					<Typography>
-						Shiryoku (Resources) is an initiative to reduce the
-						resistance between students and the resources that they
-						require to up-skill themselves. <br />I made this
-						Project during my third year the philosophy, that;
+						Shiryoku (Resources) is an initiative to reduce the resistance
+						between students and the resources that they require to up-skill
+						themselves. <br />I made this Project during my third year the
+						philosophy, that;
 					</Typography>
-					<Typography component='q' fontWeight='bold' variant='h6'>
+					<Typography component="q" fontWeight="bold" variant="h6">
 						Be the Senior You Needed the most as a Junior.
 					</Typography>
 					<Typography>
-						To keep this project running, your support would mean a
-						lot. A simple coffee is worth a 1000 times more than a
-						coffee!
+						To keep this project running, your support would mean a lot. A
+						simple coffee is worth a 1000 times more than a coffee!
 					</Typography>
 					<Box
 						sx={{

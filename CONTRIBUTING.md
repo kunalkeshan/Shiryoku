@@ -61,17 +61,17 @@ When adding a new resource make sure to follow the below template:
 
 ```json
 [
-  {
-    "name": "",
-    "description": "",
-    "url": "",
-    "icon": "",
-    "tags": [""],
-    "roadmap": {
-      "ids": [""],
-      "subTopics": [""]
-    }
-  }
+	{
+		"name": "",
+		"description": "",
+		"url": "",
+		"icon": "",
+		"tags": [""],
+		"roadmap": {
+			"ids": [""],
+			"subTopics": [""]
+		}
+	}
 ]
 ```
 
@@ -103,19 +103,19 @@ When adding a new roadmap make sure to follow the below template:
 
 ```json
 [
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "icon": "",
-    "cover": "",
-    "topics": [
-      {
-        "id": "",
-        "name": ""
-      }
-    ]
-  }
+	{
+		"id": "",
+		"name": "",
+		"description": "",
+		"icon": "",
+		"cover": "",
+		"topics": [
+			{
+				"id": "",
+				"name": ""
+			}
+		]
+	}
 ]
 ```
 

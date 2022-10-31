@@ -25,17 +25,17 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
-  {
-    "name": "",
-    "description": "",
-    "url": "",
-    "icon": "",
-    "tags": [""],
-    "roadmap": {
-      "ids": [""],
-      "subTopics": [""]
-    }
-  }
+	{
+		"name": "",
+		"description": "",
+		"url": "",
+		"icon": "",
+		"tags": [""],
+		"roadmap": {
+			"ids": [""],
+			"subTopics": [""]
+		}
+	}
 ]
 ```
 
@@ -52,14 +52,14 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
-  {
-    "id": "",
-    "title": "",
-    "message": "",
-    "dateAdded": "",
-    "link": "",
-    "linkText": ""
-  }
+	{
+		"id": "",
+		"title": "",
+		"message": "",
+		"dateAdded": "",
+		"link": "",
+		"linkText": ""
+	}
 ]
 ```
 
@@ -87,18 +87,18 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "icon": "",
-    "cover": "",
-    "topics": [
-      {
-        "id": "",
-        "name": ""
-      }
-    ]
-  }
+	{
+		"id": "",
+		"name": "",
+		"description": "",
+		"icon": "",
+		"cover": "",
+		"topics": [
+			{
+				"id": "",
+				"name": ""
+			}
+		]
+	}
 ]
 ```

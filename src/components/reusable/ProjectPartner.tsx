@@ -27,10 +27,7 @@ const ProjectPartner: FC<ProjectPartnerProps> = ({
 
 	return (
 		<Tooltip title={`Learn more about ${name}!`}>
-			<Container
-				onClick={handleNavigate}
-				sx={{ transform: `scale(${scale})` }}
-			>
+			<Container onClick={handleNavigate} sx={{ transform: `scale(${scale})` }}>
 				<Avatar src={logo} alt={name} />
 				<Typography>{name}</Typography>
 			</Container>

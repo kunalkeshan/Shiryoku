@@ -36,29 +36,26 @@ const ContributorCard: FC<ContributeCardProps> = ({
 		<Card sx={{ width: 'clamp(200px, 100%, 560px)' }}>
 			<CardContent>
 				<Typography
-					variant='body1'
-					fontSize='1.25rem'
-					display='flex'
-					alignItems='center'
+					variant="body1"
+					fontSize="1.25rem"
+					display="flex"
+					alignItems="center"
 					gap={2}
 				>
 					{icon} {name}
 				</Typography>
-				<Typography variant='body2' fontSize='1rem'>
+				<Typography variant="body2" fontSize="1rem">
 					{description}
 				</Typography>
 			</CardContent>
 			<CardActions>
 				<ContributeButton
-					variant='text'
+					variant="text"
 					onClick={handleNavigate(contributeUrl)}
 				>
 					How to Contribute?
 				</ContributeButton>
-				<RepoButton
-					variant='contained'
-					onClick={handleNavigate(repoUrl)}
-				>
+				<RepoButton variant="contained" onClick={handleNavigate(repoUrl)}>
 					Visit Repo.
 				</RepoButton>
 			</CardActions>

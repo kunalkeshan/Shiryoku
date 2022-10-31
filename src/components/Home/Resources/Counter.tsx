@@ -32,9 +32,9 @@ const Counter = () => {
 
 	return (
 		<Main>
-			<Typography variant='body1'>{resourcesCount}+ Resources</Typography>
-			<Typography variant='body1'>{roadmapsCount}+ Roadmaps</Typography>
-			<Typography variant='caption'>and counting more</Typography>
+			<Typography variant="body1">{resourcesCount}+ Resources</Typography>
+			<Typography variant="body1">{roadmapsCount}+ Roadmaps</Typography>
+			<Typography variant="caption">and counting more</Typography>
 		</Main>
 	);
 };

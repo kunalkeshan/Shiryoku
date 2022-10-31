@@ -63,9 +63,7 @@ const NavigationItem: FC<NavigationItemProps> = (props) => {
 		>
 			<Button
 				sx={buttonStyling}
-				onClick={() =>
-					handleNavigate({ link: props?.link, nav: props?.nav })
-				}
+				onClick={() => handleNavigate({ link: props?.link, nav: props?.nav })}
 			>
 				<Icon sx={iconStyling}>{props.icon}</Icon>
 				<ListItemText

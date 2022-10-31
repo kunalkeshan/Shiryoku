@@ -46,10 +46,7 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 						...prev,
 						lastShown: Date.now(),
 					};
-					localStorage.setItem(
-						'formStatus',
-						JSON.stringify(newStatus)
-					);
+					localStorage.setItem('formStatus', JSON.stringify(newStatus));
 					return newStatus;
 				});
 			}, THIRTY_MS);
@@ -62,8 +59,7 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 				setFormStatus(localFormStatus);
 				if (localFormStatus.lastShown !== null) {
 					const now = Date.now();
-					if (now - localFormStatus.lastShown! > TWO_WEEKS_MS)
-						handleShowForm();
+					if (now - localFormStatus.lastShown! > TWO_WEEKS_MS) handleShowForm();
 				} else handleShowForm();
 			} else handleShowForm();
 		};
@@ -86,10 +82,7 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 				<DialogTitle>Feedback Form</DialogTitle>
 				<Typography mx={3} mb={2}>
 					Unable to view the form, use{' '}
-					<Link
-						href={config.GOOGLE_FORM_FEEDBACK_URL}
-						target='_blank'
-					>
+					<Link href={config.GOOGLE_FORM_FEEDBACK_URL} target="_blank">
 						{' '}
 						this link instead
 					</Link>
@@ -97,13 +90,13 @@ const FeedbackModal: FC<FeedbackModalProps> = ({ open, setOpen }) => {
 				</Typography>
 				<FormIframe
 					src={`${config.GOOGLE_FORM_FEEDBACK_URL}&embedded=true`}
-					frameBorder='0'
-					title='Shiryoku Feedback Form'
+					frameBorder="0"
+					title="Shiryoku Feedback Form"
 				>
 					Loading…
 				</FormIframe>
 				<DialogActions>
-					<CloseButton variant='text' color='error' onClick={onClose}>
+					<CloseButton variant="text" color="error" onClick={onClose}>
 						Close
 					</CloseButton>
 				</DialogActions>

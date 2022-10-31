@@ -54,16 +54,15 @@ With Shiryoku, you can expect the top resources to be available to you based on 
 This project is open source, you can add any resources (given that it does not exist already) to this project, either directly or indirectly. To know more about it refer to the [Contributing guidelines](/CONTRIBUTING.md).
 
 | ![Shiryoku (Resources) Open source](/assets/features/open-source-1.jpg) | ![Shiryoku (Resources) Open source](/assets/features/open-source-2.jpg) | ![Shiryoku (Resources) Open source](/assets/features/open-source-3.jpg) |
-| --- | --- | --- |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 
 ## Feedback
 
-This is a constantly growing project that relies on user feedback to achieve what the users want while maintaining the project's quality. 
+This is a constantly growing project that relies on user feedback to achieve what the users want while maintaining the project's quality.
 
 Please feel free to share your thoughts on this project by filling the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNQDOQkEKPubOBRIhselYTjCv82qv7qTyPh6exFvkT3sumhw/viewform?entry.34189569=Shiryoku+(Resources)">Form.</a>
 
 ![Feedback](/assets/features/feedback.jpeg)
-
 
 ## 📥 Contributing
 
@@ -82,7 +81,6 @@ If you're not sure how to contribute using GitHub, fill out this form with the r
 ## 📃 License
 
 This project is licensed under the [MIT License](/LICENSE).
-
 
 ### 🗡️ Forking this Repo?
 

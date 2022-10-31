@@ -25,15 +25,15 @@ const ContributorCard: FC<ContributorCardProps> = ({
 				title={`Visit ${username}'s Profile, contributions made: ${contributions}`}
 			>
 				<Box
-					display='flex'
-					alignItems='center'
-					justifyContent='center'
+					display="flex"
+					alignItems="center"
+					justifyContent="center"
 					flexDirection={'column'}
-					width='100%'
-					height='100%'
+					width="100%"
+					height="100%"
 				>
-					<Avatar src={avatar} alt={username} variant='rounded' />
-					<Typography variant='caption'>{username}</Typography>
+					<Avatar src={avatar} alt={username} variant="rounded" />
+					<Typography variant="caption">{username}</Typography>
 				</Box>
 			</Tooltip>
 		</Main>

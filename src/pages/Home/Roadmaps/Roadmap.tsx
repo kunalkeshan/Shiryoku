@@ -78,68 +78,59 @@ const Roadmap = () => {
 
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Roadmap{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					- organized approach to the resources.
 				</Typography>
 			</Typography>
 			<Divider />
 			<Cover>
 				<img
-					className='cover'
+					className="cover"
 					src={roadmap?.cover}
 					alt={roadmap?.name}
-					loading='lazy'
+					loading="lazy"
 				/>
 				<img
-					className='icon'
+					className="icon"
 					src={roadmap?.icon}
 					alt={roadmap?.name}
-					loading='lazy'
+					loading="lazy"
 				/>
 				<ArrowBackIcon
-					className='backBtn'
-					titleAccess='Go back'
+					className="backBtn"
+					titleAccess="Go back"
 					onClick={() => navigate('/roadmaps')}
 				/>
 			</Cover>
-			<Typography variant='h4' mt={2}>
+			<Typography variant="h4" mt={2}>
 				{roadmap?.name}
-				<Tooltip title='Copy roadmap url to clipboard'>
+				<Tooltip title="Copy roadmap url to clipboard">
 					<ContentCopyIcon
 						onClick={handleCopyToClipboard}
 						sx={{ cursor: 'pointer' }}
 					/>
 				</Tooltip>
 			</Typography>
-			<Typography variant='caption'>{roadmap?.description}</Typography>
+			<Typography variant="caption">{roadmap?.description}</Typography>
 			{roadmap?.topics.length! > 0 &&
 				roadmap?.topics.map((topic, index) => (
 					<Accordion key={index}>
 						<AccordionSummary
 							expandIcon={<ExpandMoreIcon />}
-							aria-controls='panel1a-content'
-							id='panel1a-header'
+							aria-controls="panel1a-content"
+							id="panel1a-header"
 						>
-							<Typography variant='h6'>{topic.name}</Typography>
+							<Typography variant="h6">{topic.name}</Typography>
 						</AccordionSummary>
 						<AccordionDetails>
 							<Grid container gap={2}>
 								{resources.length > 0 &&
 									// eslint-disable-next-line array-callback-return
 									resources.map((resource, index) => {
-										if (
-											resource.roadmap?.subTopics.includes(
-												topic.id
-											)
-										)
-											return (
-												<ResourceCard
-													key={index}
-													{...resource}
-												/>
-											);
+										if (resource.roadmap?.subTopics.includes(topic.id))
+											return <ResourceCard key={index} {...resource} />;
 									})}
 							</Grid>
 						</AccordionDetails>

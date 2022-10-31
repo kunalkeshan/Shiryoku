@@ -10,26 +10,26 @@ const DefaultSkeleton = () => {
 	return (
 		<Box>
 			<Skeleton
-				variant='rounded'
-				width='clamp(200px, 100%, 600px)'
+				variant="rounded"
+				width="clamp(200px, 100%, 600px)"
 				height={60}
 			/>
 			<Main>
 				{[1, 2].map((num) => (
 					<SkeletonContainer key={num}>
 						<Skeleton
-							variant='rectangular'
-							width='clamp(200px, 100%, 600px)'
+							variant="rectangular"
+							width="clamp(200px, 100%, 600px)"
 							height={120}
 						/>
 						<Skeleton
-							variant='rounded'
-							width='clamp(200px, 100%, 600px)'
+							variant="rounded"
+							width="clamp(200px, 100%, 600px)"
 							height={20}
 						/>
 						<Skeleton
-							variant='rounded'
-							width='clamp(100px, 100%, 300px)'
+							variant="rounded"
+							width="clamp(100px, 100%, 300px)"
 							height={20}
 						/>
 					</SkeletonContainer>

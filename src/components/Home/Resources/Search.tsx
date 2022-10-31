@@ -36,14 +36,14 @@ const Search = () => {
 	return (
 		<Box mb={2}>
 			<TextField
-				type='text'
-				variant='outlined'
+				type="text"
+				variant="outlined"
 				fullWidth
-				label='Search'
-				placeholder='Search for awesome resources...'
+				label="Search"
+				placeholder="Search for awesome resources..."
 				value={search}
 				onChange={(e) => setSearch(e.target.value)}
-				autoComplete='off'
+				autoComplete="off"
 				InputProps={{
 					endAdornment: <SearchIcon />,
 				}}

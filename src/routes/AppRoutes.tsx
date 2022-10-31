@@ -21,48 +21,27 @@ const NotFound = lazy(() => import('../pages/NotFound'));
 
 const AppRoutes = () => {
 	return (
-		<Suspense fallback={<Home><DefaultSkeleton /></Home>}>
+		<Suspense
+			fallback={
+				<Home>
+					<DefaultSkeleton />
+				</Home>
+			}
+		>
 			<Routes>
-				<Route path='/' element={<Home />}>
-					<Route
-						index
-						element={<Resources />}
-					/>
-					<Route
-						path='contribute'
-						element={<Contribute />}
-					/>
-					<Route
-						path='issues'
-						element={<Issues />}
-					/>
-					<Route
-						path='contact'
-						element={<Contact />}
-					/>
-					<Route
-						path='support'
-						element={<Support />}
-					/>
-					<Route
-						path='about'
-						element={<About />}
-					/>
-					<Route
-						path='roadmaps'
-						element={<Roadmaps />}
-					/>
-					<Route
-						path='roadmaps/:currentRoadmap'
-						element={<Roadmap />}
-					/>
-					<Route path='*' element={<Navigate to={'/not-found'} />} />
+				<Route path="/" element={<Home />}>
+					<Route index element={<Resources />} />
+					<Route path="contribute" element={<Contribute />} />
+					<Route path="issues" element={<Issues />} />
+					<Route path="contact" element={<Contact />} />
+					<Route path="support" element={<Support />} />
+					<Route path="about" element={<About />} />
+					<Route path="roadmaps" element={<Roadmaps />} />
+					<Route path="roadmaps/:currentRoadmap" element={<Roadmap />} />
+					<Route path="*" element={<Navigate to={'/not-found'} />} />
 				</Route>
-				<Route
-					path='/not-found'
-					element={<NotFound />}
-				/>
-				<Route path='*' element={<Navigate to={'/not-found'} />} />
+				<Route path="/not-found" element={<NotFound />} />
+				<Route path="*" element={<Navigate to={'/not-found'} />} />
 			</Routes>
 		</Suspense>
 	);

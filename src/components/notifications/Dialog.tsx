@@ -46,9 +46,7 @@ const NotificationDialog: FC<DialogProps> = ({
 	const handleMarkAllAsRead = () => {
 		if (notifications.length) {
 			notifications.forEach(async (notification) => {
-				await Data.Notifications.updateReadNotifications(
-					notification.id
-				);
+				await Data.Notifications.updateReadNotifications(notification.id);
 				setNotifications((prevNotifications) => {
 					const updated = prevNotifications.map((notification) => {
 						if (!notification.read) notification.read = true;
@@ -64,7 +62,7 @@ const NotificationDialog: FC<DialogProps> = ({
 		<DialogBox
 			open={open}
 			onClose={handleClose}
-			aria-describedby='alert-dialog-slide-description'
+			aria-describedby="alert-dialog-slide-description"
 		>
 			<DialogTitle>
 				<CelebrationIcon /> Notifications
@@ -84,13 +82,13 @@ const NotificationDialog: FC<DialogProps> = ({
 			</DialogContent>
 			<Actions>
 				<MarkAllAsReadButton
-					variant='text'
+					variant="text"
 					onClick={handleMarkAllAsRead}
 					{...(isAllRead ? { disabled: true } : null)}
 				>
 					Mark All As Read
 				</MarkAllAsReadButton>
-				<CloseButton variant='text' onClick={handleClose}>
+				<CloseButton variant="text" onClick={handleClose}>
 					Close
 				</CloseButton>
 			</Actions>

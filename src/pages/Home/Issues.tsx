@@ -29,21 +29,16 @@ const Issues = () => {
 	}, []);
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Issues{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					to fix the Resources.
 				</Typography>
 			</Typography>
 			<Divider />
 			<Content>
 				{issues.length > 0 ? (
-					<CardsContainer
-						container
-						spacing={2}
-						gap={2}
-						justifyContent='center'
-					>
+					<CardsContainer container spacing={2} gap={2} justifyContent="center">
 						{issues.map((issue, index) => (
 							<IssueCard {...issue} key={index} />
 						))}
