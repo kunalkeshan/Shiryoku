@@ -460,7 +460,7 @@ const RESOURCES: Resource[] = [
     ],
   },
   {
-    name: "Microsoft Developer Network (MDN)",
+    name: "Mozilla Developer Network (MDN)",
     description:
       "MDN Web Docs is an open-source, collaborative project documenting Web platform technologies, including CSS, HTML, JavaScript, and Web APIs. We also provide an extensive set of learning resources for beginning developers and students",
     url: "https://developer.mozilla.org/",
