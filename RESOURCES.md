@@ -6,7 +6,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), 
+	- [30 Seconds Of Interviews](#30-seconds-of-interviews), [Cloudcraft](#cloudcraft), [SAVEE](#savee), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [Fontjoy](#fontjoy), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [TOOOLS.design](#toools-design), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [figma](#figma), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Microsoft Developer Network (MDN)](#microsoft-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), [Pluralsight](#pluralsight), [NextUI](#nextui), 
 
 ## Collection
 
@@ -18,6 +18,32 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://30secondsofinterviews.org/](https://30secondsofinterviews.org/)
 
 > Visit GitHub: [https://github.com/30-seconds/30-seconds-of-interviews](https://github.com/30-seconds/30-seconds-of-interviews)
+
+---
+
+
+
+### Cloudcraft
+
+| <img src="https://global-uploads.webflow.com/57013820ae28654573965bf2/57013a1ff31eee4673af9209_cloudcraft.svg" alt="Cloudcraft logo" width="80px" height="auto" /> | A site where you can create smart URL diagrams and visualize your cloud architecture easily | `aws`, `cloud diagrams`, `cloud architecture`, `tools`, `programming`, `coding`, `web development` |
+| --- | --- | --- |
+
+> Visit Website: [https://www.cloudcraft.co/](https://www.cloudcraft.co/)
+
+> Visit GitHub: [https://github.com/cloudcraft](https://github.com/cloudcraft)
+
+---
+
+
+
+### SAVEE
+
+| <img src="https://www.evernote.design/assets/images/savee.jpg" alt="SAVEE logo" width="80px" height="auto" /> | SAVEE is a platform for you to get inspired save everything you love, right on your phone. Save images straight from Instagram and your browser. | `graphic design`, `ui/ux`, `pinboard`, `moodboard` |
+| --- | --- | --- |
+
+> Visit Website: [https://savee.it/](https://savee.it/)
+
+
 
 ---
 
@@ -70,6 +96,19 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://notes.kunalkeshan.dev](https://notes.kunalkeshan.dev)
 
 > Visit GitHub: [https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24](https://github.com/kunalkeshan/SRMIST-B.Tech-ECE-Notes-2022-24)
+
+---
+
+
+
+### Fontjoy
+
+| <img src="https://www.threebu.it/public/247/fontjoy-logo.jpg" alt="Fontjoy logo" width="80px" height="auto" /> | Fontjoy helps designers choose the best font combinations. Mix and match different fonts for the perfect pairing | `font-pairing`, `graphic design`, `free` |
+| --- | --- | --- |
+
+> Visit Website: [https://fontjoy.com/](https://fontjoy.com/)
+
+
 
 ---
 
@@ -179,6 +218,19 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 
 
+### TOOOLS.design
+
+| <img src="https://cdn.buymeacoffee.com/uploads/profile_pictures/2022/05/8e8c6b213a3b2dfcb75fa78f1cd6728e.jpg@300w_0e.webp" alt="TOOOLS.design logo" width="80px" height="auto" /> | A growing archive of over a thousand design resources, weekly updated for the community. Discover highly useful design tools you never thought existed. | `graphic design`, `ui/ux`, `productivity`, `graphic design`, `free` |
+| --- | --- | --- |
+
+> Visit Website: [https://www.toools.design/](https://www.toools.design/)
+
+
+
+---
+
+
+
 ### Checklist Design
 
 | <img src="https://uploads-ssl.webflow.com/5ba4b3c973b5d218459f7e6f/5f33ce6795b617814aa43eb1_checklist-favicon.png" alt="Checklist Design logo" width="80px" height="auto" /> | A collection of the best design practices. | `practice`, `productivity`, `tools`, `graphic design`, `ui/ux`, `frontend`, `free`, `html` |
@@ -200,6 +252,19 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://www.remove.bg/](https://www.remove.bg/)
 
 
+
+---
+
+
+
+### figma
+
+| <img src="https://miro.medium.com/max/1400/1*yaZ-u-EiZ6kanJP9zPFXVQ.jpeg" alt="figma logo" width="80px" height="auto" /> | With Figma, everyone works towards a shared goal. This has enabled product teams to ship new products faster and feel more confident in their decisions. | `graphic design`, `graphic design`, `ui/ux`, `free`, `productivity` |
+| --- | --- | --- |
+
+> Visit Website: [https://www.figma.com/](https://www.figma.com/)
+
+> Visit GitHub: [https://github.com/figma](https://github.com/figma)
 
 ---
 
@@ -558,7 +623,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 ### Z-Library
 
-| <img src="https://b-ok.asia/favicon-32x32.svg?v=2" alt="Z-Library logo" width="80px" height="auto" /> | Part of Z-Library project. The world's largest ebook library | `ebooks`, `library`, `books` |
+| <img src="https://b-ok.asia/favicon-32x32.svg?v=2" alt="Z-Library logo" width="80px" height="auto" /> | Part of Z-Library project. The world's largest ebook library | `learning`, `library` |
 | --- | --- | --- |
 
 > Visit Website: [https://b-ok.asia/](https://b-ok.asia/)
@@ -597,10 +662,36 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 ### Leetcode
 
-| <img src="https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png" alt="Leetcode logo" width="80px" height="auto" /> | LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. | `techincal`, `interview`, `coding`, `dsa` |
+| <img src="https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png" alt="Leetcode logo" width="80px" height="auto" /> | LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews. | `interview`, `coding`, `dsa` |
 | --- | --- | --- |
 
 > Visit Website: [https://leetcode.com/](https://leetcode.com/)
+
+
+
+---
+
+
+
+### Pluralsight
+
+| <img src="https://pluralsight.imgix.net/author/lg/1708f64b-8969-4de8-ae00-9c7b732c5fb9.jpg" alt="Pluralsight logo" width="80px" height="auto" /> | Pluralsight is an online learning and teaching marketplace with over 25k courses and 20 million students | `interview`, `coding`, `dsa` |
+| --- | --- | --- |
+
+> Visit Website: [https://pluralsight.com/](https://pluralsight.com/)
+
+
+
+---
+
+
+
+### NextUI
+
+| <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Yee2W_yTCRQd2iSp_k1nbAHaDt%26pid%3DApi&f=1&ipt=1430e8698b8b837b9ecbab68f9f820bac1d57f0f12252cca55a2f8fdcae4c02c&ipo=images" alt="NextUI logo" width="80px" height="auto" /> | Beautiful, Modern and fast react library which Make beautiful websites regardless of your design experience. It includes pre-built components which are highly customisable | `programming`, `web development`, `javascript`, `frontend`, `coding`, `css`, `free` |
+| --- | --- | --- |
+
+> Visit Website: [https://nextui.org/](https://nextui.org/)
 
 
 

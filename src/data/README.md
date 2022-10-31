@@ -4,11 +4,12 @@ A mini guide to how the app data is stored in the resources application.
 
 **Table of Contents**:
 
-- [Templates](#templates)
-  - [Resources](#resources)
-  - [Notifications](#notifications)
-  - [Tags](#tags)
-  - [Roadmaps](#roadmaps)
+- [App Data](#app-data)
+  - [Templates](#templates)
+    - [Resources](#resources)
+    - [Notifications](#notifications)
+    - [Tags](#tags)
+    - [Roadmaps](#roadmaps)
 
 ## Templates
 
@@ -24,21 +25,21 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
- {
-  "name": "",
-  "description": "",
-  "url": "",
-  "icon": "",
-  "tags": [""],
-  "roadmap": {
-   "ids": [""],
-   "subTopics": [""],
+  {
+    "name": "",
+    "description": "",
+    "url": "",
+    "icon": "",
+    "tags": [""],
+    "roadmap": {
+      "ids": [""],
+      "subTopics": [""]
+    }
   }
- }
 ]
 ```
 
-> File: [resources.json](./resources.json)
+> File: [resources.ts](./resources.ts)
 
 ### Notifications
 
@@ -51,31 +52,28 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
- {
-  "id": "",
-  "title": "",
-  "message": "",
-  "dateAdded": "",
-  "link": "",
-  "linkText": ""
- }
+  {
+    "id": "",
+    "title": "",
+    "message": "",
+    "dateAdded": "",
+    "link": "",
+    "linkText": ""
+  }
 ]
 ```
 
-> File: [notifications.json](./notifications.json)
+> File: [notifications.ts](./notifications.ts)
 
 ### Tags
 
 - `tags`: Collection of Uniqe tags. (required syntax: lowercase, separted by white space, eg: `web development`)
 
 ```json
-[
-    "...others",
-    "unique tag"
-]
+["...others", "unique tag"]
 ```
 
-> File: [tags.json](./tags.json)
+> File: [tags.ts](./tags.ts)
 
 ### Roadmaps
 
@@ -89,18 +87,18 @@ A mini guide to how the app data is stored in the resources application.
 
 ```json
 [
- {
-  "id": "",
-  "name": "",
-  "description": "",
-  "icon": "",
-  "cover": "",
-  "topics": [
-   {
+  {
     "id": "",
-    "name": ""
-   }
-  ]
- }
+    "name": "",
+    "description": "",
+    "icon": "",
+    "cover": "",
+    "topics": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ]
+  }
 ]
 ```
