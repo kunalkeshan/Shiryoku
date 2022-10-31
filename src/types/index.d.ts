@@ -23,7 +23,8 @@ interface Resource {
  * into this file treats this file as a normal module
  * instead of a global type declarataion.
  */
-type Tags = readonly import("../data/tags").Tag[];
+type Tag = import("../data/tags").Tag;
+type Tags = Tag[];
 
 /**
  * Notifications Interface

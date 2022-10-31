@@ -27,7 +27,7 @@ interface ResourcesUtility {
 }
 
 interface TagUtility {
-  getTags: () => Promise<Tags>;
+  getTags: () => Promise<readonly Tag[]>;
 }
 
 interface NotificationUtility {
