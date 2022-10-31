@@ -1,10 +1,11 @@
+// @ts-nocheck
 /**
  * Convert Resources JSON to Resources MD
  */
 
-const fs = require("fs");
-const path = require("path");
-const RESOURCES = require("../src/data/resources");
+import RESOURCES from "../src/data/resources";
+import fs from "fs";
+import path from "path";
 
 const MD_PATH = path.join(__dirname, "../RESOURCES.md");
 

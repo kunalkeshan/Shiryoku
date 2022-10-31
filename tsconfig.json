@@ -20,6 +20,7 @@
   "typeRoots": ["./node_modules/@types", "./src/types"],
   "include": ["src"],
   "ts-node": {
-    "files": true
+    "files": true,
+    "compilerOptions": { "isolatedModules": false, "module": "CommonJS" }
   }
 }
