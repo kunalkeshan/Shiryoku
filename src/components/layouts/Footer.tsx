@@ -60,13 +60,13 @@ const Footer = () => {
 	};
 
 	return (
-		<Main component='footer'>
-			<Typography variant='body2'>
+		<Main component="footer">
+			<Typography variant="body2">
 				All Rights Reserved.{' '}
 				<Link
-					component='a'
-					href='https://github.com/kunalkeshan/Shiryoku/blob/main/LICENSE'
-					target='_blank'
+					component="a"
+					href="https://github.com/kunalkeshan/Shiryoku/blob/main/LICENSE"
+					target="_blank"
 					sx={{
 						cursor: 'pointer',
 					}}
@@ -76,9 +76,9 @@ const Footer = () => {
 				&copy; {new Date().getFullYear()} . Made with &#129505; by{' '}
 				{
 					<Link
-						component='a'
-						href='https://twitter.com/_kunalkeshan_'
-						target='_blank'
+						component="a"
+						href="https://twitter.com/_kunalkeshan_"
+						target="_blank"
 						sx={{
 							cursor: 'pointer',
 						}}
@@ -92,7 +92,7 @@ const Footer = () => {
 				{links.map((link, index) => (
 					<Link
 						key={index}
-						component='a'
+						component="a"
 						onClick={() => handleNavigate(link)}
 						sx={{
 							cursor: 'pointer',
@@ -104,7 +104,7 @@ const Footer = () => {
 				))}
 			</NavLinks>
 			<Box m={2}>
-				<Typography variant='caption' lineHeight={0}>
+				<Typography variant="caption" lineHeight={0}>
 					{/* Project Partners: */}
 				</Typography>
 				<ProjectPartnersContainer>

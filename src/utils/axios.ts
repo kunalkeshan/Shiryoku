@@ -18,9 +18,7 @@ export const fetchProjectContributorsList: IFetchProjectContributors =
 				? JSON.parse(sessionStorage.getItem('contributors') || '{}')
 				: null;
 			if (!contributors) {
-				const response = await axios.get(
-					config.GITHUB_CONTRIBUTIONS_URL
-				);
+				const response = await axios.get(config.GITHUB_CONTRIBUTIONS_URL);
 				contributors = response.data.map((account: any) => {
 					return {
 						username: account.login,
@@ -29,10 +27,7 @@ export const fetchProjectContributorsList: IFetchProjectContributors =
 						contributions: account.contributions,
 					};
 				});
-				sessionStorage.setItem(
-					'contributors',
-					JSON.stringify(contributors)
-				);
+				sessionStorage.setItem('contributors', JSON.stringify(contributors));
 			}
 			return contributors;
 		} catch (error) {

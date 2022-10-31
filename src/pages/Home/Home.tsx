@@ -3,7 +3,13 @@
  */
 
 // Dependencies
-import React, { useEffect, useState, FC, PropsWithChildren, ReactNode } from 'react';
+import React, {
+	useEffect,
+	useState,
+	FC,
+	PropsWithChildren,
+	ReactNode,
+} from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { styled, useTheme, Theme, CSSObject } from '@mui/material/styles';
 import {
@@ -118,13 +124,13 @@ const Home: FC<HomeProps> = ({ children }) => {
 	return (
 		<Box sx={{ display: 'flex' }}>
 			<CssBaseline />
-			<AppBar position='fixed' open={open}>
+			<AppBar position="fixed" open={open}>
 				<Toolbar>
 					<IconButton
-						color='inherit'
-						aria-label='open drawer'
+						color="inherit"
+						aria-label="open drawer"
 						onClick={handleDrawerOpen}
-						edge='start'
+						edge="start"
 						sx={{
 							marginRight: 1,
 							...(open && { display: 'none' }),
@@ -142,9 +148,9 @@ const Home: FC<HomeProps> = ({ children }) => {
 						}}
 					>
 						<Typography
-							variant='h5'
+							variant="h5"
 							noWrap
-							component='div'
+							component="div"
 							sx={{
 								'@media (max-width: 500px)': {
 									display: 'flex',
@@ -153,12 +159,9 @@ const Home: FC<HomeProps> = ({ children }) => {
 							}}
 						>
 							Shiryoku (Resources){' '}
-							<Typography variant='caption' component='span'>
+							<Typography variant="caption" component="span">
 								by{' '}
-								<Link
-									href={config.CONTACT.twitter}
-									color='#fff'
-								>
+								<Link href={config.CONTACT.twitter} color="#fff">
 									Kunal Keshan
 								</Link>
 							</Typography>
@@ -167,19 +170,17 @@ const Home: FC<HomeProps> = ({ children }) => {
 					</Box>
 				</Toolbar>
 			</AppBar>
-			<Drawer variant='permanent' open={open}>
-				<DrawerHeader
-					sx={{ display: 'flex', justifyContent: 'space-between' }}
-				>
+			<Drawer variant="permanent" open={open}>
+				<DrawerHeader sx={{ display: 'flex', justifyContent: 'space-between' }}>
 					<Typography
-						variant='h4'
-						textAlign='center'
-						width='100%'
+						variant="h4"
+						textAlign="center"
+						width="100%"
 						sx={{ userSelect: 'none' }}
 					>
 						<Tooltip
-							title='Shiryoku (Japanese for Resources)'
-							placement='bottom'
+							title="Shiryoku (Japanese for Resources)"
+							placement="bottom"
 							followCursor
 						>
 							<div>資</div>
@@ -216,7 +217,7 @@ const Home: FC<HomeProps> = ({ children }) => {
 					))}
 				</List>
 			</Drawer>
-			<Box component='main' sx={{ flexGrow: 1, p: 3 }}>
+			<Box component="main" sx={{ flexGrow: 1, p: 3 }}>
 				<DrawerHeader />
 				{children ? children : <Outlet />}
 				<Footer />

@@ -36,37 +36,27 @@ const Contact = () => {
 			{
 				name: `Email: ${config.CONTACT.email}`,
 				url: `mailto:${config.CONTACT.email}`,
-				icon: (
-					<EmailIcon
-						sx={{ '&:hover': { color: '#ff0f00 !important' } }}
-					/>
-				),
+				icon: <EmailIcon sx={{ '&:hover': { color: '#ff0f00 !important' } }} />,
 			},
 			{
 				name: 'Instagram',
 				url: config.CONTACT.instagram,
 				icon: (
-					<InstagramIcon
-						sx={{ '&:hover': { color: '#C13584 !important' } }}
-					/>
+					<InstagramIcon sx={{ '&:hover': { color: '#C13584 !important' } }} />
 				),
 			},
 			{
 				name: 'LinkedIn',
 				url: config.CONTACT.linkedIn,
 				icon: (
-					<LinkedInIcon
-						sx={{ '&:hover': { color: '#1DA1F2 !important' } }}
-					/>
+					<LinkedInIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />
 				),
 			},
 			{
 				name: 'Twitter',
 				url: config.CONTACT.twitter,
 				icon: (
-					<TwitterIcon
-						sx={{ '&:hover': { color: '#1DA1F2 !important' } }}
-					/>
+					<TwitterIcon sx={{ '&:hover': { color: '#1DA1F2 !important' } }} />
 				),
 			},
 			{
@@ -78,9 +68,7 @@ const Contact = () => {
 				name: 'YouTube',
 				url: config.CONTACT.youtube,
 				icon: (
-					<YouTubeIcon
-						sx={{ '&:hover': { color: '#ff0000 !important' } }}
-					/>
+					<YouTubeIcon sx={{ '&:hover': { color: '#ff0000 !important' } }} />
 				),
 			},
 		],
@@ -91,7 +79,7 @@ const Contact = () => {
 		return (
 			<Tooltip title={name}>
 				<LinkPaper>
-					<Link href={url} target='_blank'>
+					<Link href={url} target="_blank">
 						{icon}
 					</Link>
 				</LinkPaper>
@@ -101,9 +89,9 @@ const Contact = () => {
 
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Contact{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					for any queries.
 				</Typography>
 			</Typography>
@@ -118,67 +106,64 @@ const Contact = () => {
 					/>
 				</Animation>
 				<ContactForm width={{ xs: '100%', md: '35%' }}>
-					<Typography variant='body1'>
-						If you have some changes that will improve the quality
-						of this project, or this website. Feel free to contact
-						me by filling the form below. I'll reach out to you
-						ASAP!
+					<Typography variant="body1">
+						If you have some changes that will improve the quality of this
+						project, or this website. Feel free to contact me by filling the
+						form below. I'll reach out to you ASAP!
 					</Typography>
 					{submit.succeeded ? (
 						<Box>
 							<Divider sx={{ my: 2 }} />
-							<Typography variant='body1' fontSize='1.5rem'>
-								Thanks for sending me a message! I'll get back
-								to you ASAP!
+							<Typography variant="body1" fontSize="1.5rem">
+								Thanks for sending me a message! I'll get back to you ASAP!
 							</Typography>
 							<Divider sx={{ my: 2 }} />
 						</Box>
 					) : (
-						<Form component='form' onSubmit={handleSubmit}>
+						<Form component="form" onSubmit={handleSubmit}>
 							<TextField
-								type='text'
-								variant='outlined'
-								placeholder='eg: John Doe'
-								name='name'
-								id='name'
-								label='Name'
+								type="text"
+								variant="outlined"
+								placeholder="eg: John Doe"
+								name="name"
+								id="name"
+								label="Name"
 								fullWidth
 								required
 							/>
 							<TextField
-								type='email'
-								variant='outlined'
-								placeholder='eg: john.doe@gmail.com'
-								name='email'
-								id='email'
-								label='Email'
+								type="email"
+								variant="outlined"
+								placeholder="eg: john.doe@gmail.com"
+								name="email"
+								id="email"
+								label="Email"
 								fullWidth
 								required
 							/>
 							<TextField
-								type='text'
-								variant='outlined'
-								placeholder='eg: Improve site navbar!'
-								name='message'
-								id='message'
-								label='Your Message'
+								type="text"
+								variant="outlined"
+								placeholder="eg: Improve site navbar!"
+								name="message"
+								id="message"
+								label="Your Message"
 								multiline
 								fullWidth
 								required
 							/>
 							<ValidationError
-								prefix='Message'
-								field='message'
+								prefix="Message"
+								field="message"
 								errors={submit.errors}
 							/>
-							<SubmitButton type='submit' variant='outlined'>
+							<SubmitButton type="submit" variant="outlined">
 								Send Message
 							</SubmitButton>
 						</Form>
 					)}
-					<Typography variant='body1'>
-						Alternatively, contact me through any of the links
-						below.
+					<Typography variant="body1">
+						Alternatively, contact me through any of the links below.
 					</Typography>
 					<LinksContainer>
 						{socialLinks.map((link, index) => (

@@ -38,12 +38,12 @@ const IssueCard: FC<IssueCardProps> = ({
 	return (
 		<Grid item xs={12} md={4} m={2}>
 			<Card>
-				<Typography variant='h6' lineHeight={1}>
+				<Typography variant="h6" lineHeight={1}>
 					<GitHubIcon /> {title} <br />
 					<Chip
 						label={state}
-						variant='outlined'
-						color='success'
+						variant="outlined"
+						color="success"
 						sx={{ transform: 'scale(0.8)' }}
 					/>
 				</Typography>
@@ -54,7 +54,7 @@ const IssueCard: FC<IssueCardProps> = ({
 						wordBreak: 'break-word',
 						img: {
 							width: '100%',
-						}
+						},
 					}}
 				>
 					<ReactMarkdown>{body}</ReactMarkdown>
@@ -62,7 +62,7 @@ const IssueCard: FC<IssueCardProps> = ({
 				<GitHubButton
 					startIcon={<GitHubIcon />}
 					onClick={handleNavigateToIssue}
-					variant='outlined'
+					variant="outlined"
 				>
 					View Issue in GitHub
 				</GitHubButton>
@@ -82,19 +82,12 @@ const IssueCard: FC<IssueCardProps> = ({
 						</Tooltip>
 					))}
 				<Divider />
-				<Stack
-					direction='column'
-					spacing={2}
-					mt={1}
-					fontSize={'0.75rem'}
-				>
+				<Stack direction="column" spacing={2} mt={1} fontSize={'0.75rem'}>
 					<p>
-						<b>Created At</b>:{' '}
-						{DateFns.format(new Date(createdAt), 'PPP')}
+						<b>Created At</b>: {DateFns.format(new Date(createdAt), 'PPP')}
 					</p>
 					<p>
-						<b>Updated At</b>:{' '}
-						{DateFns.format(new Date(updatedAt), 'PPP')}
+						<b>Updated At</b>: {DateFns.format(new Date(updatedAt), 'PPP')}
 					</p>
 				</Stack>
 			</Card>

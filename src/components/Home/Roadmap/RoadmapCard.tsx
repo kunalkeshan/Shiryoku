@@ -61,25 +61,20 @@ const RoadmapCard: FC<RoadmapCardProps> = ({
 	return (
 		<Grid item xs={12} md={3}>
 			<Card sx={{ maxWidth: 345 }}>
-				<CardMedia
-					component='img'
-					alt={name}
-					height='140'
-					image={cover}
-				/>
+				<CardMedia component="img" alt={name} height="140" image={cover} />
 				<CardContent>
-					<Typography gutterBottom variant='h5' component='div'>
+					<Typography gutterBottom variant="h5" component="div">
 						{name}
 					</Typography>
-					<Typography variant='body2' color='text.secondary'>
+					<Typography variant="body2" color="text.secondary">
 						{description}
 					</Typography>
 				</CardContent>
 				<CardActions>
-					<Button size='small' onClick={handleCopyToClipboard}>
+					<Button size="small" onClick={handleCopyToClipboard}>
 						Share
 					</Button>
-					<Button size='small' onClick={handleNavigate}>
+					<Button size="small" onClick={handleNavigate}>
 						Learn More
 					</Button>
 				</CardActions>

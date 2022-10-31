@@ -30,9 +30,9 @@ const Roadmaps = () => {
 
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Roadmaps{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					- organized approach to the resources.
 				</Typography>
 			</Typography>

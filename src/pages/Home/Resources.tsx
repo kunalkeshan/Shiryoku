@@ -14,18 +14,18 @@ import AllResources from '../../components/Home/Resources/AllResources';
 const Resources = () => {
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				Resources{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					that will blow your mind!
 				</Typography>
 			</Typography>
-			<Divider variant='fullWidth' />
+			<Divider variant="fullWidth" />
 			<Container>
 				<AllResources />
-				<CtaBox id='cta'>
+				<CtaBox id="cta">
 					<Search />
-					<Divider variant='fullWidth' />
+					<Divider variant="fullWidth" />
 					<Tags />
 				</CtaBox>
 			</Container>

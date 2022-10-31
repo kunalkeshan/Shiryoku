@@ -846,7 +846,40 @@ const RESOURCES: Resource[] = [
       "css",
       "free",
     ],
-  },
+	},
+	{
+		name: "daisyUI",
+		description: "A free and open-source Tailwind CSS based component library.",
+		url: "https://daisyui.com/",
+		tags: ["frontend", "css", "react", "tailwindcss"],
+		github: "https://github.com/saadeghi/daisyui",
+		icon: "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/favicon.ico"
+	},
+	{
+		name: "Headless UI",
+		description: "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.",
+		url: "https://headlessui.com/",
+		tags: ["frontend", "css", "react", "tailwindcss"],
+		github: "https://github.com/tailwindlabs/headlessui",
+		icon: "https://headlessui.com/apple-touch-icon.png"
+	},
+	{
+		name: "React Aria",
+		description: "React Aria is a collection of React hooks that implement accessible UI patterns.",
+		url: "https://react-spectrum.adobe.com/react-aria/",
+		tags: ["frontend", "css", "react", "library"],
+		github: "https://github.com/adobe/react-spectrum",
+		icon: "https://avatars.githubusercontent.com/u/476009?s=200&v=4",
+
+	},
+	{
+		name: "Radix",
+		description: "Radix is a React component library that provides accessible, fully customizable UI primitives.",
+		url: "https://www.radix-ui.com/",
+		tags: ["frontend", "css", "react", "library"],
+		icon: "https://www.radix-ui.com/favicon.png",
+		github: "https://github.com/radix-ui",
+	}
 ];
 
 export default RESOURCES;

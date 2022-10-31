@@ -46,21 +46,21 @@ const data = [
 const About = () => {
 	return (
 		<Main>
-			<Typography variant='h6' noWrap>
+			<Typography variant="h6" noWrap>
 				About{' '}
-				<Typography variant='caption' component='span'>
+				<Typography variant="caption" component="span">
 					- get to know the <b>"why"</b>.
 				</Typography>
 			</Typography>
 			<Divider />
 			<TranslationBox elevation={3}>
-				<Grid container id='container'>
-					<Grid item xs={5} className='container__box'>
-						<Typography variant='h5'>資</Typography>
+				<Grid container id="container">
+					<Grid item xs={5} className="container__box">
+						<Typography variant="h5">資</Typography>
 						<p>Japanese</p>
 					</Grid>
-					<Grid item xs={7} className='container__box'>
-						<Typography variant='h5'>Resources</Typography>
+					<Grid item xs={7} className="container__box">
+						<Typography variant="h5">Resources</Typography>
 						<p>English</p>
 					</Grid>
 				</Grid>
@@ -73,8 +73,7 @@ const About = () => {
 							display: 'flex',
 							alignItems: 'center',
 							mt: 4,
-							flexDirection:
-								index % 2 === 0 ? 'row' : 'row-reverse',
+							flexDirection: index % 2 === 0 ? 'row' : 'row-reverse',
 							gap: '1em',
 							'@media (max-width: 800px)': {
 								flexWrap: 'wrap',
@@ -83,8 +82,8 @@ const About = () => {
 						}}
 					>
 						<Box>
-							<Typography variant='h4'>{info.label}</Typography>
-							<Typography variant='h6'>{info.text}</Typography>
+							<Typography variant="h4">{info.label}</Typography>
+							<Typography variant="h6">{info.text}</Typography>
 						</Box>
 						<img
 							src={info.image}

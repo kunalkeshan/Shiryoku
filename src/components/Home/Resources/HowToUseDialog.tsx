@@ -116,9 +116,7 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 						} = {};
 						if (isStepOptional(index)) {
 							labelProps.optional = (
-								<Typography variant='caption'>
-									Optional
-								</Typography>
+								<Typography variant="caption">Optional</Typography>
 							);
 						}
 						if (isStepSkipped(index)) {
@@ -126,9 +124,7 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 						}
 						return (
 							<Step key={step.label} {...stepProps}>
-								<StepLabel {...labelProps}>
-									{step.label}
-								</StepLabel>
+								<StepLabel {...labelProps}>{step.label}</StepLabel>
 							</Step>
 						);
 					})}
@@ -137,8 +133,8 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 					<React.Fragment>
 						<Box sx={{ display: 'flex', flexDirection: 'column' }}>
 							<img
-								src='/logo512.png'
-								alt='Shiryoku'
+								src="/logo512.png"
+								alt="Shiryoku"
 								style={{
 									width: '30%',
 									height: 'auto',
@@ -146,12 +142,10 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 								}}
 							/>
 							<Typography sx={{ mt: 2, mb: 1 }}>
-								You've successfully seen how to use{' '}
-								<b>Shiryoku</b>.
+								You've successfully seen how to use <b>Shiryoku</b>.
 								<p>
-									If there's any issues with the app, feel
-									free to <Link to='/contact'>contact</Link>{' '}
-									and improve this project
+									If there's any issues with the app, feel free to{' '}
+									<Link to="/contact">contact</Link> and improve this project
 								</p>
 							</Typography>
 							<Counter />
@@ -179,16 +173,8 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 									}),
 								}}
 							>
-								<img
-									src={step.image}
-									alt={step.label}
-									loading='lazy'
-								/>
-								<Typography
-									variant='body1'
-									width='80%'
-									mx='auto'
-								>
+								<img src={step.image} alt={step.label} loading="lazy" />
+								<Typography variant="body1" width="80%" mx="auto">
 									{step.text}
 								</Typography>
 							</HowToUseInfo>
@@ -201,7 +187,7 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 							}}
 						>
 							<Button
-								color='inherit'
+								color="inherit"
 								disabled={activeStep === 0}
 								onClick={handleBack}
 								sx={{ mr: 1 }}
@@ -210,18 +196,12 @@ const HowToUseDialog: FC<DialogProps> = ({ open, setOpen }) => {
 							</Button>
 							<Box sx={{ flex: '1 1 auto' }} />
 							{isStepOptional(activeStep) && (
-								<Button
-									color='inherit'
-									onClick={handleSkip}
-									sx={{ mr: 1 }}
-								>
+								<Button color="inherit" onClick={handleSkip} sx={{ mr: 1 }}>
 									Skip
 								</Button>
 							)}
 							<Button onClick={handleNext}>
-								{activeStep === steps.length - 1
-									? 'Finish'
-									: 'Next'}
+								{activeStep === steps.length - 1 ? 'Finish' : 'Next'}
 							</Button>
 						</Box>
 					</React.Fragment>

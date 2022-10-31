@@ -32,8 +32,8 @@ function SnackbarComponent() {
 			<Alert
 				onClose={handleSnackbarClose}
 				severity={snackbar.type}
-				variant='standard'
-				className='z-50 w-full'
+				variant="standard"
+				className="z-50 w-full"
 			>
 				{snackbar.message}
 			</Alert>
