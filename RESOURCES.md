@@ -5,7 +5,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-  - [30 Seconds Of Interviews](#30-seconds-of-interviews), [Cloudcraft](#cloudcraft), [SAVEE](#savee), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [Fontjoy](#fontjoy), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [TOOOLS.design](#toools-design), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [figma](#figma), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Mozilla Developer Network (MDN)](#mozilla-developer-network-mdn), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), [Pluralsight](#pluralsight), [NextUI](#nextui),
+  - [30 Seconds Of Interviews](#30-seconds-of-interviews), [Cloudcraft](#cloudcraft), [SAVEE](#savee), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [Fontjoy](#fontjoy), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [TOOOLS.design](#toools-design), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [figma](#figma), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Mozilla Developer Network (MDN)](#mozilla-developer-network-mdn), [CSSFX](#cssfx), [Beautiful CSS box-shadow examples](#beautiful-css-box-shadow-examples), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), [Pluralsight](#pluralsight), [NextUI](#nextui), [daisyUI](#daisyui), [Headless UI](#headless-ui), [React Aria](#react-aria), [Radix](#radix),
 
 ## Collection
 
@@ -281,6 +281,26 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 
 ---
 
+### CSSFX
+
+| <img src="https://cssfx.netlify.app/logo.png" alt="CSSFX logo" width="80px" height="auto" /> | A carefully crafted collection designed with a focus on fluidity, simplicity, and ease of use. Powered by CSS with minimal markup. Completely open source and MIT licensed. | `css`, `web development`, `frontend` |
+| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+
+> Visit Website: [https://cssfx.netlify.app/](https://cssfx.netlify.app/)
+
+> Visit GitHub: [https://github.com/jolaleye/cssfx](https://github.com/jolaleye/cssfx)
+
+---
+
+### Beautiful CSS box-shadow examples
+
+| <img src="https://toastlog.com/img/logos/cssscan.svg" alt="Beautiful CSS box-shadow examples logo" width="80px" height="auto" /> | Beautiful CSS box-shadow examples with their code snippets, that can be copied over with just a single click. | `css`, `web development`, `frontend` |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+
+> Visit Website: [https://getcssscan.com/css-box-shadow-examples](https://getcssscan.com/css-box-shadow-examples)
+
+---
+
 ### CSS-Tricks
 
 | <img src="https://css-tricks.com/apple-touch-icon.png" alt="CSS-Tricks logo" width="80px" height="auto" /> | Daily articles about CSS, HTML, JavaScript, and all things related to web design and development. | `web development`, `css`, `html`, `web development`, `blogging`, `community`, `javascript` |
@@ -513,5 +533,49 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 
 > Visit Website: [https://nextui.org/](https://nextui.org/)
+
+---
+
+### daisyUI
+
+| <img src="https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/favicon.ico" alt="daisyUI logo" width="80px" height="auto" /> | A free and open-source Tailwind CSS based component library. | `frontend`, `css`, `react`, `tailwindcss` |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------- |
+
+> Visit Website: [https://daisyui.com/](https://daisyui.com/)
+
+> Visit GitHub: [https://github.com/saadeghi/daisyui](https://github.com/saadeghi/daisyui)
+
+---
+
+### Headless UI
+
+| <img src="https://headlessui.com/apple-touch-icon.png" alt="Headless UI logo" width="80px" height="auto" /> | Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. | `frontend`, `css`, `react`, `tailwindcss` |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+
+> Visit Website: [https://headlessui.com/](https://headlessui.com/)
+
+> Visit GitHub: [https://github.com/tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui)
+
+---
+
+### React Aria
+
+| <img src="https://avatars.githubusercontent.com/u/476009?s=200&v=4" alt="React Aria logo" width="80px" height="auto" /> | React Aria is a collection of React hooks that implement accessible UI patterns. | `frontend`, `css`, `react`, `library` |
+| ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------- |
+
+> Visit Website: [https://react-spectrum.adobe.com/react-aria/](https://react-spectrum.adobe.com/react-aria/)
+
+> Visit GitHub: [https://github.com/adobe/react-spectrum](https://github.com/adobe/react-spectrum)
+
+---
+
+### Radix
+
+| <img src="https://www.radix-ui.com/favicon.png" alt="Radix logo" width="80px" height="auto" /> | Radix is a React component library that provides accessible, fully customizable UI primitives. | `frontend`, `css`, `react`, `library` |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------- |
+
+> Visit Website: [https://www.radix-ui.com/](https://www.radix-ui.com/)
+
+> Visit GitHub: [https://github.com/radix-ui](https://github.com/radix-ui)
 
 ---
