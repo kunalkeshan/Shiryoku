@@ -480,7 +480,22 @@ const RESOURCES: Resource[] = [
       ids: ["001"],
       subTopics: ["001-0"],
     },
-  },
+	},
+	{
+		name: "CSSFX",
+		description: "A carefully crafted collection designed with a focus on fluidity, simplicity, and ease of use. Powered by CSS with minimal markup. Completely open source and MIT licensed.",
+		url: "https://cssfx.netlify.app/",
+		tags: ["css", "web development", "frontend"],
+		github: "https://github.com/jolaleye/cssfx",
+		icon: "https://cssfx.netlify.app/logo.png",
+	},
+	{
+		name: "Beautiful CSS box-shadow examples",
+		description: "Beautiful CSS box-shadow examples with their code snippets, that can be copied over with just a single click.",
+		url: "https://getcssscan.com/css-box-shadow-examples",
+		tags: ["css", "web development", "frontend"],
+		icon: "https://toastlog.com/img/logos/cssscan.svg"
+	},
   {
     name: "CSS-Tricks",
     description:
