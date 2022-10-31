@@ -559,5 +559,109 @@
 		"tags":  [
 			"programming", "web development", "javascript", "frontend", "coding", "css", "free"
 		]
-	}
+	},
+	{
+		"name": "Pexels",
+		"description":"Pexels provides high quality and completely free stock photos licensed under the Pexels license",
+		"url":"https://www.pexels.com/",
+		"github":"https://github.com/pexels",
+		"icon":"https://www.drupal.org/files/project-images/pexels_logo_0.png",
+		"tags": [
+			"free","ui/ux","open source","productivity"
+		]
+	},
+	{
+		"name": "Pixabay",
+		"description":"Pixabay is a vibrant community of creatives, sharing copyright free images, videos and music.",
+		"url":"https://pixabay.com/",
+		"github":"https://github.com/Pixabay",
+		"icon":"https://cdn-icons-png.flaticon.com/512/2111/2111575.png",
+		"tags": [
+			"free","ui/ux","open source","productivity"
+		]
+	},
+	{
+		"name": "Sketch2Code",
+		"description":"Sketch2Code uses AI to convert hand-written drawings to working HTML prototypes.",
+		"url":"https://sketch2code.azurewebsites.net/",
+		"github":"https://github.com/mohitchhabra/Sketch2Code",
+		"icon":"https://img.stackshare.io/service/11638/preview.png",
+		"tags": [
+			"free","productivity","css","web development", "html"
+		]
+	},
+	{
+		"name": "Unsplash",
+		"description":"Beautiful, free images and photos that you can download and use for any project",
+		"url":"https://unsplash.com/",
+		"github":"https://github.com/unsplash",
+		"icon":"https://cdn-icons-png.flaticon.com/512/5968/5968763.png",
+		"tags": [
+			"free","ui/ux","open source","productivity"
+		]
+	},
+	{
+		"name": "Eggradients",
+		"description":"Ready to use gradient background colors.",
+		"url":"https://www.eggradients.com/",
+		"icon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSL19QT8pbZ9Qy7QkaMDf4EQi5ox0RQKCp_DLI9a95SU7B--GEB16duOlVcWoCV8_yl1I&usqp=CAU",
+		"tags": [
+			"free","ui/ux","productivity","web development"
+		]
+	},
+	{
+		"name": "color-hex",
+		"description":"Color-hex gives information about colors including color models.",
+		"url":"https://www.color-hex.com/",
+		"icon":"https://elements-cover-images-0.imgix.net/e42163b1-4d72-4b5a-a70c-c1932f6cd738?auto=compress%2Cformat&fit=max&w=1370&s=5581a5ca75cad428466d9f344d2942ba",
+		"tags": [
+			"free", "ui/ux", "productivity", "web development", "css", "html"
+		]
+	},
+	{
+		"name": "Ted Talks",
+		"description": "TED is a nonprofit devoted to spreading ideas, usually in the form of short, powerful talks",
+		"url": "https://www.ted.com/",
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/a/aa/TED_three_letter_logo.svg",
+		"tags":  [
+			"productivity", "all", "youtube", "free"
+		]
+	},
+	{
+		"name": "Sleepopolis",
+		"description": "This tool helps get bedtime and wake up times just right.",
+		"url": "https://sleepopolis.com/calculators/sleep/",
+		"icon": "https://sleepopolis.com/wp-content/uploads/2018/09/SleepopolisLogoSquare.png",
+		"tags":  [
+			"productivity", "free"
+		]
+	},
+	{
+		"name": "QuillBot",
+		"description": "AI-powered paraphrasing tool to enhance your writing",
+		"url": "https://quillbot.com/",
+		"icon": "https://ph-files.imgix.net/cb2562ae-d9ec-416b-ab56-76e7fe9091c3.png?auto=format",
+		"tags":  [
+			"productivity", "free", "typing", "tools", "blogging"
+		]
+	},
+	{
+		"name": "Notion",
+		"description": "Notion is a single space where you can think, write, and plan.",
+		"url": "https://www.notion.so/",
+		"icon": "https://cdn.iconscout.com/icon/free/png-256/notion-2296040-1911999.png",
+		"tags":  [
+			"productivity", "free", "typing", "tools", "blogging"
+		]
+	},
+	{
+		"name": "Quizlet",
+		"description": "Quizlet is a great teaching and learning tool.",
+		"url": "https://quizlet.com/en-gb",
+		"icon": "https://assets.quizlet.com/a/j/dist/app/i/brandmark/1024.0e9431247202b7b.png",
+		"tags":  [
+			"free", "tools", "learning","practice","library","open source"
+		]
+	},
+	
 ]
