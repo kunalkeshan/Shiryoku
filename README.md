@@ -14,6 +14,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
   - [Sort and Search What you need](#sort-and-search-what-you-need)
   - [Curated Roadmaps](#curated-roadmaps)
   - [Open Source!](#open-source)
+- [Feedback](#feedback)
 - [Contributing](#-contributing)
 - [License](#-license)
   - [Forking this Repo?](#-forking-this-repo)
