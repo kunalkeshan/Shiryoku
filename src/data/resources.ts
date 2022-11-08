@@ -105,6 +105,14 @@ const RESOURCES: Resource[] = [
     },
   },
   {
+    name: "Choose a License",
+    description: "Non-judgmental guidance on choosing a license for your open source project",
+    url: "https://choosealicense.com/",
+    icon: "https://choosealicense.com/favicon.ico",
+    github: "https://github.com/github/choosealicense.com",
+    tags: ["github", "open source", "tools", "productivity"]
+  },
+  {
     name: "CSSBattle",
     description:
       'CSSBattle is an online CSS Code Golfing game. Here, players from all around the world try to visually replicate "Targets" in smallest possible CSS code and battle it out to get to the top of the leaderboard.',
