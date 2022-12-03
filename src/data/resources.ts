@@ -43,6 +43,14 @@ const RESOURCES: Resource[] = [
     ],
   },
   {
+    name: "Postman Academy",
+    url: "https://academy.postman.com/",
+    description: "A home base for students to learn about APIs and Postman hands-on, and get certifications proving your skills",
+    icon: "https://cc.sj-cdn.net/instructor/3d8458f2k85sh-postman/themes/24l6l4s6qhihn/favicon.1643816979.png",
+    github: "https://github.com/postmanlabs",
+    tags: ["web development", "coding", "programming", "learning", "free", "tools"]
+  },
+  {
     name: "SAVEE",
     description:
       "SAVEE is a platform for you to get inspired save everything you love, right on your phone. Save images straight from Instagram and your browser.",
