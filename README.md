@@ -1,4 +1,4 @@
-# Shiryoku
+# Shiryoku (Resources)
 
 <p align="center">
   <img src="public/thumbnail.jpg" alt="Shiryoku Thumbnail" width="60%" height="auto" />
