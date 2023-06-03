@@ -895,7 +895,14 @@ const RESOURCES: Resource[] = [
 		tags: ["frontend", "css", "react", "library"],
 		icon: "https://www.radix-ui.com/favicon.png",
 		github: "https://github.com/radix-ui",
-	}
+	},
+  {
+    name: "React.gg",
+    url: "https://react.gg/",
+    description: "The interactive way to master modern React",
+    tags: ["frontend", "react", "framework", "library", "web development", "practice"],
+    icon: "https://react.gg/favicon.png"
+  }
 ];
 
 export default RESOURCES;
