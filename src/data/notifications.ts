@@ -7,6 +7,15 @@ const NOTIFICATIONS = [
 		link: 'https://github.com/kunalkeshan/Shiryoku',
 		linkText: 'repository',
 	},
+	{
+	        id: 'asdf29',
+		title: 'Check some tags!',
+		message: 'Check some tags by visiting the {link}.',
+		dateAdded: '6th Jun, 2023',
+		link: 'https://github.com/kunalkeshan/Shiryoku',
+		linkText: 'repository',
+	},
+	
 ];
 
 export default NOTIFICATIONS;
