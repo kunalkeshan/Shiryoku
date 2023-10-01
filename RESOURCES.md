@@ -5,7 +5,7 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 **Table of Contents**:
 
 - [Collection](#collection)
-  - [30 Seconds Of Interviews](#30-seconds-of-interviews), [Cloudcraft](#cloudcraft), [SAVEE](#savee), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [Fontjoy](#fontjoy), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [TOOOLS.design](#toools-design), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [figma](#figma), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Mozilla Developer Network (MDN)](#mozilla-developer-network-mdn), [CSSFX](#cssfx), [Beautiful CSS box-shadow examples](#beautiful-css-box-shadow-examples), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), [Pluralsight](#pluralsight), [NextUI](#nextui), [daisyUI](#daisyui), [Headless UI](#headless-ui), [React Aria](#react-aria), [Radix](#radix),
+  - [30 Seconds Of Interviews](#30-seconds-of-interviews), [Cloudcraft](#cloudcraft), [Postman Academy](#postman-academy), [SAVEE](#savee), [freeCodeCamp](#freecodecamp), [The Odin Project](#the-odin-project), [Choose a License](#choose-a-license), [CSSBattle](#cssbattle), [B. Tech ECE Notes](#b-tech-ece-notes), [Fontjoy](#fontjoy), [CSS Grid Garden](#css-grid-garden), [Learn Git Branching](#learn-git-branching), [Regexr](#regexr), [Patterns](#patterns), [10 Fast Fingers (Typing Tests)](#10-fast-fingers-typing-tests), [Stack Overflow](#stack-overflow), [Geeks For Geeks](#geeks-for-geeks), [Crontab Guru](#crontab-guru), [TOOOLS.design](#toools-design), [Checklist Design](#checklist-design), [remove.bg](#remove-bg), [figma](#figma), [Dev.to](#dev-to), [Hashnode](#hashnode), [Internshala](#internshala), [Canva](#canva), [Dribbble](#dribbble), [Behance](#behance), [Meta Tags Generator](#meta-tags-generator), [Mozilla Developer Network (MDN)](#mozilla-developer-network-mdn), [CSSFX](#cssfx), [Beautiful CSS box-shadow examples](#beautiful-css-box-shadow-examples), [CSS-Tricks](#css-tricks), [CSS {In Real Life}](#css-in-real-life), [HTMLHell](#htmlhell), [JavaScript Tips](#javascript-tips), [React JS Documentation](#react-js-documentation), [Coursera](#coursera), [Node JS](#node-js), [NPTEL (National Programme on Technology Enhanced Learning)](#nptel-national-programme-on-technology-enhanced-learning), [edX](#edx), [Udemy](#udemy), [Varsity by Zerodha](#varsity-by-zerodha), [Introduction to Web Development by Web Dev Simplified](#introduction-to-web-development-by-web-dev-simplified), [HTML Crash Course For Absolute Beginners by Traversy Media](#html-crash-course-for-absolute-beginners-by-traversy-media), [CSS Crash Course For Absolute Beginners by Traversy Media](#css-crash-course-for-absolute-beginners-by-traversy-media), [JavaScript Crash Course For Absolute Beginners by Traversy Media](#javascript-crash-course-for-absolute-beginners-by-traversy-media), [Web.dev](#web-dev), [Public APIs](#public-apis), [Random user](#random-user), [Zero to Mastery](#zero-to-mastery), [Z-Library](#z-library), [Codechef](#codechef), [Hackerrank](#hackerrank), [Leetcode](#leetcode), [Pluralsight](#pluralsight), [NextUI](#nextui), [daisyUI](#daisyui), [Headless UI](#headless-ui), [React Aria](#react-aria), [Radix](#radix), [React.gg](#react-gg), [HTML Head](#html-head), [Business Model Analyst](#business-model-analyst), [Resume.io](#resume-io), [Flexbox Froggy](#flexbox-froggy),
 
 ## Collection
 
@@ -28,6 +28,17 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://www.cloudcraft.co/](https://www.cloudcraft.co/)
 
 > Visit GitHub: [https://github.com/cloudcraft](https://github.com/cloudcraft)
+
+---
+
+### Postman Academy
+
+| <img src="https://cc.sj-cdn.net/instructor/3d8458f2k85sh-postman/themes/24l6l4s6qhihn/favicon.1643816979.png" alt="Postman Academy logo" width="80px" height="auto" /> | A home base for students to learn about APIs and Postman hands-on, and get certifications proving your skills | `web development`, `coding`, `programming`, `learning`, `free`, `tools` |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+
+> Visit Website: [https://academy.postman.com/](https://academy.postman.com/)
+
+> Visit GitHub: [https://github.com/postmanlabs](https://github.com/postmanlabs)
 
 ---
 
@@ -59,6 +70,17 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://www.theodinproject.com/](https://www.theodinproject.com/)
 
 > Visit GitHub: [https://github.com/TheOdinProject](https://github.com/TheOdinProject)
+
+---
+
+### Choose a License
+
+| <img src="https://choosealicense.com/favicon.ico" alt="Choose a License logo" width="80px" height="auto" /> | Non-judgmental guidance on choosing a license for your open source project | `github`, `open source`, `tools`, `productivity` |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------ |
+
+> Visit Website: [https://choosealicense.com/](https://choosealicense.com/)
+
+> Visit GitHub: [https://github.com/github/choosealicense.com](https://github.com/github/choosealicense.com)
 
 ---
 
@@ -577,5 +599,52 @@ Incredible resources (with links) to help up-skill yourselves on various fields.
 > Visit Website: [https://www.radix-ui.com/](https://www.radix-ui.com/)
 
 > Visit GitHub: [https://github.com/radix-ui](https://github.com/radix-ui)
+
+---
+
+### React.gg
+
+| <img src="https://react.gg/favicon.png" alt="React.gg logo" width="80px" height="auto" /> | The interactive way to master modern React | `frontend`, `react`, `framework`, `library`, `web development`, `practice` |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------- |
+
+> Visit Website: [https://react.gg/](https://react.gg/)
+
+---
+
+### HTML Head
+
+| <img src="https://raw.githubusercontent.com/joshbuchea/HEAD/gh-pages/favicon.png" alt="HTML Head logo" width="80px" height="auto" /> | A simple guide to HTML <head> elements | `frontend`, `web development`, `html`, `learning`, `coding` |
+| ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- | ----------------------------------------------------------- |
+
+> Visit Website: [https://htmlhead.dev/](https://htmlhead.dev/)
+
+---
+
+### Business Model Analyst
+
+| <img src="https://businessmodelanalyst.com/wp-content/uploads/2019/03/cropped-unnamed-192x192.webp" alt="Business Model Analyst logo" width="80px" height="auto" /> | Business Model Examples and Types using the Business Model Canvas for Detailed Analysis of the Most Innovative Companies and Startups. | `business`, `startup` |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+
+> Visit Website: [https://businessmodelanalyst.com/](https://businessmodelanalyst.com/)
+
+---
+
+### Resume.io
+
+| <img src="https://resume.io/assets/favicon/resume/apple-touch-icon-b8fda06896fb6e22e014be6ad49291c17233342397d40cb1f3bb1413143287bf.png" alt="Resume.io logo" width="80px" height="auto" /> | Create your job winning resume for free, choose between thousands of resume templates and cover letters. Write your professional resume in 5 minutes | `productivity`, `tools`, `career`, `internship`, `interview`, `resume` |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+
+> Visit Website: [https://resume.io/](https://resume.io/)
+
+---
+
+### Flexbox Froggy
+
+| <img src="https://raw.githubusercontent.com/thomaspark/flexboxfroggy/gh-pages/favicon.ico" alt="Flexbox Froggy logo" width="80px" height="auto" /> | A game for learning CSS flexbox | `web development`, `frontend`, `css`, `learning`, `coding` |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------------- |
+
+> Visit Website: [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
+
+> Visit GitHub: [https://github.com/thomaspark/flexboxfroggy/](https://github.com/thomaspark/flexboxfroggy/)
 
 ---

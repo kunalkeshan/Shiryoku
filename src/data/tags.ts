@@ -62,9 +62,12 @@ const TAGS = [
 	'font-pairing',
 	'angular',
 	'tailwindcss',
-        'linux',
-        'sqlite',
-        'svelte',	
+	'linux',
+	'sqlite',
+	'svelte',
+	'business',
+	'startup',
+	'resume',
 ] as const;
 
 export default TAGS;
