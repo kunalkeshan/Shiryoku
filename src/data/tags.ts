@@ -75,7 +75,8 @@ const TAGS = [
 	'data science',
 	'data analytics',
 	'data visualizations',
-	'blogs'
+	'blogs',
+	'hackathons'
 ] as const;
 
 export default TAGS;
