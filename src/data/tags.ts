@@ -72,6 +72,9 @@ const TAGS = [
 	'machine learning',
 	'python',
 	'freelancing',
+	'data science',
+	'data analytics',
+	'data visualizations'
 ] as const;
 
 export default TAGS;
