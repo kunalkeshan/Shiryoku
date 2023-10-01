@@ -76,6 +76,7 @@ const TAGS = [
 	'data analytics',
 	'data visualizations',
 	'blogs',
+	'data competitions',
 	'hackathons'
 ] as const;
 
