@@ -78,7 +78,7 @@ const TAGS = [
 	'blogs',
 	'data competitions',
 	'data sets',
-	'jupyter notebooks'
+	'jupyter notebooks',
 	'hackathons'
 ] as const;
 
