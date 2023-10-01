@@ -75,7 +75,7 @@ const RoadmapCard: FC<RoadmapCardProps> = ({
 						Share
 					</Button>
 					<Button size="small" onClick={handleNavigate}>
-						Learn More
+						Explore Now
 					</Button>
 				</CardActions>
 			</Card>
