@@ -68,6 +68,9 @@ const TAGS = [
 	'business',
 	'startup',
 	'resume',
+	'artificial intelligence',
+	'machine learning',
+	'python',
 ] as const;
 
 export default TAGS;
