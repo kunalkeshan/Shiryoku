@@ -959,12 +959,12 @@ const RESOURCES: Resource[] = [
 		description: 'Accelerate your career in technology. Software engineering interviews with courses in Data Structures and Algorithms, System Design, & more. Land your dream job in technology, get paid more, & accelerate your career.',
 		tags: ['career', 'interview', 'dsa', 'web development'],
 		icon: 'https://interviewpen.com/favicon.ico'
-	}
+	},
 	{
 		name: 'Kaggle',
 		url:'https://www.kaggle.com/',
 		description: 'Kaggle is a online platform for data science competitions and collaborative data analysis, offering datasets, notebooks, and a community of data enthusiasts.',
-		tags: [kaggle_tags = ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
+		tags: ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
 		icon: 'https://www.kaggle.com/static/images/favicon.ico'
 	}
 ];
