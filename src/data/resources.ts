@@ -931,6 +931,34 @@ const RESOURCES: Resource[] = [
 		tags: ['web development', 'frontend', 'css', 'learning', 'coding'],
 		github: 'https://github.com/thomaspark/flexboxfroggy/',
 		icon: 'https://raw.githubusercontent.com/thomaspark/flexboxfroggy/gh-pages/favicon.ico'
+	},
+	{
+		name: 'The Full Stack Deep Learning',
+		url: 'https://fullstackdeeplearning.com/',
+		description: 'News, community, and courses for people building AI-powered products.',
+		tags: ['coding', 'artificial intelligence', 'machine learning'],
+		icon: 'https://fullstackdeeplearning.com/images/favicon.png'
+	},
+	{
+		name: 'Skilled.dev',
+		url: 'https://skilled.dev/',
+		description: 'Skilled.dev is the leading interview course that developers trust to teach them how to master the coding interview and land their next job as a software engineer.',
+		tags: ['coding', 'javascript', 'typescript', 'python', 'dsa', 'web development'],
+		icon: 'https://skilled.dev/icons/android-icon-192x192.png'
+	},
+	{
+		name: 'Invoice Ninja',
+		url: 'https://invoiceninja.com/',
+		description: 'An invoicing tool built to serve freelancers and business owners with a complete suite of invoicing & payment tools to advance your business.',
+		tags: ['career', 'tools', 'productivity', 'freelancing'],
+		icon: 'https://invoiceninja.com/wp-content/uploads/2022/06/InvoiceNinjaCircle.png'
+	},
+	{
+		name: 'Interview Pen',
+		url:'https://interviewpen.com/',
+		description: 'Accelerate your career in technology. Software engineering interviews with courses in Data Structures and Algorithms, System Design, & more. Land your dream job in technology, get paid more, & accelerate your career.',
+		tags: ['career', 'interview', 'dsa', 'web development'],
+		icon: 'https://interviewpen.com/favicon.ico'
 	}
 ];
 
