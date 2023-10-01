@@ -67,6 +67,7 @@ const TAGS = [
 	'svelte',
 	'business',
 	'startup',
+	'resume',
 ] as const;
 
 export default TAGS;

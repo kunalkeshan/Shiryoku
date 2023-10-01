@@ -916,6 +916,21 @@ const RESOURCES: Resource[] = [
 		description: 'Business Model Examples and Types using the Business Model Canvas for Detailed Analysis of the Most Innovative Companies and Startups.',
 		tags: ['business', 'startup'],
 		icon: 'https://businessmodelanalyst.com/wp-content/uploads/2019/03/cropped-unnamed-192x192.webp'
+	},
+	{
+		name: 'Resume.io',
+		url: 'https://resume.io/',
+		description: 'Create your job winning resume for free, choose between thousands of resume templates and cover letters. Write your professional resume in 5 minutes',
+		tags: ['productivity', 'tools', 'career', 'internship', 'interview', 'resume'],
+		icon: 'https://resume.io/assets/favicon/resume/apple-touch-icon-b8fda06896fb6e22e014be6ad49291c17233342397d40cb1f3bb1413143287bf.png'
+	},
+	{
+		name: 'Flexbox Froggy',
+		url: 'https://flexboxfroggy.com/',
+		description: 'A game for learning CSS flexbox',
+		tags: ['web development', 'frontend', 'css', 'learning', 'coding'],
+		github: 'https://github.com/thomaspark/flexboxfroggy/',
+		icon: 'https://raw.githubusercontent.com/thomaspark/flexboxfroggy/gh-pages/favicon.ico'
 	}
 ];
 
