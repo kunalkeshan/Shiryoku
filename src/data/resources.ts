@@ -909,6 +909,13 @@ const RESOURCES: Resource[] = [
 		description: 'A simple guide to HTML <head> elements',
 		tags: ['frontend', 'web development', 'html', 'learning', 'coding'],
 		icon: 'https://raw.githubusercontent.com/joshbuchea/HEAD/gh-pages/favicon.png'
+	},
+	{
+		name: 'Business Model Analyst',
+		url: 'https://businessmodelanalyst.com/',
+		description: 'Business Model Examples and Types using the Business Model Canvas for Detailed Analysis of the Most Innovative Companies and Startups.',
+		tags: ['business', 'startup'],
+		icon: 'https://businessmodelanalyst.com/wp-content/uploads/2019/03/cropped-unnamed-192x192.webp'
 	}
 ];
 
