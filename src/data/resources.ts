@@ -931,6 +931,20 @@ const RESOURCES: Resource[] = [
 		tags: ['web development', 'frontend', 'css', 'learning', 'coding'],
 		github: 'https://github.com/thomaspark/flexboxfroggy/',
 		icon: 'https://raw.githubusercontent.com/thomaspark/flexboxfroggy/gh-pages/favicon.ico'
+	},
+	{
+		name: 'The Full Stack Deep Learning',
+		url: 'https://fullstackdeeplearning.com/',
+		description: 'News, community, and courses for people building AI-powered products.',
+		tags: ['coding', 'artificial intelligence', 'machine learning'],
+		icon: 'https://fullstackdeeplearning.com/images/favicon.png'
+	},
+	{
+		name: 'Skilled.dev',
+		url: 'https://skilled.dev/',
+		description: 'Skilled.dev is the leading interview course that developers trust to teach them how to master the coding interview and land their next job as a software engineer.',
+		tags: ['coding', 'javascript', 'typescript', 'python', 'dsa', 'web development'],
+		icon: 'https://skilled.dev/icons/android-icon-192x192.png'
 	}
 ];
 
