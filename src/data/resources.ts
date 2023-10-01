@@ -967,11 +967,7 @@ const RESOURCES: Resource[] = [
 		"icon": "https://d2y5h3osumboay.cloudfront.net/4mgbggnovlmp761xf6djxgn48apt?=534700562325069357",
 		"tags": [
 			"learning", "free", "data visualizations", "data analytics", "data science", "machine learning", "artificial intelligence", "blogs", "hackathons" 
-		],
-		"roadmap": {
-			"ids": ["001"],
-			"subTopics": ["001-4"]
-		}
+		]
 	}
 ];
 
