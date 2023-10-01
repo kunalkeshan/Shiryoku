@@ -959,15 +959,13 @@ const RESOURCES: Resource[] = [
 		description: 'Accelerate your career in technology. Software engineering interviews with courses in Data Structures and Algorithms, System Design, & more. Land your dream job in technology, get paid more, & accelerate your career.',
 		tags: ['career', 'interview', 'dsa', 'web development'],
 		icon: 'https://interviewpen.com/favicon.ico'
-	},
+	}
 	{
-		"name": "Analytics Vidhya",
-		"description": "This is one of the highly used resources available on the internet for someone who is looking to start a career in data science or wants to sharpen their skills through hackathons, courses and blogs.",
-		"url": "https://community.analyticsvidhya.com/home",
-		"icon": "https://d2y5h3osumboay.cloudfront.net/4mgbggnovlmp761xf6djxgn48apt?=534700562325069357",
-		"tags": [
-			"learning", "free", "data visualizations", "data analytics", "data science", "machine learning", "artificial intelligence", "blogs", "hackathons" 
-		]
+		name: 'Kaggle',
+		url:'https://www.kaggle.com/',
+		description: 'Kaggle is a online platform for data science competitions and collaborative data analysis, offering datasets, notebooks, and a community of data enthusiasts.',
+		tags: [kaggle_tags = ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
+		icon: 'https://www.kaggle.com/static/images/favicon.ico'
 	}
 ];
 
