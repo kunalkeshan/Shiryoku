@@ -896,13 +896,20 @@ const RESOURCES: Resource[] = [
 		icon: "https://www.radix-ui.com/favicon.png",
 		github: "https://github.com/radix-ui",
 	},
-  {
-    name: "React.gg",
-    url: "https://react.gg/",
-    description: "The interactive way to master modern React",
-    tags: ["frontend", "react", "framework", "library", "web development", "practice"],
-    icon: "https://react.gg/favicon.png"
-  }
+	{
+		name: "React.gg",
+		url: "https://react.gg/",
+		description: "The interactive way to master modern React",
+		tags: ["frontend", "react", "framework", "library", "web development", "practice"],
+		icon: "https://react.gg/favicon.png"
+	},
+	{
+		name: 'HTML Head',
+		url: 'https://htmlhead.dev/',
+		description: 'A simple guide to HTML <head> elements',
+		tags: ['frontend', 'web development', 'html', 'learning', 'coding'],
+		icon: 'https://raw.githubusercontent.com/joshbuchea/HEAD/gh-pages/favicon.png'
+	}
 ];
 
 export default RESOURCES;
