@@ -838,7 +838,7 @@ const RESOURCES: Resource[] = [
     icon: "https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
     tags: ["interview", "coding", "dsa"],
   },
-
+ 
   {
     name: "Pluralsight",
     description:
@@ -966,7 +966,43 @@ const RESOURCES: Resource[] = [
 		description: 'Kaggle is a online platform for data science competitions and collaborative data analysis, offering datasets, notebooks, and a community of data enthusiasts.',
 		tags: ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
 		icon: 'https://www.kaggle.com/static/images/favicon.ico'
-	}
+	},
+	 {
+            name: "Leetcode patterns by Sean Prashad",
+            description: "This Website offers a vast collection of company-wise and pattern-focused LeetCode questions for swift and effective interview preparation",
+            url: "https://seanprashad.com/leetcode-patterns/",
+            icon: "https://seanprashad.com/leetcode-patterns/favicon.ico",
+            tags: ["interview", "coding", "dsa"],
+        },
+	 {
+            name: "Building Elements of AI",
+            description: "This Website helps you understand the basics of AI and ML with the help of interactive courses and quizes",
+            url: "https://buildingai.elementsofai.com/",
+            icon: "https://buildingai.elementsofai.com/favicon-32x32.png",
+            tags: ["machine learning", "data visualisations", "artificial intelligence","neural networks"],
+        },
+	 {
+            name: "Kattis Problem Archive",
+            description: "This Website is home to ample number of programming questions that can help you with your DSA and CP Preparation Journey",
+            url: "https://open.kattis.com/problems?language=en",
+            icon: "https://open.kattis.com/favicon",
+            tags: ["interview", "coding", "dsa","competitive coding"],
+        },
+	 {
+            name: "Striver's SDE Sheet for DSA Preparation",
+            description: "This Website is home to ample number of programming questions and topics that can help you with your DSA preparation for Interviews",
+            url: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+            icon: "https://takeuforward.org/wp-content/uploads/2021/09/cropped-logo_circle_red-32x32.gif",
+            tags: ["interview", "coding", "dsa","competitive coding"],
+        },
+	 {
+            name: "Neetcode",
+            description: "It is a curated list of LeetCode problems designed to cover all possible patterns & topics in data structures. Mainly based out of C , C++ , Rust , Python , JAVA & JavaScript.",
+            url: "https://neetcode.io/practice",
+            icon: "https://neetcode.io/favicon.ico",
+            tags: ["interview", "coding", "dsa"],
+        }
+	
 ];
 
 export default RESOURCES;
