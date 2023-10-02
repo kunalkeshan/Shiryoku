@@ -79,10 +79,38 @@ const TAGS = [
 	'data competitions',
 	'data sets',
 	'jupyter notebooks',
-	'hackathons'
+	'hackathons',
+	'Serverless Database',
+	'Modern Development',
+	'PostgreSQL',
+	'Full-text Search',
+	'Rich Data Types',
+	'Vector Search',
+	'AI-enabled Applications',
+	'Authentication',
+	'User Management',
+	'React',
+	'Next.js',
+	'Modern Web',
+	'APIs',
+	'UIs',
+	'SVG Waves',
+	'Free Tool',
+	'Web Design',
+	'SVG Generator',
+	'Curve Adjustment',
+	'Complexity Adjustment',
+	'Randomization',
+	'Free Tiers',
+	'Developers',
+	'Software',
+	'SaaS',
+	'PaaS',
+	'IaaS',
+	'Open Source',
 ] as const;
 
 export default TAGS;
 
 // Expose this type into the global namespace declaration
-export type Tag = typeof TAGS[number];
+export type Tag = (typeof TAGS)[number];

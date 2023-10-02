@@ -966,7 +966,35 @@ const RESOURCES: Resource[] = [
 		description: 'Kaggle is a online platform for data science competitions and collaborative data analysis, offering datasets, notebooks, and a community of data enthusiasts.',
 		tags: ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
 		icon: 'https://www.kaggle.com/static/images/favicon.ico'
-	}
+	},
+  {
+    name: 'Xata',
+    url:'https://xata.io/',
+    description: 'Xata is a serverless database platform built for modern development, offering a fully managed and scalable database powered by PostgreSQL, with features such as full-text search engine, support for rich data types, vector search capabilities, and AI-enabled applications.',
+    tags: ['Serverless Database', 'Modern Development', 'PostgreSQL', 'Full-text Search', 'Rich Data Types', 'Vector Search', 'AI-enabled Applications'],
+    icon: 'https://xata.io/favicon.ico'
+  },
+  {
+    name: 'Clerk',
+    url:'https://clerk.com/',
+    description: 'Clerk is a comprehensive user management platform offering authentication and user management UIs and APIs, specifically designed for React, Next.js, and the Modern Web.',
+    tags: ['Authentication', 'User Management', 'React', 'Next.js', 'Modern Web', 'APIs', 'UIs'],
+    icon: 'https://clerk.com/favicon/apple-touch-icon.png'
+  },
+  {
+		name: 'SVG waves',
+		url:'https://www.svgwaves.io/',
+		description: 'SVG Waves is a free tool that allows you to generate unique SVG waves for your web design, with options to choose a curve, adjust complexity, and randomize.',
+		tags: ['SVG Waves', 'Free Tool', 'Web Design', 'SVG Generator', 'Curve Adjustment', 'Complexity Adjustment', 'Randomization'],
+		icon: 'https://www.svgwaves.io/logo.png'
+	},
+  {
+		name: 'free-for.dev',
+		url:'https://free-for.dev/#/',
+		description: 'Free for Dev is a comprehensive list of software (SaaS, PaaS, IaaS, etc.) and other offerings that provide free tiers for developers.',
+		tags: ['Free Tiers', 'Developers', 'Software', 'SaaS', 'PaaS', 'IaaS', 'Open Source'],
+		icon: 'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp'
+	},
 ];
 
 export default RESOURCES;
