@@ -979,7 +979,7 @@ const RESOURCES: Resource[] = [
             description: "This Website helps you understand the basics of AI and ML with the help of interactive courses and quizes",
             url: "https://buildingai.elementsofai.com/",
             icon: "https://buildingai.elementsofai.com/favicon-32x32.png",
-            tags: ["machine learning", "data visualisations", "artificial intelligence","neural networks"],
+            tags: ["machine learning", "data visualizations", "artificial intelligence","neural networks"],
         },
 	 {
             name: "Kattis Problem Archive",
