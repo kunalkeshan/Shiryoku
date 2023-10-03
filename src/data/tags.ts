@@ -86,4 +86,4 @@ const TAGS = [
 export default TAGS;
 
 // Expose this type into the global namespace declaration
-export type Tag = typeof TAGS[number];
+export type Tag = (typeof TAGS)[number];

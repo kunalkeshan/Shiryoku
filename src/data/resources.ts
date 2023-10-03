@@ -967,6 +967,34 @@ const RESOURCES: Resource[] = [
 		tags: ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
 		icon: 'https://www.kaggle.com/static/images/favicon.ico'
 	},
+  {
+    name: 'Xata',
+    url:'https://xata.io/',
+    description: 'Xata is a serverless database platform built for modern development, offering a fully managed and scalable database powered by PostgreSQL, with features such as full-text search engine, support for rich data types, vector search capabilities, and AI-enabled applications.',
+    tags: ['web development','databases'],
+    icon: 'https://xata.io/favicon.ico'
+  },
+  {
+    name: 'Clerk',
+    url:'https://clerk.com/',
+    description: 'Clerk is a comprehensive user management platform offering authentication and user management UIs and APIs, specifically designed for React, Next.js, and the Modern Web.',
+    tags: ['security','web development','frontend'],
+    icon: 'https://clerk.com/favicon/apple-touch-icon.png'
+  },
+  {
+		name: 'SVG waves',
+		url:'https://www.svgwaves.io/',
+		description: 'SVG Waves is a free tool that allows you to generate unique SVG waves for your web design, with options to choose a curve, adjust complexity, and randomize.',
+		tags: ['ui/ux','graphic design','frontend'],
+		icon: 'https://www.svgwaves.io/logo.png'
+	},
+  {
+		name: 'free-for.dev',
+		url:'https://free-for.dev/#/',
+		description: 'Free for Dev is a comprehensive list of software (SaaS, PaaS, IaaS, etc.) and other offerings that provide free tiers for developers.',
+		tags: ['web development','interview','learning'],
+		icon: 'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp'
+	},
 	 {
             name: "Leetcode patterns by Sean Prashad",
             description: "This Website offers a vast collection of company-wise and pattern-focused LeetCode questions for swift and effective interview preparation",
@@ -1002,7 +1030,6 @@ const RESOURCES: Resource[] = [
             icon: "https://neetcode.io/favicon.ico",
             tags: ["interview", "coding", "dsa"],
         }
-	
 ];
 
 export default RESOURCES;
