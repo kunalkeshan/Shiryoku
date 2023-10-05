@@ -80,7 +80,9 @@ const TAGS = [
 	'data sets',
 	'jupyter notebooks',
 	'hackathons',
-	'neural networks'
+	'neural networks',
+	'documentation',
+	'articles'
 ] as const;
 
 export default TAGS;
