@@ -62,9 +62,28 @@ const TAGS = [
 	'font-pairing',
 	'angular',
 	'tailwindcss',
+	'linux',
+	'sqlite',
+	'svelte',
+	'business',
+	'startup',
+	'resume',
+	'artificial intelligence',
+	'machine learning',
+	'python',
+	'freelancing',
+	'data science',
+	'data analytics',
+	'data visualizations',
+	'blogs',
+	'data competitions',
+	'data sets',
+	'jupyter notebooks',
+	'hackathons',
+	'neural networks'
 ] as const;
 
 export default TAGS;
 
 // Expose this type into the global namespace declaration
-export type Tag = typeof TAGS[number];
+export type Tag = (typeof TAGS)[number];

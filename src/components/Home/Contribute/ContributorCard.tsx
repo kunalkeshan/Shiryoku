@@ -33,7 +33,17 @@ const ContributorCard: FC<ContributorCardProps> = ({
 					height="100%"
 				>
 					<Avatar src={avatar} alt={username} variant="rounded" />
-					<Typography variant="caption">{username}</Typography>
+					<Typography
+						sx={{
+							maxWidth: '71px',
+							whiteSpace: 'nowrap',
+							overflow: 'hidden',
+							textOverflow: 'ellipsis',
+						}}
+						variant="caption"
+					>
+						{username}
+					</Typography>
 				</Box>
 			</Tooltip>
 		</Main>

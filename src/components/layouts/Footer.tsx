@@ -4,7 +4,7 @@
 
 // Dependencies
 import React from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import config from '../../config';
 
 // MUI
@@ -77,7 +77,7 @@ const Footer = () => {
 				{
 					<Link
 						component="a"
-						href="https://twitter.com/_kunalkeshan_"
+						href="https://kunalkeshan.dev/"
 						target="_blank"
 						sx={{
 							cursor: 'pointer',

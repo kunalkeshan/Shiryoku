@@ -838,7 +838,7 @@ const RESOURCES: Resource[] = [
     icon: "https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
     tags: ["interview", "coding", "dsa"],
   },
-
+ 
   {
     name: "Pluralsight",
     description:
@@ -896,7 +896,79 @@ const RESOURCES: Resource[] = [
 		icon: "https://www.radix-ui.com/favicon.png",
 		github: "https://github.com/radix-ui",
 	},
+	{
+		name: "React.gg",
+		url: "https://react.gg/",
+		description: "The interactive way to master modern React",
+		tags: ["frontend", "react", "framework", "library", "web development", "practice"],
+		icon: "https://react.gg/favicon.png"
+	},
+	{
+		name: 'HTML Head',
+		url: 'https://htmlhead.dev/',
+		description: 'A simple guide to HTML <head> elements',
+		tags: ['frontend', 'web development', 'html', 'learning', 'coding'],
+		icon: 'https://raw.githubusercontent.com/joshbuchea/HEAD/gh-pages/favicon.png'
+	},
+	{
+		name: 'Business Model Analyst',
+		url: 'https://businessmodelanalyst.com/',
+		description: 'Business Model Examples and Types using the Business Model Canvas for Detailed Analysis of the Most Innovative Companies and Startups.',
+		tags: ['business', 'startup'],
+		icon: 'https://businessmodelanalyst.com/wp-content/uploads/2019/03/cropped-unnamed-192x192.webp'
+	},
+	{
+		name: 'Resume.io',
+		url: 'https://resume.io/',
+		description: 'Create your job winning resume for free, choose between thousands of resume templates and cover letters. Write your professional resume in 5 minutes',
+		tags: ['productivity', 'tools', 'career', 'internship', 'interview', 'resume'],
+		icon: 'https://resume.io/assets/favicon/resume/apple-touch-icon-b8fda06896fb6e22e014be6ad49291c17233342397d40cb1f3bb1413143287bf.png'
+	},
+	{
+		name: 'Flexbox Froggy',
+		url: 'https://flexboxfroggy.com/',
+		description: 'A game for learning CSS flexbox',
+		tags: ['web development', 'frontend', 'css', 'learning', 'coding'],
+		github: 'https://github.com/thomaspark/flexboxfroggy/',
+		icon: 'https://raw.githubusercontent.com/thomaspark/flexboxfroggy/gh-pages/favicon.ico'
+	},
+	{
+		name: 'The Full Stack Deep Learning',
+		url: 'https://fullstackdeeplearning.com/',
+		description: 'News, community, and courses for people building AI-powered products.',
+		tags: ['coding', 'artificial intelligence', 'machine learning'],
+		icon: 'https://fullstackdeeplearning.com/images/favicon.png'
+	},
+	{
+		name: 'Skilled.dev',
+		url: 'https://skilled.dev/',
+		description: 'Skilled.dev is the leading interview course that developers trust to teach them how to master the coding interview and land their next job as a software engineer.',
+		tags: ['coding', 'javascript', 'typescript', 'python', 'dsa', 'web development'],
+		icon: 'https://skilled.dev/icons/android-icon-192x192.png'
+	},
+	{
+		name: 'Invoice Ninja',
+		url: 'https://invoiceninja.com/',
+		description: 'An invoicing tool built to serve freelancers and business owners with a complete suite of invoicing & payment tools to advance your business.',
+		tags: ['career', 'tools', 'productivity', 'freelancing'],
+		icon: 'https://invoiceninja.com/wp-content/uploads/2022/06/InvoiceNinjaCircle.png'
+	},
+	{
+		name: 'Interview Pen',
+		url:'https://interviewpen.com/',
+		description: 'Accelerate your career in technology. Software engineering interviews with courses in Data Structures and Algorithms, System Design, & more. Land your dream job in technology, get paid more, & accelerate your career.',
+		tags: ['career', 'interview', 'dsa', 'web development'],
+		icon: 'https://interviewpen.com/favicon.ico'
+	},
+	{
+		name: 'Kaggle',
+		url:'https://www.kaggle.com/',
+		description: 'Kaggle is a online platform for data science competitions and collaborative data analysis, offering datasets, notebooks, and a community of data enthusiasts.',
+		tags: ['data science', 'machine learning', 'data analytics', 'data competitions', 'data sets', 'data visualizations', 'jupyter notebooks'],
+		icon: 'https://www.kaggle.com/static/images/favicon.ico'
+	},
   {
+
     name: "React.gg",
     url: "https://react.gg/",
     description: "The interactive way to master modern React",
@@ -909,7 +981,69 @@ const RESOURCES: Resource[] = [
     description: "An awesome way to learn Javascript by building projects",
     tags: ["frontend", "javascript", "library", "web development", "practice"],
     icon: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F5968%2F5968292.png&tbnid=T2NRIn6NVTA0_M&vet=12ahUKEwiWk_m1-N2BAxWncmwGHRSsDoEQMygAegQIARBu..i&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fjs_5968292&docid=pS0gtmdu0mUxkM&w=512&h=512&q=javascript%20icon&ved=2ahUKEwiWk_m1-N2BAxWncmwGHRSsDoEQMygAegQIARBu"
-  }
+  },{
+    name: 'Xata',
+    url:'https://xata.io/',
+    description: 'Xata is a serverless database platform built for modern development, offering a fully managed and scalable database powered by PostgreSQL, with features such as full-text search engine, support for rich data types, vector search capabilities, and AI-enabled applications.',
+    tags: ['web development','databases'],
+    icon: 'https://xata.io/favicon.ico'
+  },
+  {
+    name: 'Clerk',
+    url:'https://clerk.com/',
+    description: 'Clerk is a comprehensive user management platform offering authentication and user management UIs and APIs, specifically designed for React, Next.js, and the Modern Web.',
+    tags: ['security','web development','frontend'],
+    icon: 'https://clerk.com/favicon/apple-touch-icon.png'
+  },
+  {
+		name: 'SVG waves',
+		url:'https://www.svgwaves.io/',
+		description: 'SVG Waves is a free tool that allows you to generate unique SVG waves for your web design, with options to choose a curve, adjust complexity, and randomize.',
+		tags: ['ui/ux','graphic design','frontend'],
+		icon: 'https://www.svgwaves.io/logo.png'
+	},
+  {
+		name: 'free-for.dev',
+		url:'https://free-for.dev/#/',
+		description: 'Free for Dev is a comprehensive list of software (SaaS, PaaS, IaaS, etc.) and other offerings that provide free tiers for developers.',
+		tags: ['web development','interview','learning'],
+		icon: 'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp'
+	},
+	 {
+            name: "Leetcode patterns by Sean Prashad",
+            description: "This Website offers a vast collection of company-wise and pattern-focused LeetCode questions for swift and effective interview preparation",
+            url: "https://seanprashad.com/leetcode-patterns/",
+            icon: "https://seanprashad.com/leetcode-patterns/favicon.ico",
+            tags: ["interview", "coding", "dsa"],
+        },
+	 {
+            name: "Building Elements of AI",
+            description: "This Website helps you understand the basics of AI and ML with the help of interactive courses and quizes",
+            url: "https://buildingai.elementsofai.com/",
+            icon: "https://buildingai.elementsofai.com/favicon-32x32.png",
+            tags: ["machine learning", "data visualizations", "artificial intelligence","neural networks"],
+        },
+	 {
+            name: "Kattis Problem Archive",
+            description: "This Website is home to ample number of programming questions that can help you with your DSA and CP Preparation Journey",
+            url: "https://open.kattis.com/problems?language=en",
+            icon: "https://open.kattis.com/favicon",
+            tags: ["interview", "coding", "dsa","competitive coding"],
+        },
+	 {
+            name: "Striver's SDE Sheet for DSA Preparation",
+            description: "This Website is home to ample number of programming questions and topics that can help you with your DSA preparation for Interviews",
+            url: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+            icon: "https://takeuforward.org/wp-content/uploads/2021/09/cropped-logo_circle_red-32x32.gif",
+            tags: ["interview", "coding", "dsa","competitive coding"],
+        },
+	 {
+            name: "Neetcode",
+            description: "It is a curated list of LeetCode problems designed to cover all possible patterns & topics in data structures. Mainly based out of C , C++ , Rust , Python , JAVA & JavaScript.",
+            url: "https://neetcode.io/practice",
+            icon: "https://neetcode.io/favicon.ico",
+            tags: ["interview", "coding", "dsa"],
+        }
 ];
 
 export default RESOURCES;
