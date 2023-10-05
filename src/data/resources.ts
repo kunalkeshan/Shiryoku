@@ -968,6 +968,20 @@ const RESOURCES: Resource[] = [
 		icon: 'https://www.kaggle.com/static/images/favicon.ico'
 	},
   {
+
+    name: "React.gg",
+    url: "https://react.gg/",
+    description: "The interactive way to master modern React",
+    tags: ["frontend", "react", "framework", "library", "web development", "practice"],
+    icon: "https://react.gg/favicon.png"
+  },
+  {
+    name: "30 Days of Javasript",
+    url: "https://30daysofjs.netlify.app/",
+    description: "An awesome way to learn Javascript by building projects",
+    tags: ["frontend", "javascript", "library", "web development", "practice"],
+    icon: "https://30daysofjs.netlify.app/30DaysOfJavaScript/assets/favicon.png"
+  },{
     name: 'Xata',
     url:'https://xata.io/',
     description: 'Xata is a serverless database platform built for modern development, offering a fully managed and scalable database powered by PostgreSQL, with features such as full-text search engine, support for rich data types, vector search capabilities, and AI-enabled applications.',
