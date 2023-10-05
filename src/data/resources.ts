@@ -980,7 +980,7 @@ const RESOURCES: Resource[] = [
     url: "https://30daysofjs.netlify.app/",
     description: "An awesome way to learn Javascript by building projects",
     tags: ["frontend", "javascript", "library", "web development", "practice"],
-    icon: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F5968%2F5968292.png&tbnid=T2NRIn6NVTA0_M&vet=12ahUKEwiWk_m1-N2BAxWncmwGHRSsDoEQMygAegQIARBu..i&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fjs_5968292&docid=pS0gtmdu0mUxkM&w=512&h=512&q=javascript%20icon&ved=2ahUKEwiWk_m1-N2BAxWncmwGHRSsDoEQMygAegQIARBu"
+    icon: "https://30daysofjs.netlify.app/30DaysOfJavaScript/assets/favicon.png"
   },{
     name: 'Xata',
     url:'https://xata.io/',
