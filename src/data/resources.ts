@@ -1050,6 +1050,13 @@ const RESOURCES: Resource[] = [
             url: "https://www.w3schools.com/",
             icon: "https://www.w3schools.com/favicon.ico",
             tags: ["interview", "coding", "dsa", "documentation", "articles"],
+        },
+	{
+            name: "Tutorialspoint",
+            description: "W3 Schools is a website with tutorials for many tech stacks like Python, C++, JavaScript. This is a best source for the learners who consider documented tutorials in the form of articles rather than videos or books.",
+            url: "https://www.tutorialspoint.com/index.htm",
+            icon: "https://www.tutorialspoint.com/favicon.ico",
+            tags: ["interview", "coding", "dsa", "documentation", "articles", "internship"],
         }
 ];
 
