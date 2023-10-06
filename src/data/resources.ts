@@ -1057,6 +1057,13 @@ const RESOURCES: Resource[] = [
             url: "https://www.tutorialspoint.com/index.htm",
             icon: "https://www.tutorialspoint.com/favicon.ico",
             tags: ["interview", "coding", "dsa", "documentation", "articles", "internship"],
+        },
+	{
+            name: "Machine Learning Mastery",
+            description: "Machine Learning Mastery is a online learning platform dedicated to machine learning and its core concepts which includes maths, fundamentals of deep learning and building models.",
+            url: "https://machinelearningmastery.com/",
+            icon: "https://machinelearningmastery.com/wp-content/uploads/2016/09/icon-150x150.png",
+            tags: ["machine learning", "artificial intelligence", "mathematics"],
         }
 ];
 
