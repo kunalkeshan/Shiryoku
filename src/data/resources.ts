@@ -1043,6 +1043,27 @@ const RESOURCES: Resource[] = [
             url: "https://neetcode.io/practice",
             icon: "https://neetcode.io/favicon.ico",
             tags: ["interview", "coding", "dsa"],
+        },
+	{
+            name: "W3 Schools",
+            description: "W3 Schools is a website with tutorials for many tech stacks like Python, C++, JavaScript. This is a best source for the learners who consider documented tutorials in the form of articles rather than videos or books.",
+            url: "https://www.w3schools.com/",
+            icon: "https://www.w3schools.com/favicon.ico",
+            tags: ["interview", "coding", "dsa", "documentation", "articles"],
+        },
+	{
+            name: "Tutorialspoint",
+            description: "Tutorialspoint is a website with tutorials for many tech stacks like Python, C++, JavaScript. This is a best source for the learners who consider documented tutorials in the form of articles rather than videos or books and also helpful for people who are lookking for jobs and internships.",
+            url: "https://www.tutorialspoint.com/index.htm",
+            icon: "https://www.tutorialspoint.com/favicon.ico",
+            tags: ["interview", "coding", "dsa", "documentation", "articles", "internship"],
+        },
+	{
+            name: "Machine Learning Mastery",
+            description: "Machine Learning Mastery is a online learning platform dedicated to machine learning and its core concepts which includes maths, fundamentals of deep learning and building models.",
+            url: "https://machinelearningmastery.com/",
+            icon: "https://machinelearningmastery.com/wp-content/uploads/2016/09/icon-150x150.png",
+            tags: ["machine learning", "artificial intelligence", "mathematics"],
         }
 ];
 
