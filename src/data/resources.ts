@@ -1059,6 +1059,13 @@ const RESOURCES: Resource[] = [
             tags: ["interview", "coding", "dsa", "documentation", "articles", "internship"],
         },
 	{
+            name: "Babel",
+            description: "Babel is a renowned transpiler enabling the use of advanced JavaScript features in current browsers. It transforms the latest JavaScript code (ES2020) into a compatible version for widespread browser support. In essence, a transpiler converts source code to a different source code level, ensuring seamless compatibility with modern browsers.",
+            url: "https://babeljs.io/",
+            icon: "https://babeljs.io/img/babel.svg",
+            tags: ["javascript", "typescript", "html", "css", "jsx"],
+        },
+	{
             name: "Machine Learning Mastery",
             description: "Machine Learning Mastery is a online learning platform dedicated to machine learning and its core concepts which includes maths, fundamentals of deep learning and building models.",
             url: "https://machinelearningmastery.com/",
