@@ -838,7 +838,7 @@ const RESOURCES: Resource[] = [
     icon: "https://assets.leetcode.com/static_assets/public/icons/apple-touch-icon-180x180.png",
     tags: ["interview", "coding", "dsa"],
   },
-
+ 
   {
     name: "Pluralsight",
     description:
@@ -968,6 +968,20 @@ const RESOURCES: Resource[] = [
 		icon: 'https://www.kaggle.com/static/images/favicon.ico'
 	},
   {
+
+    name: "React.gg",
+    url: "https://react.gg/",
+    description: "The interactive way to master modern React",
+    tags: ["frontend", "react", "framework", "library", "web development", "practice"],
+    icon: "https://react.gg/favicon.png"
+  },
+  {
+    name: "30 Days of Javasript",
+    url: "https://30daysofjs.netlify.app/",
+    description: "An awesome way to learn Javascript by building projects",
+    tags: ["frontend", "javascript", "library", "web development", "practice"],
+    icon: "https://30daysofjs.netlify.app/30DaysOfJavaScript/assets/favicon.png"
+  },{
     name: 'Xata',
     url:'https://xata.io/',
     description: 'Xata is a serverless database platform built for modern development, offering a fully managed and scalable database powered by PostgreSQL, with features such as full-text search engine, support for rich data types, vector search capabilities, and AI-enabled applications.',
@@ -995,6 +1009,69 @@ const RESOURCES: Resource[] = [
 		tags: ['web development','interview','learning'],
 		icon: 'https://raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp'
 	},
+	 {
+            name: "Leetcode patterns by Sean Prashad",
+            description: "This Website offers a vast collection of company-wise and pattern-focused LeetCode questions for swift and effective interview preparation",
+            url: "https://seanprashad.com/leetcode-patterns/",
+            icon: "https://seanprashad.com/leetcode-patterns/favicon.ico",
+            tags: ["interview", "coding", "dsa"],
+        },
+	 {
+            name: "Building Elements of AI",
+            description: "This Website helps you understand the basics of AI and ML with the help of interactive courses and quizes",
+            url: "https://buildingai.elementsofai.com/",
+            icon: "https://buildingai.elementsofai.com/favicon-32x32.png",
+            tags: ["machine learning", "data visualizations", "artificial intelligence","neural networks"],
+        },
+	 {
+            name: "Kattis Problem Archive",
+            description: "This Website is home to ample number of programming questions that can help you with your DSA and CP Preparation Journey",
+            url: "https://open.kattis.com/problems?language=en",
+            icon: "https://open.kattis.com/favicon",
+            tags: ["interview", "coding", "dsa","competitive coding"],
+        },
+	 {
+            name: "Striver's SDE Sheet for DSA Preparation",
+            description: "This Website is home to ample number of programming questions and topics that can help you with your DSA preparation for Interviews",
+            url: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+            icon: "https://takeuforward.org/wp-content/uploads/2021/09/cropped-logo_circle_red-32x32.gif",
+            tags: ["interview", "coding", "dsa","competitive coding"],
+        },
+	 {
+            name: "Neetcode",
+            description: "It is a curated list of LeetCode problems designed to cover all possible patterns & topics in data structures. Mainly based out of C , C++ , Rust , Python , JAVA & JavaScript.",
+            url: "https://neetcode.io/practice",
+            icon: "https://neetcode.io/favicon.ico",
+            tags: ["interview", "coding", "dsa"],
+        },
+	{
+            name: "W3 Schools",
+            description: "W3 Schools is a website with tutorials for many tech stacks like Python, C++, JavaScript. This is a best source for the learners who consider documented tutorials in the form of articles rather than videos or books.",
+            url: "https://www.w3schools.com/",
+            icon: "https://www.w3schools.com/favicon.ico",
+            tags: ["interview", "coding", "dsa", "documentation", "articles"],
+        },
+	{
+            name: "Tutorialspoint",
+            description: "Tutorialspoint is a website with tutorials for many tech stacks like Python, C++, JavaScript. This is a best source for the learners who consider documented tutorials in the form of articles rather than videos or books and also helpful for people who are lookking for jobs and internships.",
+            url: "https://www.tutorialspoint.com/index.htm",
+            icon: "https://www.tutorialspoint.com/favicon.ico",
+            tags: ["interview", "coding", "dsa", "documentation", "articles", "internship"],
+        },
+	{
+            name: "Babel",
+            description: "Babel is a renowned transpiler enabling the use of advanced JavaScript features in current browsers. It transforms the latest JavaScript code (ES2020) into a compatible version for widespread browser support. In essence, a transpiler converts source code to a different source code level, ensuring seamless compatibility with modern browsers.",
+            url: "https://babeljs.io/",
+            icon: "https://babeljs.io/img/babel.svg",
+            tags: ["javascript", "typescript", "html", "css", "jsx"],
+        },
+	{
+            name: "Machine Learning Mastery",
+            description: "Machine Learning Mastery is a online learning platform dedicated to machine learning and its core concepts which includes maths, fundamentals of deep learning and building models.",
+            url: "https://machinelearningmastery.com/",
+            icon: "https://machinelearningmastery.com/wp-content/uploads/2016/09/icon-150x150.png",
+            tags: ["machine learning", "artificial intelligence", "mathematics"],
+        }
 ];
 
 export default RESOURCES;
