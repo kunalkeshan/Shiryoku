@@ -1097,7 +1097,7 @@ const RESOURCES: Resource[] = [
             name: "ineedaresume 2.0",
             description: "Simply enter your information and make a beautifully formatted resume in seconds ",
             url: "https://ineedaresu.me/",
-            icon: "",
+            icon: "https://ineedaresu.me/static/img/favicon.png",
             tags: ["resume","tools"],
         },
 ];
