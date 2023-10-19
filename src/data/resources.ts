@@ -1071,7 +1071,35 @@ const RESOURCES: Resource[] = [
             url: "https://machinelearningmastery.com/",
             icon: "https://machinelearningmastery.com/wp-content/uploads/2016/09/icon-150x150.png",
             tags: ["machine learning", "artificial intelligence", "mathematics"],
-        }
+        },
+	{
+            name: "UnoCSS",
+            description: "UnoCSS is the instant atomic CSS engine, that is designed to be flexible and extensible. The core is un-opinionated, and all the CSS utilities are provided via presets.",
+            url: "https://unocss.dev/",
+            icon: "https://raw.githubusercontent.com/unocss/unocss/main/playground/public/icon-gray.svg",
+            tags: ["css", "frontend", "web development","ui/ux"],
+        },
+	{
+            name: "Docusaurus",
+            description: "Docusaurus is a static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive. It provides out-of-the-box documentation features but can be used to create any kind of site (personal website, product, blog, marketing landing pages, etc).",
+            url: "https://docusaurus.io/",
+            icon: "https://d33wubrfki0l68.cloudfront.net/ea8e37a6a30e9c260a8936d95c579af4a2dd3df7/6ee7e/img/docusaurus_keytar.svg",
+            tags: ["documentation", "web development"],
+        },
+	{
+            name: "Simulator",
+            description: "Build and simulate logic circuits.",
+            url: "https://simulator.io/",
+            icon: "https://scontent.fmaa12-1.fna.fbcdn.net/v/t39.30808-1/358712575_778804913943005_2591044677637656427_n.png?stp=dst-png_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fmV_o1o-ZBoAX-EwXaw&_nc_ht=scontent.fmaa12-1.fna&oh=00_AfDFy-pGWqU_mehUFe_x5Ax8b7e-5ayuElUhtbj0B2Tq2Q&oe=653553F7",
+            tags: ["linux","learning","tools"],
+        },
+	{
+            name: "ineedaresume 2.0",
+            description: "Simply enter your information and make a beautifully formatted resume in seconds ",
+            url: "https://ineedaresu.me/",
+            icon: "",
+            tags: ["resume","tools"],
+        },
 ];
 
 export default RESOURCES;
