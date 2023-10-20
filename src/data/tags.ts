@@ -83,7 +83,7 @@ const TAGS = [
 	'neural networks',
 	'documentation',
 	'articles',
-	'mathematics'
+	'mathematics',
 ] as const;
 
 export default TAGS;

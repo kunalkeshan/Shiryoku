@@ -8,13 +8,23 @@ import React from 'react';
 // MUI
 import { Box, styled, Typography, Link } from '@mui/material';
 
+const Image = styled(Box)({
+	height: '20px',
+	width: '21px',
+	boxShadow: 'none',
+	border: 'none',
+	verticalAlign: 'middle',
+});
+
 const BuyMeACoffee = () => {
 	return (
 		<Button target="_blank" href="https://www.buymeacoffee.com/kunalkeshan">
 			<Image
 				component="img"
-				src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-				alt="Buy me a coffee"
+				{...{
+					src: 'https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg',
+				}}
+				{...{ alt: 'Buy me a coffee' }}
 			/>
 			<Text>Buy me a coffee</Text>
 		</Button>
@@ -41,13 +51,13 @@ const Button = styled(Link)({
 	},
 });
 
-const Image = styled(Box)({
-	height: '20px',
-	width: '21px',
-	boxShadow: 'none',
-	border: 'none',
-	verticalAlign: 'middle',
-});
+// const Image = styled(Box)({
+// 	height: '20px',
+// 	width: '21px',
+// 	boxShadow: 'none',
+// 	border: 'none',
+// 	verticalAlign: 'middle',
+// });
 
 const Text = styled(Typography)({
 	marginLeft: '15px',
