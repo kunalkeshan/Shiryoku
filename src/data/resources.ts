@@ -23,6 +23,7 @@ const RESOURCES: Resource[] = [
       "learning",
       "github",
       "free",
+	    "gitlab",
     ],
   },
   {
