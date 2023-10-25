@@ -14,7 +14,9 @@ import patreonSvg from './patreon.svg';
 const BecomeAPatreon = () => {
 	return (
 		<Button target="_blank" href="https://www.patreon.com/bePatron?u=72210783">
-			<Image component="img" src={patreonSvg} alt="Become a Patreon" />
+			<Image>
+				<img src={patreonSvg} alt="Become a Patreon" />
+			</Image>
 			<Text>Become a Patreon</Text>
 		</Button>
 	);

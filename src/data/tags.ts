@@ -83,7 +83,9 @@ const TAGS = [
 	'neural networks',
 	'documentation',
 	'articles',
-	'mathematics'
+	'mathematics',
+	'free music',
+	'creators',
 ] as const;
 
 export default TAGS;
