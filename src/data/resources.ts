@@ -1066,6 +1066,13 @@ const RESOURCES: Resource[] = [
     tags: ["javascript", "typescript", "html", "css", "jsx"],
   },
 	{
+    name: "Grunt",
+    description: "The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze.",
+    url: "https://gruntjs.com/",
+    icon: "https://camo.githubusercontent.com/4c6887ad82df9d043c68345e8fb03b03fc2cfe8b0c5fa363c505dfe3dc9cfb6c/68747470733a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667",
+    tags: ["javascript", "coding", "web development"],
+  },
+  {
     name: "Machine Learning Mastery",
     description: "Machine Learning Mastery is a online learning platform dedicated to machine learning and its core concepts which includes maths, fundamentals of deep learning and building models.",
     url: "https://machinelearningmastery.com/",
