@@ -1063,10 +1063,10 @@ const RESOURCES: Resource[] = [
             description: "Babel is a renowned transpiler enabling the use of advanced JavaScript features in current browsers. It transforms the latest JavaScript code (ES2020) into a compatible version for widespread browser support. In essence, a transpiler converts source code to a different source code level, ensuring seamless compatibility with modern browsers.",
             url: "https://babeljs.io/",
             icon: "https://babeljs.io/img/babel.svg",
-            tags: ["javascript", "typescript", "html", "css", "jsx "],
+            tags: ["javascript", "typescript", "html", "css", "jsx"],
         },
-		{
-            name: "GRUNT",
+	{
+            name: "Grunt",
             description: "The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze.",
             url: "https://gruntjs.com/",
             icon: "https://camo.githubusercontent.com/4c6887ad82df9d043c68345e8fb03b03fc2cfe8b0c5fa363c505dfe3dc9cfb6c/68747470733a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667",
