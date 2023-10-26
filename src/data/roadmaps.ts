@@ -30,9 +30,6 @@ const ROADMAPS = [
 			{ id: '002-4', name: 'Redux' },
 			{ id: '002-5', name: 'Advanced Topics and Best Practices' },
 			{ id: '002-6', name: 'Testing in React' },
-			{ id: '002-7', name: 'Performance Optimization' },
-			{ id: '002-8', name: 'Real-world Projects and Tutorials' },
-			{ id: '002-9', name: 'Community and Forums' },
 		],
 	},
 ];

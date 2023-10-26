@@ -1128,6 +1128,138 @@ const RESOURCES: Resource[] = [
     icon: "https://assets.mixkit.co/build/mixkit-logo--black-a90b84b6ac6ad0fbd410b16466b4cb252d399b5caaf03603f36c52ffc648455c.svg",
     tags: ["graphic design","ui/ux","productivity","moodboard"],
   },
+  {
+    name: "React Official Documentation",
+    description:
+      "The official documentation is a great place to start for learning React. It provides comprehensive information on React concepts, components, and best practices.",
+    url: "https://legacy.reactjs.org/docs/getting-started.html",
+    icon: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png",
+    tags: ["learning", "free", "web development", "react","library","javascript"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-0"],
+    },
+  },
+  {
+    name: "Create React App",
+    description:
+      "Create React App is a popular tool for setting up React applications.",
+    url: "https://react.dev/learn/start-a-new-react-project",
+    icon: "https://lunarlincoln.com/wp-content/uploads/2016/03/react-logo-1000-transparent-300x300.png",
+    tags: ["learning", "free","frontend", "web development", "react","javascript","documentation"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-1"],
+    },
+  },
+  {
+    name: "Create React App - Github Repository",
+    description:
+      "The official documentation and GitHub repository contain detailed instructions and information.",
+    url: "https://github.com/facebook/create-react-app",
+    icon: "https://iconape.com/wp-content/png_logo_vector/react-native-firebase.png",
+    tags: ["learning","github", "web development", "react","library","javascript","github"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-1"],
+    },
+  },
+  {
+    name: "React Router",
+    description:
+      "React Router is the standard routing library for React. The official documentation provides guidance on how to set up routing in your React applications.",
+    url: "https://reactrouter.com/en/6.17.0/start/overview",
+    icon: "https://reactrouter.com/_brand/react-router-stacked-color.png",
+    tags: ["learning", "framework", "web development", "react","free"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-2"],
+    },
+  },
+  {
+    name: "React Hooks - Documentation",
+    description:
+      "React Hooks allow you to use state and other React features without writing a class.",
+    url: "https://legacy.reactjs.org/docs/hooks-intro.html",
+    icon: "https://cdn1.iconfinder.com/data/icons/soleicons-fill-vol-1/64/reactjs_javascript_library_atom_atomic_react-512.png",
+    tags: ["learning", "web development","frontend", "react","library","documentation"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-3"],
+    },
+  },
+  {
+    name: "React Hooks - Blog",
+    description:
+      "The official documentation and React blog post are good resources.",
+    url: "https://legacy.reactjs.org/docs/hooks-intro.html",
+    icon: "https://cdn1.iconfinder.com/data/icons/soleicons-fill-vol-1/64/reactjs_javascript_library_atom_atomic_react-512.png",
+    tags: ["learning", "free","framework","blogs","career", "web development","frontend", "react","library","javascript"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-3"],
+    },
+  },
+  {
+    name: "Redux - Documentation",
+    description:
+      "Redux is a popular state management library for React. ",
+    url: "https://redux.js.org/introduction/getting-started",
+    icon: "http://www.clker.com/cliparts/N/0/4/q/4/R/react-redux.svg.hi.png",
+    tags: ["framework","learning", "free", "web development","frontend", "react","documentation"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-4"],
+    },
+  },
+  {
+    name: "Redux GitHub Repository",
+    description:
+      "The official documentation and GitHub repository provide in-depth information and examples.",
+    url: "https://redux.js.org/introduction/getting-started",
+    icon: "http://www.clker.com/cliparts/N/0/4/q/4/R/react-redux.svg.hi.png",
+    tags: ["html", "web development","frontend", "react","library","javascript","jsx","github"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-4"],
+    },
+  },
+  {
+    name: "Advanced Topics and Best Practices",
+    description:
+      "These resources offer advanced patterns and best practices for writing clean and maintainable React code.",
+    url: "https://reactpatterns.com/",
+    icon: "https://cdn3d.iconscout.com/3d/free/thumb/react-5645899-4695757.png",
+    tags: ["learning", "framework","coding", "web development","frontend", "react","javascript"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-5"],
+    },
+  },
+  {
+    name: "Testing in React - Overview",
+    description:
+      "Testing React applications is crucial. The React documentation has a section on testing, and Jest is a popular testing framework for React.",
+    url: "https://legacy.reactjs.org/docs/testing.html",
+    icon: "https://testing-library.com/img/octopus-128x128.png",
+    tags: ["web development","frontend", "react","library","javascript"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-6"],
+    },
+  },
+  {
+    name: "Jest - JavaScript Testing Framework",
+    description:
+      "The React documentation has a section on testing, and Jest is a popular testing framework for React.",
+    url: "https://jestjs.io/",
+    icon: "https://www.pngitem.com/pimgs/m/157-1575410_react-js-logo-png-transparent-png.png",
+    tags: ["learning", "free","web development","frontend","coding"],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-6"],
+    },
+  },
 ];
 
 export default RESOURCES;
