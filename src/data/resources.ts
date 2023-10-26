@@ -1135,6 +1135,134 @@ const RESOURCES: Resource[] = [
     icon: "https://assets.mixkit.co/build/mixkit-logo--black-a90b84b6ac6ad0fbd410b16466b4cb252d399b5caaf03603f36c52ffc648455c.svg",
     tags: ["graphic design","ui/ux","productivity","moodboard"],
   },
+  {
+    name: "Next2023",
+    description:
+      "Next.js: The Future of React Web Development",
+    url: "https://nextjs.org/",
+    icon: "https://w7.pngwing.com/pngs/87/586/png-transparent-next-js-hd-logo.png",
+    tags: [
+      "web development",
+      "dynamic html",
+      "web development",
+      "tech stack",
+      "framework",
+      "optimization"
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-0"],
+    },
+  },
+  {
+    name: "NEXT.js",
+    description:
+      " open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation.",
+    url: "https://en.wikipedia.org/wiki/Next.js",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+    tags: [
+      "documentation",
+      "community",
+      "ssr",
+      "framework",
+      "webpack 4"
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-0"],
+    },
+  },
+  {
+    name: "SSR Docuimentation",
+    description:
+      "Optimizing Web Performance: The Power of Server-Side Rendering",
+    url: "https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts#server-side-rendering",
+    icon: "https://img-c.udemycdn.com/course/480x270/3873464_403c.jpg",
+    tags: [
+      "Server-Side Rendering",
+      "SSR",
+      "React SSR",
+      "Angular Universal",
+      "Next.js"
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-2"],
+    },
+  },
+  {
+    name: "SSR with Node and Express",
+    description:
+      "React Server Side Rendering With Node And Express",
+    url: "https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/",
+    icon: "https://www.smashingmagazine.com/images/events/online-workshops-summer.svg",
+    tags: [
+      "Vue SSR",
+      "SEO Optimization",
+      "Node.js",
+      "Mobile Optimization",
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-2"],
+    },
+  },
+  {
+    name: "Starting with Next.js",
+    description:
+      "Mastering Next.js: Supercharge Your React Applications with Next.js",
+    url: "https://www.freecodecamp.org/news/nextjs-tutorial/",
+    icon: "https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0",
+    tags: [
+      "SEO",
+      "Api routes",
+      "Authentication",
+      "Routing",
+      "React Framework",
+      "Script"
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-1"],
+    },
+  },
+  {
+    name: "Client Side Routing (CSR)",
+    description:
+      "Effortless Navigation: Client-Side Routing for Modern Web Applications",
+    url: "https://medium.com/@eyoo5/client-side-routing-in-next-js-react-apps-479fdfbf30d3",
+    icon: "https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png",
+    tags: [
+      "Page",
+      "SEO Optimization",
+      "Routing",
+      "Route",
+      "Components"
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-3"],
+    },
+  },
+  {
+    name: "Data Fetching",
+    description:
+      "Data Fetching Mastery: Techniques for Efficient Client-Side Data Retrieval",
+    url: "https://www.geeksforgeeks.org/next-js-data-fetching-methods/",
+    icon: "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
+    tags: [
+      "data",
+      "getStaticProps",
+      "pre-rendering",
+      "SEO performance",
+      "ServerSideProps",
+      "JSONPlaceholder"
+    ],
+    roadmap: {
+      ids: ["002"],
+      subTopics: ["002-4"],
+    },
+  },
 ];
 
 export default RESOURCES;
