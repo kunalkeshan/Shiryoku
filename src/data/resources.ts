@@ -1135,6 +1135,34 @@ const RESOURCES: Resource[] = [
     icon: "https://assets.mixkit.co/build/mixkit-logo--black-a90b84b6ac6ad0fbd410b16466b4cb252d399b5caaf03603f36c52ffc648455c.svg",
     tags: ["graphic design","ui/ux","productivity","moodboard"],
   },
+  {
+    name: "SuperTokens",
+    description: "Open-source user authentication solution, offering control, speed, and reasonable pricing.",
+    url: "https://supertokens.com/",
+    icon: "https://supertokens.com/static/assets/apple-icon.svg",
+    tags: ["open source","web development","authentication"],
+  },
+  {
+    name: "Payload CMS",
+    description: "A TypeScript-based headless CMS, offering extensibility and flexibility for developers.",
+    url: "https://payloadcms.com/",
+    icon: "https://payloadcms.com/images/favicon.svg",
+    tags: ["cms","typescript","node","react"],
+  },
+  {
+    name: "Partytown",
+    description: "A library for offloading third-party scripts to web workers for improved site speed.",
+    url: "https://partytown.builder.io/",
+    icon: "https://partytown.builder.io/partytown-media.png",
+    tags: ["web development","programming","library"],
+  },
+  {
+    name: "Deep Learning",
+    description: "Comprehensive resource for deep learning and machine learning, available online for free.",
+    url: "https://www.deeplearningbook.org/",
+    icon: "https://www.deeplearningbook.org/udem.jpg",
+    tags: ["machine learning","learning","articles"],
+  },
 ];
 
 export default RESOURCES;
