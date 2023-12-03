@@ -35,12 +35,15 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 	const dispatch = useAppDispatch();
 	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 	const open = Boolean(anchorEl);
+
 	const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
 		setAnchorEl(event.currentTarget);
 	};
+
 	const handleClose = () => {
 		setAnchorEl(null);
 	};
+
 	const handleCopyToClipboard = async () => {
 		try {
 			await navigator.clipboard.writeText(props.url);
@@ -91,6 +94,7 @@ const ResourceCard: FC<ResourceCardProps> = (props) => {
 						src={props?.icon ?? props?.name}
 						sx={{ mr: 2, cursor: 'pointer' }}
 						imgProps={{ loading: 'lazy' }}
+						alt={props?.name}
 					/>
 					<div>
 						<Typography
