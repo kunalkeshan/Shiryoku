@@ -43,6 +43,7 @@ const Roadmap = () => {
 
 	useEffect(() => {
 		const handleFetchRoadmap = async () => {
+			if (!roadMapId) return;
 			const data = await Data.Roadmaps.getSingleRoadmap(roadMapId);
 			setRoadmap(data);
 		};
@@ -51,6 +52,7 @@ const Roadmap = () => {
 
 	useEffect(() => {
 		const handleFetchResources = async () => {
+			if (!roadMapId) return;
 			const data = await Data.Roadmaps.getResourcesOfRoadmap(roadMapId);
 			setResources(data);
 		};

@@ -120,7 +120,7 @@ const Contact = () => {
 							<Divider sx={{ my: 2 }} />
 						</Box>
 					) : (
-						<Form component="form" onSubmit={handleSubmit}>
+						<Form onSubmit={handleSubmit}>
 							<TextField
 								type="text"
 								variant="outlined"
@@ -199,7 +199,7 @@ const ContactForm = styled(Box)({
 	marginTop: '1em',
 });
 
-const Form = styled(Box)({
+const Form = styled('form')({
 	width: '100%',
 	padding: '0.5em 1.5em 0.5em 0',
 	display: 'flex',
